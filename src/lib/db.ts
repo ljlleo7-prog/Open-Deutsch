@@ -123,6 +123,23 @@ export async function fetchUserProfile() {
   return ensureUserProfile();
 }
 
+export async function updateOfficialLevel(level: 'A0' | 'A1' | 'A2' | 'B1') {
+  const profile = await ensureUserProfile();
+  if (!profile) return null;
+
+  const { error } = await supabase
+    .from('opendeutsch_users')
+    .update({ official_level: level, updated_at: new Date().toISOString() })
+    .eq('id', profile.id);
+
+  if (error) {
+    console.error('Error updating official level:', error);
+    return null;
+  }
+
+  return level;
+}
+
 export async function fetchSkillMetrics() {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return [];
@@ -208,6 +225,96 @@ export async function awardXp({
     awardedPoints,
     multiplier,
     totalXP: nextTotal
+  };
+}
+
+export async function awardXpWithHourlyCap({
+  source,
+  basePoints,
+  capPerHour,
+  metadata
+}: {
+  source: string;
+  basePoints: number;
+  capPerHour: number;
+  metadata?: Record<string, unknown>;
+}) {
+  const profile = await ensureUserProfile();
+  if (!profile) return null;
+
+  const levelRules = await fetchLevelRules();
+  const rule = levelRules.find(item => item.level === profile.official_level);
+  const multiplier = rule?.xp_multiplier ?? fallbackLevelMultipliers[profile.official_level] ?? 1;
+  const requestedPoints = basePoints * multiplier;
+
+  const hourAgo = new Date(Date.now() - 60 * 60 * 1000).toISOString();
+  const { data: recentEvents, error: recentError } = await supabase
+    .from('opendeutsch_xp_events')
+    .select('awarded_points')
+    .eq('user_id', profile.id)
+    .eq('source', source)
+    .gte('created_at', hourAgo);
+
+  if (recentError) {
+    console.error('Error checking hourly XP:', recentError);
+    return null;
+  }
+
+  const earnedLastHour = (recentEvents || []).reduce((sum, item: { awarded_points?: number }) => {
+    return sum + (item.awarded_points ?? 0);
+  }, 0);
+
+  const remaining = Math.max(0, capPerHour - earnedLastHour);
+  const awardedPoints = Math.min(requestedPoints, remaining);
+
+  if (awardedPoints <= 0) {
+    return {
+      awardedPoints: 0,
+      multiplier,
+      totalXP: profile.total_xp ?? 0,
+      capped: true
+    };
+  }
+
+  const { error: eventError } = await supabase
+    .from('opendeutsch_xp_events')
+    .insert({
+      user_id: profile.id,
+      source,
+      base_points: basePoints,
+      multiplier,
+      awarded_points: awardedPoints,
+      metadata
+    });
+
+  if (eventError) {
+    console.error('Error inserting xp event:', eventError);
+    return null;
+  }
+
+  const nextTotal = (profile.total_xp ?? 0) + awardedPoints;
+  const { error: totalError } = await supabase
+    .from('opendeutsch_users')
+    .update({ total_xp: nextTotal })
+    .eq('id', profile.id);
+
+  if (totalError) console.error('Error updating total XP:', totalError);
+
+  const now = new Date();
+  const weekStart = getWeekStart(now);
+  const weekEnd = new Date(weekStart);
+  weekEnd.setDate(weekStart.getDate() + 6);
+  const monthStart = getMonthStart(now);
+  const monthEnd = new Date(monthStart.getFullYear(), monthStart.getMonth() + 1, 0);
+
+  await updateXpPeriod(profile.id, 'weekly', weekStart, weekEnd, awardedPoints);
+  await updateXpPeriod(profile.id, 'monthly', monthStart, monthEnd, awardedPoints);
+
+  return {
+    awardedPoints,
+    multiplier,
+    totalXP: nextTotal,
+    capped: awardedPoints < requestedPoints
   };
 }
 

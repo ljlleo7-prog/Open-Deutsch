@@ -24,7 +24,7 @@ export default function Home() {
           {t('home.welcome_subtitle')}
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <Link 
             to="/exercises" 
             className="flex items-center justify-between p-4 bg-german-red/10 border border-german-red/20 rounded-lg hover:bg-german-red/20 transition-colors group"
@@ -55,6 +55,22 @@ export default function Home() {
               </div>
             </div>
             <ArrowRight className="text-yellow-700 dark:text-yellow-500 group-hover:translate-x-1 transition-transform" />
+          </Link>
+
+          <Link 
+            to="/placement" 
+            className="flex items-center justify-between p-4 bg-blue-100/70 border border-blue-200 rounded-lg hover:bg-blue-100 transition-colors group"
+          >
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-blue-600 text-white rounded-md">
+                <PenTool size={20} />
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 dark:text-white">{t('home.placement_title')}</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-400">{t('home.placement_desc')}</p>
+              </div>
+            </div>
+            <ArrowRight className="text-blue-700 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
       </section>

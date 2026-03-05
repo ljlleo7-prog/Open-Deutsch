@@ -11,6 +11,7 @@ import Reading from './pages/Reading';
 import Progress from './pages/Progress';
 import Leaderboard from './pages/Leaderboard';
 import Settings from './pages/Settings';
+import PlacementTest from './pages/PlacementTest';
 import { I18nProvider } from './contexts/I18nProvider';
 import { ThemeProvider } from './contexts/ThemeProvider';
 import { CourseMap } from './pages/CourseMap';
@@ -30,6 +31,7 @@ function App() {
               <Route path="/lesson/:lessonId/block/:blockId" element={<BlockView />} />
               <Route path="/exercises" element={<Exercises />} />
               <Route path="/reading" element={<Reading />} />
+              <Route path="/placement" element={<PlacementTest />} />
               <Route path="/progress" element={<Progress />} />
               <Route path="/leaderboard" element={<Leaderboard />} />
               <Route path="/settings" element={<Settings />} />

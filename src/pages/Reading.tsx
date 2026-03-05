@@ -4,6 +4,7 @@ import { Topic } from '../types';
 import { BookOpen, RefreshCw, Check, X, Car, Plane, History, Newspaper } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useI18n } from '../hooks/useI18n';
+import { awardXpWithHourlyCap } from '../lib/db';
 
 export default function Reading() {
   const [currentText, setCurrentText] = useState<GeneratedText | null>(null);
@@ -11,6 +12,8 @@ export default function Reading() {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const { t } = useI18n();
+  const readingXpPerCorrect = 5;
+  const readingHourlyCap = 60;
 
   const topics: { id: Topic; label: string; icon: React.ElementType }[] = [
     { id: 'history', label: t('topics.history'), icon: History },
@@ -31,10 +34,22 @@ export default function Reading() {
     }
   };
 
-  const handleAnswer = (index: number) => {
+  const handleAnswer = async (index: number) => {
     if (showFeedback) return;
     setSelectedAnswer(index);
     setShowFeedback(true);
+    const isCorrect = currentText && index === currentText.questions[0].correctIndex;
+    if (isCorrect && currentText) {
+      await awardXpWithHourlyCap({
+        source: 'reading_mcq',
+        basePoints: readingXpPerCorrect,
+        capPerHour: readingHourlyCap,
+        metadata: {
+          topic: currentText.topic,
+          text_id: currentText.id
+        }
+      });
+    }
   };
 
   return (

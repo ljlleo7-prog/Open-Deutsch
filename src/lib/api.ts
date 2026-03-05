@@ -119,8 +119,10 @@ export const api = {
   
   // Content Generation Wrapper
   generateBlockContent(block: Block, level: Level['id']) {
-      // Cast level string to Level type safely
-      const validLevel = (['A0', 'A1', 'A2', 'B1'].includes(level) ? level : 'A1') as any;
-      return generateBlock(block.concept, validLevel);
+      const validLevels = ['A0', 'A1', 'A2', 'B1'] as const;
+      const normalizedLevel = validLevels.includes(level as (typeof validLevels)[number])
+        ? (level as (typeof validLevels)[number])
+        : 'A1';
+      return generateBlock(block.concept, normalizedLevel);
   }
 };

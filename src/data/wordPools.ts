@@ -34,6 +34,30 @@ export const wordPools = {
     { de: 'Der Lehrer', en: 'The teacher (m)', type: 'noun', person: 3, number: 'singular', gender: 'm', level: 'A1' },
     { de: 'Die Lehrerin', en: 'The teacher (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', level: 'A1' },
     { de: 'Der Student', en: 'The student (m)', type: 'noun', person: 3, number: 'singular', gender: 'm', level: 'A1' },
+    { de: 'Die Studentin', en: 'The student (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', level: 'A1' },
+
+    // A2 People/Professions
+    // (Merged into main list below)
+
+    { de: 'Die Studentin', en: 'The student (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', level: 'A1' },
+    { de: 'Der Ingenieur', en: 'The engineer (m)', type: 'noun', person: 3, number: 'singular', gender: 'm', plural: 'Die Ingenieure', level: 'A2' },
+    { de: 'Die Ingenieurin', en: 'The engineer (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', plural: 'Die Ingenieurinnen', level: 'A2' },
+    { de: 'Der Arzt', en: 'The doctor (m)', type: 'noun', person: 3, number: 'singular', gender: 'm', plural: 'Die Ärzte', level: 'A2' },
+    { de: 'Die Ärztin', en: 'The doctor (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', plural: 'Die Ärztinnen', level: 'A2' },
+    { de: 'Der Nachbar', en: 'The neighbor (m)', type: 'noun', person: 3, number: 'singular', gender: 'm', plural: 'Die Nachbarn', level: 'A2' },
+    { de: 'Die Nachbarin', en: 'The neighbor (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', plural: 'Die Nachbarinnen', level: 'A2' },
+    { de: 'Der Kollege', en: 'The colleague (m)', type: 'noun', person: 3, number: 'singular', gender: 'm', plural: 'Die Kollegen', level: 'A2' },
+    { de: 'Die Kollegin', en: 'The colleague (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', plural: 'Die Kolleginnen', level: 'A2' },
+    { de: 'Der Kunde', en: 'The customer (m)', type: 'noun', person: 3, number: 'singular', gender: 'm', plural: 'Die Kunden', level: 'A2' },
+    { de: 'Die Kundin', en: 'The customer (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', plural: 'Die Kundinnen', level: 'A2' },
+    { de: 'Der Journalist', en: 'The journalist (m)', type: 'noun', person: 3, number: 'singular', gender: 'm', plural: 'Die Journalisten', level: 'B1' },
+    { de: 'Die Journalistin', en: 'The journalist (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', plural: 'Die Journalistinnen', level: 'B1' },
+    { de: 'Der Wissenschaftler', en: 'The scientist (m)', type: 'noun', person: 3, number: 'singular', gender: 'm', plural: 'Die Wissenschaftler', level: 'B1' },
+    { de: 'Die Wissenschaftlerin', en: 'The scientist (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', plural: 'Die Wissenschaftlerinnen', level: 'B1' },
+    { de: 'Der Chef', en: 'The boss (m)', type: 'noun', person: 3, number: 'singular', gender: 'm', plural: 'Die Chefs', level: 'B1' },
+    { de: 'Die Chefin', en: 'The boss (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', plural: 'Die Chefinnen', level: 'B1' },
+    { de: 'Der Tourist', en: 'The tourist (m)', type: 'noun', person: 3, number: 'singular', gender: 'm', plural: 'Die Touristen', level: 'B1' },
+    { de: 'Die Touristin', en: 'The tourist (f)', type: 'noun', person: 3, number: 'singular', gender: 'f', plural: 'Die Touristinnen', level: 'B1' },
   ] as WordItem[],
   
   verbs: [
@@ -54,6 +78,25 @@ export const wordPools = {
     { de: 'möchte', en: 'would like', infinitive: 'möchten', case: 'accusative', objectCategories: ['item', 'food', 'drink'], level: 'A1' },
     { de: 'lerne', en: 'learn', infinitive: 'lernen', case: 'accusative', objectCategories: ['language', 'skill'], level: 'A1' },
     { de: 'arbeite', en: 'work', infinitive: 'arbeiten', case: 'preposition', objectCategories: ['location'], level: 'A1' },
+    
+    // A2 Verbs
+    // (Merged into main list below)
+    { de: 'wohne', en: 'live', infinitive: 'wohnen', case: 'preposition', objectCategories: ['location'], level: 'A2' },
+    { de: 'fahre', en: 'drive/travel', infinitive: 'fahren', case: 'preposition', objectCategories: ['location'], level: 'A2' },
+    { de: 'reise', en: 'travel', infinitive: 'reisen', case: 'preposition', objectCategories: ['location'], level: 'A2' },
+    { de: 'lese', en: 'read', infinitive: 'lesen', case: 'accusative', objectCategories: ['media', 'item'], level: 'A2' },
+    { de: 'schreibe', en: 'write', infinitive: 'schreiben', case: 'accusative', objectCategories: ['media', 'item'], level: 'A2' },
+    { de: 'spiele', en: 'play', infinitive: 'spielen', case: 'accusative', objectCategories: ['item', 'media'], level: 'A2' },
+    { de: 'spreche', en: 'speak', infinitive: 'sprechen', case: 'preposition', objectCategories: ['language', 'person'], level: 'A2' },
+    { de: 'frage', en: 'ask', infinitive: 'fragen', case: 'accusative', objectCategories: ['person'], level: 'A2' },
+    { de: 'helfe', en: 'help', infinitive: 'helfen', case: 'dative', objectCategories: ['person'], level: 'A2' },
+    { de: 'gebe', en: 'give', infinitive: 'geben', case: 'dative', objectCategories: ['person', 'item'], level: 'A2' },
+    { de: 'nehme', en: 'take', infinitive: 'nehmen', case: 'accusative', objectCategories: ['item'], level: 'A2' },
+    { de: 'schicke', en: 'send', infinitive: 'schicken', case: 'dative', objectCategories: ['person', 'item'], level: 'A2' },
+    { de: 'koche', en: 'cook', infinitive: 'kochen', case: 'accusative', objectCategories: ['food'], level: 'A2' },
+    { de: 'erkläre', en: 'explain', infinitive: 'erklären', case: 'accusative', objectCategories: ['item', 'person'], level: 'B1' },
+    { de: 'entscheide', en: 'decide', infinitive: 'entscheiden', case: 'preposition', objectCategories: ['item'], level: 'B1' },
+    { de: 'vergleiche', en: 'compare', infinitive: 'vergleichen', case: 'accusative', objectCategories: ['item'], level: 'B1' },
   ] as WordItem[],
   
   objects: [
@@ -65,12 +108,24 @@ export const wordPools = {
     { de: 'ein Wasser', en: 'water', gender: 'n', category: 'drink', level: 'A0' },
     { de: 'ein Bier', en: 'a beer', gender: 'n', category: 'drink', level: 'A1' },
     { de: 'eine Pizza', en: 'a pizza', gender: 'f', category: 'food', level: 'A1' },
+    { de: 'einen Tee', en: 'a tea', gender: 'm', category: 'drink', level: 'A2' },
+    { de: 'einen Saft', en: 'a juice', gender: 'm', category: 'drink', level: 'A2' },
+    { de: 'eine Limonade', en: 'a lemonade', gender: 'f', category: 'drink', level: 'A2' },
+    { de: 'einen Salat', en: 'a salad', gender: 'm', category: 'food', level: 'A2' },
+    { de: 'eine Suppe', en: 'a soup', gender: 'f', category: 'food', level: 'A2' },
+    { de: 'einen Käse', en: 'a cheese', gender: 'm', category: 'food', level: 'A2' },
+    { de: 'eine Kartoffel', en: 'a potato', gender: 'f', category: 'food', level: 'A2' },
+    { de: 'ein Frühstück', en: 'a breakfast', gender: 'n', category: 'food', level: 'A2' },
+    { de: 'ein Abendessen', en: 'a dinner', gender: 'n', category: 'food', level: 'A2' },
     
     // Vehicles
     { de: 'ein Auto', en: 'a car', gender: 'n', category: 'vehicle', level: 'A0' },
     { de: 'einen Zug', en: 'a train', gender: 'm', category: 'vehicle', level: 'A0' },
     { de: 'einen Bus', en: 'a bus', gender: 'm', category: 'vehicle', level: 'A0' },
     { de: 'ein Fahrrad', en: 'a bicycle', gender: 'n', category: 'vehicle', level: 'A1' },
+    { de: 'ein Motorrad', en: 'a motorcycle', gender: 'n', category: 'vehicle', level: 'A2' },
+    { de: 'ein Taxi', en: 'a taxi', gender: 'n', category: 'vehicle', level: 'A2' },
+    { de: 'eine Straßenbahn', en: 'a tram', gender: 'f', category: 'vehicle', level: 'A2' },
     
     // Items
     { de: 'ein Buch', en: 'a book', gender: 'n', category: 'item', level: 'A0' },
@@ -78,18 +133,46 @@ export const wordPools = {
     { de: 'eine Tasche', en: 'a bag', gender: 'f', category: 'item', level: 'A1' },
     { de: 'einen Tisch', en: 'a table', gender: 'm', category: 'item', level: 'A1' },
     { de: 'einen Stuhl', en: 'a chair', gender: 'm', category: 'item', level: 'A1' },
+    { de: 'einen Laptop', en: 'a laptop', gender: 'm', category: 'item', level: 'A2' },
+    { de: 'ein Handy', en: 'a mobile phone', gender: 'n', category: 'item', level: 'A2' },
+    { de: 'eine Jacke', en: 'a jacket', gender: 'f', category: 'item', level: 'A2' },
+    { de: 'einen Schlüssel', en: 'a key', gender: 'm', category: 'item', level: 'A2' },
+    { de: 'eine Rechnung', en: 'a bill/invoice', gender: 'f', category: 'item', level: 'B1' },
+    { de: 'einen Vertrag', en: 'a contract', gender: 'm', category: 'item', level: 'B1' },
     
     // Media
     { de: 'eine Zeitung', en: 'a newspaper', gender: 'f', category: 'media', level: 'A1' },
     { de: 'einen Film', en: 'a movie', gender: 'm', category: 'media', level: 'A1' },
+    { de: 'eine E-Mail', en: 'an email', gender: 'f', category: 'media', level: 'A2' },
+    { de: 'ein Lied', en: 'a song', gender: 'n', category: 'media', level: 'A2' },
+    { de: 'eine Serie', en: 'a series', gender: 'f', category: 'media', level: 'A2' },
+    { de: 'einen Artikel', en: 'an article', gender: 'm', category: 'media', level: 'B1' },
     
     // People (as objects)
     { de: 'einen Freund', en: 'a friend', gender: 'm', category: 'person', level: 'A1' },
     { de: 'die Familie', en: 'the family', gender: 'f', category: 'person', level: 'A1' },
+    { de: 'einen Kollegen', en: 'a colleague (m)', gender: 'm', category: 'person', level: 'A2' },
+    { de: 'eine Kollegin', en: 'a colleague (f)', gender: 'f', category: 'person', level: 'A2' },
+    { de: 'einen Nachbarn', en: 'a neighbor (m)', gender: 'm', category: 'person', level: 'A2' },
+    { de: 'eine Nachbarin', en: 'a neighbor (f)', gender: 'f', category: 'person', level: 'A2' },
+    { de: 'einen Kunden', en: 'a customer (m)', gender: 'm', category: 'person', level: 'B1' },
+    { de: 'eine Kundin', en: 'a customer (f)', gender: 'f', category: 'person', level: 'B1' },
     
     // Languages
     { de: 'Deutsch', en: 'German', gender: 'n', category: 'language', level: 'A0' },
     { de: 'Englisch', en: 'English', gender: 'n', category: 'language', level: 'A0' },
+    
+    // A2 Food & Drink
+    // (Merged into main list below)
+    
+    // A2 Tech & Items
+    // (Merged into main list below)
+    
+    // B1 Abstract/Business
+    // (Merged into main list below)
+    { de: 'Spanisch', en: 'Spanish', gender: 'n', category: 'language', level: 'A2' },
+    { de: 'Französisch', en: 'French', gender: 'n', category: 'language', level: 'A2' },
+    { de: 'Italienisch', en: 'Italian', gender: 'n', category: 'language', level: 'B1' },
   ] as WordItem[],
   
   adjectives: [
@@ -106,6 +189,25 @@ export const wordPools = {
     { de: 'kalt', en: 'cold', level: 'A1' },
     { de: 'schnell', en: 'fast', level: 'A1' },
     { de: 'langsam', en: 'slow', level: 'A1' },
+
+    // A2 Adjectives
+    // (Merged into main list below)
+
+    // B1 Adjectives
+    // (Merged into main list below)
+    { de: 'freundlich', en: 'friendly', level: 'A2' },
+    { de: 'ruhig', en: 'calm', level: 'A2' },
+    { de: 'laut', en: 'loud', level: 'A2' },
+    { de: 'anstrengend', en: 'exhausting', level: 'A2' },
+    { de: 'bequem', en: 'comfortable', level: 'A2' },
+    { de: 'sauber', en: 'clean', level: 'A2' },
+    { de: 'schmutzig', en: 'dirty', level: 'A2' },
+    { de: 'gesund', en: 'healthy', level: 'A2' },
+    { de: 'krank', en: 'ill', level: 'A2' },
+    { de: 'pünktlich', en: 'punctual', level: 'B1' },
+    { de: 'fleißig', en: 'hardworking', level: 'B1' },
+    { de: 'wichtig', en: 'important', level: 'B1' },
+    { de: 'möglich', en: 'possible', level: 'B1' },
   ] as WordItem[],
   
   adverbs: [
@@ -119,6 +221,20 @@ export const wordPools = {
     { de: 'gern', en: 'gladly', level: 'A1' },
     { de: 'hier', en: 'here', level: 'A0' },
     { de: 'dort', en: 'there', level: 'A0' },
+
+    // A2 Adverbs
+    // (Merged into main list below)
+
+    // B1 Adverbs
+    // (Merged into main list below)
+    { de: 'meistens', en: 'mostly', level: 'A2' },
+    { de: 'selten', en: 'rarely', level: 'A2' },
+    { de: 'früh', en: 'early', level: 'A2' },
+    { de: 'spät', en: 'late', level: 'A2' },
+    { de: 'leider', en: 'unfortunately', level: 'A2' },
+    { de: 'zum Glück', en: 'fortunately', level: 'A2' },
+    { de: 'eigentlich', en: 'actually', level: 'B1' },
+    { de: 'trotzdem', en: 'nevertheless', level: 'B1' },
   ] as WordItem[],
   
   locations: [
@@ -131,6 +247,15 @@ export const wordPools = {
     { de: 'im Restaurant', en: 'in the restaurant', level: 'A1' },
     { de: 'im Supermarkt', en: 'in the supermarket', level: 'A1' },
     { de: 'nach Hause', en: 'home (direction)', level: 'A1' },
+    { de: 'im Krankenhaus', en: 'in the hospital', level: 'A2' },
+    { de: 'in der Universität', en: 'at the university', level: 'A2' },
+    { de: 'in der Bibliothek', en: 'in the library', level: 'A2' },
+    { de: 'am Bahnhof', en: 'at the train station', level: 'A2' },
+    { de: 'im Hotel', en: 'in the hotel', level: 'A2' },
+    { de: 'in der Stadt', en: 'in the city', level: 'A2' },
+    { de: 'im Ausland', en: 'abroad', level: 'B1' },
+    { de: 'am Meer', en: 'at the sea', level: 'B1' },
+    { de: 'bei der Arbeit', en: 'at work', level: 'B1' },
   ] as WordItem[]
 };
 
@@ -222,6 +347,28 @@ export const topicPools: Record<string, { subjects: WordItem[], verbs: WordItem[
       { de: 'interessant', en: 'interesting' },
       { de: 'global', en: 'global' },
     ]
+  },
+  health: {
+    subjects: [
+      { de: 'Der Arzt', en: 'The doctor', person: 3, number: 'singular' },
+      { de: 'Die Ärztin', en: 'The doctor (f)', person: 3, number: 'singular' },
+      { de: 'Der Patient', en: 'The patient', person: 3, number: 'singular' },
+    ],
+    verbs: [
+      { de: 'untersucht', en: 'examines', infinitive: 'untersuchen' },
+      { de: 'hilft', en: 'helps', infinitive: 'helfen' },
+      { de: 'braucht', en: 'needs', infinitive: 'brauchen' },
+    ],
+    objects: [
+      { de: 'Medizin', en: 'medicine' },
+      { de: 'Hilfe', en: 'help' },
+      { de: 'einen Termin', en: 'an appointment' },
+    ],
+    adjectives: [
+      { de: 'krank', en: 'sick' },
+      { de: 'gesund', en: 'healthy' },
+      { de: 'wichtig', en: 'important' },
+    ]
   }
 };
 
@@ -282,6 +429,70 @@ export const conjugations: Record<string, Record<string, string>> = {
   'arbeiten': {
     '1s': 'arbeite', '2s': 'arbeitest', '3s': 'arbeitet',
     '1p': 'arbeiten', '2p': 'arbeitet', '3p': 'arbeiten'
+  },
+  'wohnen': {
+    '1s': 'wohne', '2s': 'wohnst', '3s': 'wohnt',
+    '1p': 'wohnen', '2p': 'wohnt', '3p': 'wohnen'
+  },
+  'fahren': {
+    '1s': 'fahre', '2s': 'fährst', '3s': 'fährt',
+    '1p': 'fahren', '2p': 'fahrt', '3p': 'fahren'
+  },
+  'reisen': {
+    '1s': 'reise', '2s': 'reist', '3s': 'reist',
+    '1p': 'reisen', '2p': 'reist', '3p': 'reisen'
+  },
+  'lesen': {
+    '1s': 'lese', '2s': 'liest', '3s': 'liest',
+    '1p': 'lesen', '2p': 'lest', '3p': 'lesen'
+  },
+  'schreiben': {
+    '1s': 'schreibe', '2s': 'schreibst', '3s': 'schreibt',
+    '1p': 'schreiben', '2p': 'schreibt', '3p': 'schreiben'
+  },
+  'spielen': {
+    '1s': 'spiele', '2s': 'spielst', '3s': 'spielt',
+    '1p': 'spielen', '2p': 'spielt', '3p': 'spielen'
+  },
+  'sprechen': {
+    '1s': 'spreche', '2s': 'sprichst', '3s': 'spricht',
+    '1p': 'sprechen', '2p': 'sprecht', '3p': 'sprechen'
+  },
+  'fragen': {
+    '1s': 'frage', '2s': 'fragst', '3s': 'fragt',
+    '1p': 'fragen', '2p': 'fragt', '3p': 'fragen'
+  },
+  'helfen': {
+    '1s': 'helfe', '2s': 'hilfst', '3s': 'hilft',
+    '1p': 'helfen', '2p': 'helft', '3p': 'helfen'
+  },
+  'geben': {
+    '1s': 'gebe', '2s': 'gibst', '3s': 'gibt',
+    '1p': 'geben', '2p': 'gebt', '3p': 'geben'
+  },
+  'nehmen': {
+    '1s': 'nehme', '2s': 'nimmst', '3s': 'nimmt',
+    '1p': 'nehmen', '2p': 'nehmt', '3p': 'nehmen'
+  },
+  'schicken': {
+    '1s': 'schicke', '2s': 'schickst', '3s': 'schickt',
+    '1p': 'schicken', '2p': 'schickt', '3p': 'schicken'
+  },
+  'kochen': {
+    '1s': 'koche', '2s': 'kochst', '3s': 'kocht',
+    '1p': 'kochen', '2p': 'kocht', '3p': 'kochen'
+  },
+  'erklären': {
+    '1s': 'erkläre', '2s': 'erklärst', '3s': 'erklärt',
+    '1p': 'erklären', '2p': 'erklärt', '3p': 'erklären'
+  },
+  'entscheiden': {
+    '1s': 'entscheide', '2s': 'entscheidest', '3s': 'entscheidet',
+    '1p': 'entscheiden', '2p': 'entscheidet', '3p': 'entscheiden'
+  },
+  'vergleichen': {
+    '1s': 'vergleiche', '2s': 'vergleichst', '3s': 'vergleicht',
+    '1p': 'vergleichen', '2p': 'vergleicht', '3p': 'vergleichen'
   }
 };
 
@@ -325,5 +536,69 @@ export const pastConjugations: Record<string, Record<string, string>> = {
   'arbeiten': {
     '1s': 'arbeitete', '2s': 'arbeitetest', '3s': 'arbeitete',
     '1p': 'arbeiteten', '2p': 'arbeitetet', '3p': 'arbeiteten'
+  },
+  'wohnen': {
+    '1s': 'wohnte', '2s': 'wohntest', '3s': 'wohnte',
+    '1p': 'wohnten', '2p': 'wohntet', '3p': 'wohnten'
+  },
+  'fahren': {
+    '1s': 'fuhr', '2s': 'fuhrst', '3s': 'fuhr',
+    '1p': 'fuhren', '2p': 'fuhrt', '3p': 'fuhren'
+  },
+  'reisen': {
+    '1s': 'reiste', '2s': 'reistest', '3s': 'reiste',
+    '1p': 'reisten', '2p': 'reistet', '3p': 'reisten'
+  },
+  'lesen': {
+    '1s': 'las', '2s': 'last', '3s': 'las',
+    '1p': 'lasen', '2p': 'last', '3p': 'lasen'
+  },
+  'schreiben': {
+    '1s': 'schrieb', '2s': 'schriebst', '3s': 'schrieb',
+    '1p': 'schrieben', '2p': 'schriebt', '3p': 'schrieben'
+  },
+  'spielen': {
+    '1s': 'spielte', '2s': 'spieltest', '3s': 'spielte',
+    '1p': 'spielten', '2p': 'spieltet', '3p': 'spielten'
+  },
+  'sprechen': {
+    '1s': 'sprach', '2s': 'sprachst', '3s': 'sprach',
+    '1p': 'sprachen', '2p': 'spracht', '3p': 'sprachen'
+  },
+  'fragen': {
+    '1s': 'fragte', '2s': 'fragtest', '3s': 'fragte',
+    '1p': 'fragten', '2p': 'fragtet', '3p': 'fragten'
+  },
+  'helfen': {
+    '1s': 'half', '2s': 'halfst', '3s': 'half',
+    '1p': 'halfen', '2p': 'halft', '3p': 'halfen'
+  },
+  'geben': {
+    '1s': 'gab', '2s': 'gabst', '3s': 'gab',
+    '1p': 'gaben', '2p': 'gabt', '3p': 'gaben'
+  },
+  'nehmen': {
+    '1s': 'nahm', '2s': 'nahmst', '3s': 'nahm',
+    '1p': 'nahmen', '2p': 'nahmt', '3p': 'nahmen'
+  },
+  'schicken': {
+    '1s': 'schickte', '2s': 'schicktest', '3s': 'schickte',
+    '1p': 'schickten', '2p': 'schicktet', '3p': 'schickten'
+  },
+  'kochen': {
+    '1s': 'kochte', '2s': 'kochtest', '3s': 'kochte',
+    '1p': 'kochten', '2p': 'kochtet', '3p': 'kochten'
+  },
+  'erklären': {
+    '1s': 'erklärte', '2s': 'erklärtest', '3s': 'erklärte',
+    '1p': 'erklärten', '2p': 'erklärtet', '3p': 'erklärten'
+  },
+  'entscheiden': {
+    '1s': 'entschied', '2s': 'entschiedst', '3s': 'entschied',
+    '1p': 'entschieden', '2p': 'entschiedet', '3p': 'entschieden'
+  },
+  'vergleichen': {
+    '1s': 'verglich', '2s': 'verglichst', '3s': 'verglich',
+    '1p': 'verglichen', '2p': 'verglicht', '3p': 'verglichen'
   }
 };

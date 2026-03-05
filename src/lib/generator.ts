@@ -92,6 +92,42 @@ function getLevelConfig(level: Level) {
   };
 }
 
+function getIndefiniteArticle(gender: 'm' | 'f' | 'n', caseType: string): string {
+  if (caseType === 'nominative') {
+    if (gender === 'm') return 'ein';
+    if (gender === 'f') return 'eine';
+    if (gender === 'n') return 'ein';
+  }
+  if (caseType === 'accusative') {
+    if (gender === 'm') return 'einen';
+    if (gender === 'f') return 'eine';
+    if (gender === 'n') return 'ein';
+  }
+  if (caseType === 'dative') {
+    if (gender === 'm') return 'einem';
+    if (gender === 'f') return 'einer';
+    if (gender === 'n') return 'einem';
+  }
+  return 'ein';
+}
+
+function getAdjectiveEnding(gender: 'm' | 'f' | 'n', caseType: string): string {
+  if (caseType === 'nominative') {
+    if (gender === 'm') return 'er';
+    if (gender === 'f') return 'e';
+    if (gender === 'n') return 'es';
+  }
+  if (caseType === 'accusative') {
+    if (gender === 'm') return 'en';
+    if (gender === 'f') return 'e';
+    if (gender === 'n') return 'es';
+  }
+  if (caseType === 'dative') {
+    return 'en';
+  }
+  return '';
+}
+
 export function generateSimpleSentence(level: Level = 'A1'): GeneratedSentence {
   const subject = getRandomItem(wordPools.subjects);
   const verbBase = getRandomItem(wordPools.verbs);
@@ -112,7 +148,34 @@ export function generateSimpleSentence(level: Level = 'A1'): GeneratedSentence {
   const adverb = includeAdverb ? getRandomItem(wordPools.adverbs) : null;
   const location = includeLocation ? getRandomItem(wordPools.locations) : null;
 
-  const objectDe = adjective ? `${adjective.de} ${object.de}` : object.de;
+  // Case handling
+  const targetCase = verbBase.case || 'accusative';
+  let objectDe = object.de;
+
+  // Only apply declension if we have gender info and it's a standard case
+  if (object.gender && (targetCase === 'accusative' || targetCase === 'dative' || targetCase === 'nominative')) {
+    const parts = object.de.split(' ');
+    // Assume format "Article Noun" or just "Noun"
+    // If it starts with an article we recognize, replace it
+    const firstWord = parts[0].toLowerCase();
+    const isIndefinite = ['ein', 'eine', 'einen'].includes(firstWord);
+    
+    if (isIndefinite || parts.length === 2) {
+      const noun = parts.length > 1 ? parts.slice(1).join(' ') : parts[0];
+      const newArticle = getIndefiniteArticle(object.gender, targetCase);
+      
+      if (adjective) {
+        const ending = getAdjectiveEnding(object.gender, targetCase);
+        objectDe = `${newArticle} ${adjective.de}${ending} ${noun}`;
+      } else {
+        objectDe = `${newArticle} ${noun}`;
+      }
+    }
+  } else if (adjective) {
+    // Fallback for objects without clear article structure or non-standard cases
+    objectDe = `${adjective.de} ${object.de}`;
+  }
+
   const objectEn = adjective ? `${adjective.en} ${object.en}` : object.en;
 
   const germanParts = [
