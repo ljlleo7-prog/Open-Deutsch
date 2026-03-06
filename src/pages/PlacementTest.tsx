@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExerciseItem, ExerciseType, generateExercises, Level } from '../lib/generator';
-import { updateOfficialLevel, updateUserInterests } from '../lib/db';
+import { updateOfficialLevel, updateSkillMetrics, updateUserInterests } from '../lib/db';
 import { Check, X } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useI18n } from '../hooks/useI18n';
@@ -14,10 +14,11 @@ type PlacementResult = {
 };
 
 const placementPlan: { level: Level; type: ExerciseType; count: number }[] = [
-  { level: 'A0', type: 'vocabulary', count: 3 },
-  { level: 'A1', type: 'multiple_choice', count: 3 },
-  { level: 'A2', type: 'fill_blank', count: 3 },
-  { level: 'B1', type: 'tense', count: 3 }
+  { level: 'A0', type: 'vocabulary', count: 4 },
+  { level: 'A1', type: 'multiple_choice', count: 4 },
+  { level: 'A1', type: 'sentence_reconstruction', count: 4 },
+  { level: 'A2', type: 'fill_blank', count: 4 },
+  { level: 'B1', type: 'tense', count: 4 }
 ];
 
 const levelOrder: Level[] = ['A0', 'A1', 'A2', 'B1'];
@@ -37,8 +38,11 @@ const surveyOptions = [
   { id: 'transport', labelKey: 'survey.topic.transport' }
 ];
 
-function buildPlacementExercises() {
-  return placementPlan.flatMap(plan => generateExercises({ count: plan.count, level: plan.level, type: plan.type }));
+async function buildPlacementExercises() {
+  const batches = await Promise.all(
+    placementPlan.map(plan => generateExercises({ count: plan.count, level: plan.level, type: plan.type }))
+  );
+  return batches.flat();
 }
 
 function scoreToLevel(score: number): Level {
@@ -54,6 +58,14 @@ function clampLevelByEscape(scoreLevel: Level, escapeLevel: Level): Level {
   return levelOrder[Math.min(scoreIndex, escapeIndex)];
 }
 
+function mapExerciseToSkill(exercise: ExerciseItem) {
+  const type = exercise.type;
+  if (['grammar_cloze', 'fill_blank', 'tense'].some(item => type.includes(item))) return 'grammar';
+  if (['sentence_reconstruction', 'sentence_writing', 'word_order'].some(item => type.includes(item))) return 'sentence';
+  if (type.includes('reading')) return 'reading';
+  return 'vocabulary';
+}
+
 export default function PlacementTest() {
   const { t } = useI18n();
   const [exercises, setExercises] = React.useState<ExerciseItem[]>([]);
@@ -63,12 +75,14 @@ export default function PlacementTest() {
   const [showQuitConfirm, setShowQuitConfirm] = React.useState(false);
   const [result, setResult] = React.useState<PlacementResult | null>(null);
   const [surveySelections, setSurveySelections] = React.useState<string[]>([]);
+  const [customSurveyInput, setCustomSurveyInput] = React.useState('');
+  const [customSurveyTopics, setCustomSurveyTopics] = React.useState<string[]>([]);
   const [surveySaved, setSurveySaved] = React.useState(false);
   const correctCountRef = React.useRef(0);
   const answeredCountRef = React.useRef(0);
 
-  const startTest = React.useCallback(() => {
-    const generated = buildPlacementExercises();
+  const startTest = React.useCallback(async () => {
+    const generated = await buildPlacementExercises();
     setExercises(generated);
     setCurrentIndex(0);
     setSelectedOption(null);
@@ -78,11 +92,13 @@ export default function PlacementTest() {
     setResult(null);
     setShowQuitConfirm(false);
     setSurveySelections([]);
+    setCustomSurveyInput('');
+    setCustomSurveyTopics([]);
     setSurveySaved(false);
   }, []);
 
   React.useEffect(() => {
-    startTest();
+    void startTest();
   }, [startTest]);
 
   const finalize = React.useCallback(async () => {
@@ -122,7 +138,7 @@ export default function PlacementTest() {
 
   const canCheck = selectedOption !== null && feedback === null;
 
-  const checkAnswer = () => {
+  const checkAnswer = async () => {
     if (!currentExercise || feedback) return;
     const isCorrect = selectedOption === currentExercise.answer;
     const nextAnswered = answeredCountRef.current + 1;
@@ -130,6 +146,8 @@ export default function PlacementTest() {
     answeredCountRef.current = nextAnswered;
     correctCountRef.current = nextCorrect;
     setFeedback(isCorrect ? 'correct' : 'incorrect');
+    const skillType = mapExerciseToSkill(currentExercise);
+    await updateSkillMetrics(skillType, isCorrect, isCorrect && currentExercise.level === 'B1');
   };
 
   const nextQuestion = () => {
@@ -201,16 +219,73 @@ export default function PlacementTest() {
               );
             })}
           </div>
+          <div className="mt-4">
+            <label className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
+              {t('survey.custom_interest_title')}
+            </label>
+            <div className="flex flex-col sm:flex-row gap-3 mt-2">
+              <input
+                value={customSurveyInput}
+                onChange={(event) => setCustomSurveyInput(event.target.value)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter') {
+                    event.preventDefault();
+                    const normalized = customSurveyInput.trim();
+                    if (!normalized) return;
+                    setCustomSurveyTopics(prev => (prev.includes(normalized) ? prev : [...prev, normalized]));
+                    setCustomSurveyInput('');
+                    setSurveySaved(false);
+                  }
+                }}
+                placeholder={t('survey.custom_interest_placeholder')}
+                className="flex-1 px-4 py-2 rounded-lg border border-border bg-white dark:bg-card text-gray-900 dark:text-white"
+              />
+              <button
+                onClick={() => {
+                  const normalized = customSurveyInput.trim();
+                  if (!normalized) return;
+                  setCustomSurveyTopics(prev => (prev.includes(normalized) ? prev : [...prev, normalized]));
+                  setCustomSurveyInput('');
+                  setSurveySaved(false);
+                }}
+                className="px-4 py-2 rounded-lg border border-border bg-white dark:bg-card text-gray-700 dark:text-gray-200 font-medium hover:border-primary hover:text-primary"
+              >
+                {t('survey.custom_interest_add')}
+              </button>
+            </div>
+            {customSurveyTopics.length > 0 && (
+              <div className="flex flex-wrap gap-2 mt-3">
+                {customSurveyTopics.map(topic => (
+                  <span
+                    key={topic}
+                    className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-100 dark:bg-gray-800 text-sm text-gray-700 dark:text-gray-200"
+                  >
+                    {topic}
+                    <button
+                      onClick={() => {
+                        setCustomSurveyTopics(prev => prev.filter(item => item !== topic));
+                        setSurveySaved(false);
+                      }}
+                      className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                      title={t('survey.custom_interest_remove')}
+                    >
+                      ×
+                    </button>
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
           <div className="flex items-center gap-3">
             <button
               onClick={async () => {
-                await updateUserInterests(surveySelections);
+                await updateUserInterests([...surveySelections, ...customSurveyTopics]);
                 setSurveySaved(true);
               }}
-              disabled={surveySelections.length === 0}
+              disabled={surveySelections.length === 0 && customSurveyTopics.length === 0}
               className={clsx(
                 "px-4 py-2 rounded-lg font-medium transition-colors",
-                surveySelections.length > 0
+                surveySelections.length > 0 || customSurveyTopics.length > 0
                   ? "bg-primary text-white hover:bg-primary/90"
                   : "bg-gray-200 text-gray-400 cursor-not-allowed"
               )}

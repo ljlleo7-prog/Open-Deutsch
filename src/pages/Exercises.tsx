@@ -30,12 +30,12 @@ export default function Exercises() {
     }
   };
 
-  const startNewSession = React.useCallback((
+  const startNewSession = React.useCallback(async (
     nextType: ExerciseType = exerciseType,
     nextLevel: Level = level,
     nextCount: number = questionCount
   ) => {
-    const newExercises = generateExercises({ count: nextCount, level: nextLevel, type: nextType });
+    const newExercises = await generateExercises({ count: nextCount, level: nextLevel, type: nextType });
     setExercises(newExercises);
     setCurrentIndex(0);
     if (newExercises[0]) {
@@ -44,7 +44,7 @@ export default function Exercises() {
   }, [exerciseType, level, questionCount]);
 
   useEffect(() => {
-    startNewSession();
+    void startNewSession();
   }, [startNewSession]);
 
   const handleWordClick = (word: string) => {
@@ -103,7 +103,7 @@ export default function Exercises() {
       resetQuestion(exercises[nextIndex]);
     } else {
       alert(t('exercises.session_complete'));
-      startNewSession();
+      void startNewSession();
     }
   };
 

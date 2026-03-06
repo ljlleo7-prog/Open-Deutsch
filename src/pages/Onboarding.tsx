@@ -10,6 +10,8 @@ export default function Onboarding() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [selectedTopics, setSelectedTopics] = useState<Topic[]>([]);
+  const [customInterest, setCustomInterest] = useState('');
+  const [customTopics, setCustomTopics] = useState<string[]>([]);
   const { language, setLanguage, t } = useI18n();
 
   const topics: { id: Topic; label: string; icon: React.ElementType }[] = [
@@ -27,16 +29,23 @@ export default function Onboarding() {
     );
   };
 
+  const addCustomTopic = () => {
+    const normalized = customInterest.trim();
+    if (!normalized) return;
+    setCustomTopics(prev => (prev.includes(normalized) ? prev : [...prev, normalized]));
+    setCustomInterest('');
+  };
+
   const handleSubmit = async () => {
-    if (selectedTopics.length === 0) return;
+    const allTopics = [...selectedTopics, ...customTopics];
+    if (allTopics.length === 0) return;
     setLoading(true);
 
     try {
       const { data: { user } } = await supabase.auth.getUser();
       
       if (user) {
-        // Save preferences to Supabase
-        const interests = selectedTopics.map(topic => ({
+        const interests = allTopics.map(topic => ({
           user_id: user.id,
           topic,
           weight: 1.0
@@ -48,9 +57,8 @@ export default function Onboarding() {
 
         if (error) throw error;
       } else {
-        // If no user (guest mode), maybe save to local storage or just proceed
-        // For now, we assume this is just UI flow demo if not logged in
-        console.log('Guest user preferences:', { selectedTopics, language });
+        localStorage.setItem('opendeutsch_guest_interests', JSON.stringify(allTopics));
+        console.log('Guest user preferences:', { selectedTopics: allTopics, language });
       }
 
       // Redirect to home
@@ -118,6 +126,54 @@ export default function Onboarding() {
 
         <div>
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
+            {t('onboarding.custom_interest_title')}
+          </h2>
+          <div className="flex flex-col sm:flex-row gap-3">
+            <input
+              value={customInterest}
+              onChange={(event) => setCustomInterest(event.target.value)}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter') {
+                  event.preventDefault();
+                  addCustomTopic();
+                }
+              }}
+              placeholder={t('onboarding.custom_interest_placeholder')}
+              className="flex-1 px-4 py-3 rounded-lg border border-border bg-white dark:bg-card text-gray-900 dark:text-white"
+            />
+            <button
+              onClick={addCustomTopic}
+              className="px-5 py-3 rounded-lg border border-border bg-white dark:bg-card text-gray-700 dark:text-gray-200 font-medium hover:border-primary hover:text-primary"
+            >
+              {t('onboarding.custom_interest_add')}
+            </button>
+          </div>
+          <p className="text-sm text-muted-foreground mt-2">
+            {t('onboarding.custom_interest_helper')}
+          </p>
+          {customTopics.length > 0 && (
+            <div className="flex flex-wrap gap-2 mt-3">
+              {customTopics.map(topic => (
+                <span
+                  key={topic}
+                  className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-100 dark:bg-gray-800 text-sm text-gray-700 dark:text-gray-200"
+                >
+                  {topic}
+                  <button
+                    onClick={() => setCustomTopics(prev => prev.filter(item => item !== topic))}
+                    className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                    title={t('onboarding.custom_interest_remove')}
+                  >
+                    ×
+                  </button>
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+
+        <div>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
             {t('onboarding.language_title')}
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -158,19 +214,25 @@ export default function Onboarding() {
         </div>
 
         <div className="pt-6">
+          {(() => {
+            const allTopics = [...selectedTopics, ...customTopics];
+            const canSubmit = allTopics.length > 0;
+            return (
           <button
             onClick={handleSubmit}
-            disabled={selectedTopics.length === 0 || loading}
+            disabled={!canSubmit || loading}
             className={clsx(
               "w-full py-4 px-6 rounded-lg text-white font-bold text-lg shadow-md transition-all",
-              selectedTopics.length > 0
+              canSubmit
                 ? "bg-german-red hover:bg-red-700 shadow-german-red/20"
                 : "bg-gray-300 cursor-not-allowed"
             )}
           >
             {loading ? t('onboarding.saving') : t('onboarding.start_learning')}
           </button>
-          {selectedTopics.length === 0 && (
+            );
+          })()}
+          {selectedTopics.length === 0 && customTopics.length === 0 && (
             <p className="text-center text-sm text-muted-foreground mt-2">
               {t('onboarding.topic_required')}
             </p>

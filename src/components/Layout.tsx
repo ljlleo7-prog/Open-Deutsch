@@ -2,12 +2,21 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, BookOpen, PenTool, BarChart2, Settings, Home, Trophy } from 'lucide-react';
 import { cn } from '../lib/utils';
+import { resetUserNamespaceData } from '../lib/db';
 import { useI18n } from '../hooks/useI18n';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const location = useLocation();
   const { t } = useI18n();
+
+  React.useEffect(() => {
+    const resetKey = 'opendeutsch_reset_namespace_v1';
+    if (localStorage.getItem(resetKey)) return;
+    resetUserNamespaceData().finally(() => {
+      localStorage.setItem(resetKey, 'done');
+    });
+  }, []);
 
   const navigation = [
     { name: t('nav.home'), href: '/', icon: Home },

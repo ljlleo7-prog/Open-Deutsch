@@ -1,0 +1,228 @@
+{
+  "verbs": {
+    "sein": {
+      "en": "be",
+      "present": {
+        "1s": "bin",
+        "2s": "bist",
+        "3s": "ist",
+        "1p": "sind",
+        "2p": "seid",
+        "3p": "sind"
+      },
+      "past": {
+        "1s": "war",
+        "2s": "warst",
+        "3s": "war",
+        "1p": "waren",
+        "2p": "wart",
+        "3p": "waren"
+      }
+    },
+    "haben": {
+      "en": "have",
+      "present": {
+        "1s": "habe",
+        "2s": "hast",
+        "3s": "hat",
+        "1p": "haben",
+        "2p": "habt",
+        "3p": "haben"
+      },
+      "past": {
+        "1s": "hatte",
+        "2s": "hattest",
+        "3s": "hatte",
+        "1p": "hatten",
+        "2p": "hattet",
+        "3p": "hatten"
+      }
+    },
+    "sehen": {
+      "en": "see",
+      "present": {
+        "1s": "sehe",
+        "2s": "siehst",
+        "3s": "sieht",
+        "1p": "sehen",
+        "2p": "seht",
+        "3p": "sehen"
+      },
+      "past": {
+        "1s": "sah",
+        "2s": "sahst",
+        "3s": "sah",
+        "1p": "sahen",
+        "2p": "saht",
+        "3p": "sahen"
+      }
+    },
+    "gehen": {
+      "en": "go",
+      "present": {
+        "1s": "gehe",
+        "2s": "gehst",
+        "3s": "geht",
+        "1p": "gehen",
+        "2p": "geht",
+        "3p": "gehen"
+      },
+      "past": {
+        "1s": "ging",
+        "2s": "gingst",
+        "3s": "ging",
+        "1p": "gingen",
+        "2p": "gingt",
+        "3p": "gingen"
+      }
+    },
+    "kommen": {
+      "en": "come",
+      "present": {
+        "1s": "komme",
+        "2s": "kommst",
+        "3s": "kommt",
+        "1p": "kommen",
+        "2p": "kommt",
+        "3p": "kommen"
+      },
+      "past": {
+        "1s": "kam",
+        "2s": "kamst",
+        "3s": "kam",
+        "1p": "kamen",
+        "2p": "kamt",
+        "3p": "kamen"
+      }
+    },
+    "kaufen": {
+      "en": "buy",
+      "present": {
+        "1s": "kaufe",
+        "2s": "kaufst",
+        "3s": "kauft",
+        "1p": "kaufen",
+        "2p": "kauft",
+        "3p": "kaufen"
+      },
+      "past": {
+        "1s": "kaufte",
+        "2s": "kauftest",
+        "3s": "kaufte",
+        "1p": "kauften",
+        "2p": "kauftet",
+        "3p": "kauften"
+      }
+    },
+    "lesen": {
+      "en": "read",
+      "present": {
+        "1s": "lese",
+        "2s": "liest",
+        "3s": "liest",
+        "1p": "lesen",
+        "2p": "lest",
+        "3p": "lesen"
+      },
+      "past": {
+        "1s": "las",
+        "2s": "last",
+        "3s": "las",
+        "1p": "lasen",
+        "2p": "last",
+        "3p": "lasen"
+      }
+    },
+    "lernen": {
+      "en": "learn",
+      "present": {
+        "1s": "lerne",
+        "2s": "lernst",
+        "3s": "lernt",
+        "1p": "lernen",
+        "2p": "lernt",
+        "3p": "lernen"
+      },
+      "past": {
+        "1s": "lernte",
+        "2s": "lerntest",
+        "3s": "lernte",
+        "1p": "lernten",
+        "2p": "lerntet",
+        "3p": "lernten"
+      }
+    },
+    "essen": {
+      "en": "eat",
+      "present": {
+        "1s": "esse",
+        "2s": "isst",
+        "3s": "isst",
+        "1p": "essen",
+        "2p": "esst",
+        "3p": "essen"
+      },
+      "past": {
+        "1s": "aß",
+        "2s": "aßest",
+        "3s": "aß",
+        "1p": "aßen",
+        "2p": "aßt",
+        "3p": "aßen"
+      }
+    },
+    "trinken": {
+      "en": "drink",
+      "present": {
+        "1s": "trinke",
+        "2s": "trinkst",
+        "3s": "trinkt",
+        "1p": "trinken",
+        "2p": "trinkt",
+        "3p": "trinken"
+      },
+      "past": {
+        "1s": "trank",
+        "2s": "trankst",
+        "3s": "trank",
+        "1p": "tranken",
+        "2p": "trankt",
+        "3p": "tranken"
+      }
+    }
+  },
+  "articles": {
+    "accusative": {
+      "m": "einen",
+      "f": "eine",
+      "n": "ein"
+    },
+    "nominative": {
+      "m": "ein",
+      "f": "eine",
+      "n": "ein"
+    },
+    "dative": {
+      "m": "einem",
+      "f": "einer",
+      "n": "einem"
+    }
+  },
+  "adjective_endings": {
+    "accusative": {
+      "m": "en",
+      "f": "e",
+      "n": "es"
+    },
+    "nominative": {
+      "m": "er",
+      "f": "e",
+      "n": "es"
+    },
+    "dative": {
+      "m": "en",
+      "f": "en",
+      "n": "en"
+    }
+  }
+}

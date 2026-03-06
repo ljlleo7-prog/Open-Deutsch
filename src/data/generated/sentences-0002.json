@@ -1,0 +1,9502 @@
+[
+  {
+    "german": "Wir trinken eine Bibliothek zu Hause.",
+    "english": "we drink a libraries at home.",
+    "parts": [
+      "Wir",
+      "trinken",
+      "eine Bibliothek",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bibliothek",
+        "en": "libraries",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du bist einen Sitz zu Hause.",
+    "english": "you is a headquarter at home.",
+    "parts": [
+      "Du",
+      "bist",
+      "einen Sitz",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Sitz",
+        "en": "headquarter",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie lernen eine Denke zu Hause.",
+    "english": "they learn a thinking at home.",
+    "parts": [
+      "Sie",
+      "lernen",
+      "eine Denke",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Denke",
+        "en": "thinking",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie lernt einen Johannes zu Hause.",
+    "english": "she learns a johannes at home.",
+    "parts": [
+      "Sie",
+      "lernt",
+      "einen Johannes",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Johannes",
+        "en": "johannes",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du siehst eine Entscheidung bei der Arbeit.",
+    "english": "you see a decision at work.",
+    "parts": [
+      "Du",
+      "siehst",
+      "eine Entscheidung",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Entscheidung",
+        "en": "decision",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie lernt eine Bank zu Hause.",
+    "english": "she learns a bank at home.",
+    "parts": [
+      "Sie",
+      "lernt",
+      "eine Bank",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bank",
+        "en": "bank",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Er hat eine Spielzeit in Berlin.",
+    "english": "he has a season in Berlin.",
+    "parts": [
+      "Er",
+      "hat",
+      "eine Spielzeit",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Spielzeit",
+        "en": "season",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Du bist eine Acht in Berlin.",
+    "english": "you is a acht in Berlin.",
+    "parts": [
+      "Du",
+      "bist",
+      "eine Acht",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Acht",
+        "en": "acht",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ich sehe ein Heim zu Hause.",
+    "english": "I see a heim at home.",
+    "parts": [
+      "Ich",
+      "sehe",
+      "ein Heim",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Heim",
+        "en": "heim",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr seht ein Mädchen zu Hause.",
+    "english": "you see a girl at home.",
+    "parts": [
+      "Ihr",
+      "seht",
+      "ein Mädchen",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Mädchen",
+        "en": "girl",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr geht eine Kleine zu Hause.",
+    "english": "you go a small at home.",
+    "parts": [
+      "Ihr",
+      "geht",
+      "eine Kleine",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Kleine",
+        "en": "small",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie trinken eine Königin in Berlin.",
+    "english": "they drink a queen in Berlin.",
+    "parts": [
+      "Sie",
+      "trinken",
+      "eine Königin",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Königin",
+        "en": "queen",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie lesen eine Klasse zu Hause.",
+    "english": "they read a classroom at home.",
+    "parts": [
+      "Sie",
+      "lesen",
+      "eine Klasse",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Klasse",
+        "en": "classroom",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Wir kommen ein Interesse in Berlin.",
+    "english": "we come a interests in Berlin.",
+    "parts": [
+      "Wir",
+      "kommen",
+      "ein Interesse",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Interesse",
+        "en": "interests",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir lesen eine Energie zu Hause.",
+    "english": "we read a energy at home.",
+    "parts": [
+      "Wir",
+      "lesen",
+      "eine Energie",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Energie",
+        "en": "energy",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr seid ein Magazin im Park.",
+    "english": "you are a magazine in the park.",
+    "parts": [
+      "Ihr",
+      "seid",
+      "ein Magazin",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Magazin",
+        "en": "magazine",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Wir lesen einen Februar in Berlin.",
+    "english": "we read a february in Berlin.",
+    "parts": [
+      "Wir",
+      "lesen",
+      "einen Februar",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Februar",
+        "en": "february",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Du lernst ein Regiment zu Hause.",
+    "english": "you learn a regiment at home.",
+    "parts": [
+      "Du",
+      "lernst",
+      "ein Regiment",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Regiment",
+        "en": "regiment",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du hast einen Betrug bei der Arbeit.",
+    "english": "you have a fraud at work.",
+    "parts": [
+      "Du",
+      "hast",
+      "einen Betrug",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Betrug",
+        "en": "fraud",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr lest einen Alben in Berlin.",
+    "english": "you read a albums in Berlin.",
+    "parts": [
+      "Ihr",
+      "lest",
+      "einen Alben",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Alben",
+        "en": "albums",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Du trinkst einen Dichter bei der Arbeit.",
+    "english": "you drink a poet at work.",
+    "parts": [
+      "Du",
+      "trinkst",
+      "einen Dichter",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Dichter",
+        "en": "poet",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ich trinke einen Lehrer im Park.",
+    "english": "I drink a tutor in the park.",
+    "parts": [
+      "Ich",
+      "trinke",
+      "einen Lehrer",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Lehrer",
+        "en": "tutor",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ihr seht eine Freie in Berlin.",
+    "english": "you see a vacancies in Berlin.",
+    "parts": [
+      "Ihr",
+      "seht",
+      "eine Freie",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Freie",
+        "en": "vacancies",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie sind ein Etwas im Park.",
+    "english": "they are a slightly in the park.",
+    "parts": [
+      "Sie",
+      "sind",
+      "ein Etwas",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Etwas",
+        "en": "slightly",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie kauft einen Rhein zu Hause.",
+    "english": "she buys a rhine at home.",
+    "parts": [
+      "Sie",
+      "kauft",
+      "einen Rhein",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Rhein",
+        "en": "rhine",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie essen einen Rand zu Hause.",
+    "english": "they eat a rand at home.",
+    "parts": [
+      "Sie",
+      "essen",
+      "einen Rand",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Rand",
+        "en": "rand",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du kaufst ein Etwas im Park.",
+    "english": "you buy a slightly in the park.",
+    "parts": [
+      "Du",
+      "kaufst",
+      "ein Etwas",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Etwas",
+        "en": "slightly",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie lernt einen Glaube in Berlin.",
+    "english": "she learns a faith in Berlin.",
+    "parts": [
+      "Sie",
+      "lernt",
+      "einen Glaube",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Glaube",
+        "en": "faith",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie kauft eine Bekannte bei der Arbeit.",
+    "english": "she buys a known at work.",
+    "parts": [
+      "Sie",
+      "kauft",
+      "eine Bekannte",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bekannte",
+        "en": "known",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr lernt einen Leider im Park.",
+    "english": "you learn a sorry in the park.",
+    "parts": [
+      "Ihr",
+      "lernt",
+      "einen Leider",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Leider",
+        "en": "sorry",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ihr kauft ein Recht im Park.",
+    "english": "you buy a right in the park.",
+    "parts": [
+      "Ihr",
+      "kauft",
+      "ein Recht",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Recht",
+        "en": "right",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie haben ein Lied in Berlin.",
+    "english": "they have a song in Berlin.",
+    "parts": [
+      "Sie",
+      "haben",
+      "ein Lied",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Lied",
+        "en": "song",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir kaufen eine Bekannte im Park.",
+    "english": "we buy a known in the park.",
+    "parts": [
+      "Wir",
+      "kaufen",
+      "eine Bekannte",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bekannte",
+        "en": "known",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ich lerne ein Magazin in Berlin.",
+    "english": "I learn a magazine in Berlin.",
+    "parts": [
+      "Ich",
+      "lerne",
+      "ein Magazin",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Magazin",
+        "en": "magazine",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Du kommst einen Gast zu Hause.",
+    "english": "you come a guest at home.",
+    "parts": [
+      "Du",
+      "kommst",
+      "einen Gast",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gast",
+        "en": "guest",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie essen eine Frage zu Hause.",
+    "english": "they eat a ask at home.",
+    "parts": [
+      "Sie",
+      "essen",
+      "eine Frage",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Frage",
+        "en": "ask",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Wir essen eine ISBN in Berlin.",
+    "english": "we eat a isbn in Berlin.",
+    "parts": [
+      "Wir",
+      "essen",
+      "eine ISBN",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "ISBN",
+        "en": "isbn",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie trinken eine Burg zu Hause.",
+    "english": "they drink a château at home.",
+    "parts": [
+      "Sie",
+      "trinken",
+      "eine Burg",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Burg",
+        "en": "château",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Er trinkt eine Anzahl zu Hause.",
+    "english": "he drinks a num at home.",
+    "parts": [
+      "Er",
+      "trinkt",
+      "eine Anzahl",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Anzahl",
+        "en": "num",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Wir lesen eine Karriere in Berlin.",
+    "english": "we read a career in Berlin.",
+    "parts": [
+      "Wir",
+      "lesen",
+      "eine Karriere",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Karriere",
+        "en": "career",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Er trinkt einen Körper zu Hause.",
+    "english": "he drinks a body at home.",
+    "parts": [
+      "Er",
+      "trinkt",
+      "einen Körper",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Körper",
+        "en": "body",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie isst eine Saison zu Hause.",
+    "english": "she eats a seasonal at home.",
+    "parts": [
+      "Sie",
+      "isst",
+      "eine Saison",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Saison",
+        "en": "seasonal",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie ist einen Anteil in Berlin.",
+    "english": "she is a proportion in Berlin.",
+    "parts": [
+      "Sie",
+      "ist",
+      "einen Anteil",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Anteil",
+        "en": "proportion",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Er geht ein Gewann in Berlin.",
+    "english": "he gos a won in Berlin.",
+    "parts": [
+      "Er",
+      "geht",
+      "ein Gewann",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gewann",
+        "en": "won",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie sehen eine Besetzung in Berlin.",
+    "english": "they see a cast in Berlin.",
+    "parts": [
+      "Sie",
+      "sehen",
+      "eine Besetzung",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Besetzung",
+        "en": "cast",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ich komme ein Sehen in Berlin.",
+    "english": "I come a see in Berlin.",
+    "parts": [
+      "Ich",
+      "komme",
+      "ein Sehen",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Sehen",
+        "en": "see",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Du kaufst ein Amt zu Hause.",
+    "english": "you buy a office at home.",
+    "parts": [
+      "Du",
+      "kaufst",
+      "ein Amt",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Amt",
+        "en": "office",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du bist einen Schrieb im Park.",
+    "english": "you is a wrote in the park.",
+    "parts": [
+      "Du",
+      "bist",
+      "einen Schrieb",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Schrieb",
+        "en": "wrote",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er trinkt einen Mitarbeiter im Park.",
+    "english": "he drinks a employee in the park.",
+    "parts": [
+      "Er",
+      "trinkt",
+      "einen Mitarbeiter",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Mitarbeiter",
+        "en": "employee",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie kauft einen Bruder bei der Arbeit.",
+    "english": "she buys a bro at work.",
+    "parts": [
+      "Sie",
+      "kauft",
+      "einen Bruder",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bruder",
+        "en": "bro",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie lesen eine Medizin in Berlin.",
+    "english": "they read a medicine in Berlin.",
+    "parts": [
+      "Sie",
+      "lesen",
+      "eine Medizin",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Medizin",
+        "en": "medicine",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ihr lest einen Benutzer im Park.",
+    "english": "you read a users in the park.",
+    "parts": [
+      "Ihr",
+      "lest",
+      "einen Benutzer",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Benutzer",
+        "en": "users",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er kommt ein Service bei der Arbeit.",
+    "english": "he comes a service at work.",
+    "parts": [
+      "Er",
+      "kommt",
+      "ein Service",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Service",
+        "en": "service",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie haben eine Natur zu Hause.",
+    "english": "they have a natur at home.",
+    "parts": [
+      "Sie",
+      "haben",
+      "eine Natur",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Natur",
+        "en": "natur",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du bist einen Gegner bei der Arbeit.",
+    "english": "you is a opponents at work.",
+    "parts": [
+      "Du",
+      "bist",
+      "einen Gegner",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gegner",
+        "en": "opponents",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Du hast einen Bezirk zu Hause.",
+    "english": "you have a county at home.",
+    "parts": [
+      "Du",
+      "hast",
+      "einen Bezirk",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bezirk",
+        "en": "county",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Wir trinken eine Homepage zu Hause.",
+    "english": "we drink a homepage at home.",
+    "parts": [
+      "Wir",
+      "trinken",
+      "eine Homepage",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Homepage",
+        "en": "homepage",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr lest eine Position im Park.",
+    "english": "you read a position in the park.",
+    "parts": [
+      "Ihr",
+      "lest",
+      "eine Position",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Position",
+        "en": "position",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Du kommst ein Königreich zu Hause.",
+    "english": "you come a kingdom at home.",
+    "parts": [
+      "Du",
+      "kommst",
+      "ein Königreich",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Königreich",
+        "en": "kingdom",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ich gehe einen Historiker im Park.",
+    "english": "I go a historian in the park.",
+    "parts": [
+      "Ich",
+      "gehe",
+      "einen Historiker",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Historiker",
+        "en": "historian",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie sehen einen Laut im Park.",
+    "english": "they see a loudly in the park.",
+    "parts": [
+      "Sie",
+      "sehen",
+      "einen Laut",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Laut",
+        "en": "loudly",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie ist einen Erster bei der Arbeit.",
+    "english": "she is a first at work.",
+    "parts": [
+      "Sie",
+      "ist",
+      "einen Erster",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Erster",
+        "en": "first",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr esst einen Ausbau zu Hause.",
+    "english": "you eat a extension at home.",
+    "parts": [
+      "Ihr",
+      "esst",
+      "einen Ausbau",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Ausbau",
+        "en": "extension",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du gehst einen Rand im Park.",
+    "english": "you go a rand in the park.",
+    "parts": [
+      "Du",
+      "gehst",
+      "einen Rand",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Rand",
+        "en": "rand",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ihr lest einen Einsatz bei der Arbeit.",
+    "english": "you read a usage at work.",
+    "parts": [
+      "Ihr",
+      "lest",
+      "einen Einsatz",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Einsatz",
+        "en": "usage",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Du liest eine Schlacht in Berlin.",
+    "english": "you read a battle in Berlin.",
+    "parts": [
+      "Du",
+      "liest",
+      "eine Schlacht",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Schlacht",
+        "en": "battle",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie essen einen Besuch im Park.",
+    "english": "they eat a visitors in the park.",
+    "parts": [
+      "Sie",
+      "essen",
+      "einen Besuch",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Besuch",
+        "en": "visitors",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Wir sind ein Mädchen zu Hause.",
+    "english": "we are a girl at home.",
+    "parts": [
+      "Wir",
+      "sind",
+      "ein Mädchen",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Mädchen",
+        "en": "girl",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Wir lernen eine Energie in Berlin.",
+    "english": "we learn a energy in Berlin.",
+    "parts": [
+      "Wir",
+      "lernen",
+      "eine Energie",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Energie",
+        "en": "energy",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir trinken eine Sicht bei der Arbeit.",
+    "english": "we drink a viewpoint at work.",
+    "parts": [
+      "Wir",
+      "trinken",
+      "eine Sicht",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Sicht",
+        "en": "viewpoint",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr habt einen Fehler im Park.",
+    "english": "you have a errors in the park.",
+    "parts": [
+      "Ihr",
+      "habt",
+      "einen Fehler",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Fehler",
+        "en": "errors",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ihr lernt ein Feld zu Hause.",
+    "english": "you learn a box at home.",
+    "parts": [
+      "Ihr",
+      "lernt",
+      "ein Feld",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Feld",
+        "en": "box",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr geht ein Bad im Park.",
+    "english": "you go a bathroom in the park.",
+    "parts": [
+      "Ihr",
+      "geht",
+      "ein Bad",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bad",
+        "en": "bathroom",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Du kommst eine Frau in Berlin.",
+    "english": "you come a woman in Berlin.",
+    "parts": [
+      "Du",
+      "kommst",
+      "eine Frau",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Frau",
+        "en": "woman",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Du lernst eine Bewegung im Park.",
+    "english": "you learn a motion in the park.",
+    "parts": [
+      "Du",
+      "lernst",
+      "eine Bewegung",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bewegung",
+        "en": "motion",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ich gehe eine Größe bei der Arbeit.",
+    "english": "I go a height at work.",
+    "parts": [
+      "Ich",
+      "gehe",
+      "eine Größe",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Größe",
+        "en": "height",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie essen ein Oxford im Park.",
+    "english": "they eat a oxford in the park.",
+    "parts": [
+      "Sie",
+      "essen",
+      "ein Oxford",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Oxford",
+        "en": "oxford",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie kaufen eine Begründung zu Hause.",
+    "english": "they buy a justification at home.",
+    "parts": [
+      "Sie",
+      "kaufen",
+      "eine Begründung",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Begründung",
+        "en": "justification",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Er kommt einen Familienname im Park.",
+    "english": "he comes a surnames in the park.",
+    "parts": [
+      "Er",
+      "kommt",
+      "einen Familienname",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Familienname",
+        "en": "surnames",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Wir lernen einen Februar in Berlin.",
+    "english": "we learn a february in Berlin.",
+    "parts": [
+      "Wir",
+      "lernen",
+      "einen Februar",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Februar",
+        "en": "february",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir haben ein Aktiv im Park.",
+    "english": "we have a active in the park.",
+    "parts": [
+      "Wir",
+      "haben",
+      "ein Aktiv",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Aktiv",
+        "en": "active",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ich habe einen Beruf zu Hause.",
+    "english": "I have a profession at home.",
+    "parts": [
+      "Ich",
+      "habe",
+      "einen Beruf",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Beruf",
+        "en": "profession",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr trinkt einen Metal in Berlin.",
+    "english": "you drink a metal in Berlin.",
+    "parts": [
+      "Ihr",
+      "trinkt",
+      "einen Metal",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Metal",
+        "en": "metal",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ihr seid eine Basis zu Hause.",
+    "english": "you are a base at home.",
+    "parts": [
+      "Ihr",
+      "seid",
+      "eine Basis",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Basis",
+        "en": "base",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr esst ein Chor bei der Arbeit.",
+    "english": "you eat a choir at work.",
+    "parts": [
+      "Ihr",
+      "esst",
+      "ein Chor",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Chor",
+        "en": "choir",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie kommt einen Cup bei der Arbeit.",
+    "english": "she comes a cup at work.",
+    "parts": [
+      "Sie",
+      "kommt",
+      "einen Cup",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Cup",
+        "en": "cup",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Er sieht ein Land bei der Arbeit.",
+    "english": "he sees a country at work.",
+    "parts": [
+      "Er",
+      "sieht",
+      "ein Land",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Land",
+        "en": "country",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Wir trinken ein Gold in Berlin.",
+    "english": "we drink a gold in Berlin.",
+    "parts": [
+      "Wir",
+      "trinken",
+      "ein Gold",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gold",
+        "en": "gold",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir sehen einen Fehler bei der Arbeit.",
+    "english": "we see a errors at work.",
+    "parts": [
+      "Wir",
+      "sehen",
+      "einen Fehler",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Fehler",
+        "en": "errors",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie kommt einen Aufbau zu Hause.",
+    "english": "she comes a bodywork at home.",
+    "parts": [
+      "Sie",
+      "kommt",
+      "einen Aufbau",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Aufbau",
+        "en": "bodywork",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du bist einen Fehler bei der Arbeit.",
+    "english": "you is a errors at work.",
+    "parts": [
+      "Du",
+      "bist",
+      "einen Fehler",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Fehler",
+        "en": "errors",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie kauft ein Silber in Berlin.",
+    "english": "she buys a silver in Berlin.",
+    "parts": [
+      "Sie",
+      "kauft",
+      "ein Silber",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Silber",
+        "en": "silver",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ich lerne ein Hockey in Berlin.",
+    "english": "I learn a hockey in Berlin.",
+    "parts": [
+      "Ich",
+      "lerne",
+      "ein Hockey",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Hockey",
+        "en": "hockey",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Er kommt eine Neue zu Hause.",
+    "english": "he comes a new at home.",
+    "parts": [
+      "Er",
+      "kommt",
+      "eine Neue",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Neue",
+        "en": "new",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie kauft einen Fritz in Berlin.",
+    "english": "she buys a fritz in Berlin.",
+    "parts": [
+      "Sie",
+      "kauft",
+      "einen Fritz",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Fritz",
+        "en": "fritz",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ich esse einen Februar in Berlin.",
+    "english": "I eat a february in Berlin.",
+    "parts": [
+      "Ich",
+      "esse",
+      "einen Februar",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Februar",
+        "en": "february",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Du hast eine Musik bei der Arbeit.",
+    "english": "you have a musik at work.",
+    "parts": [
+      "Du",
+      "hast",
+      "eine Musik",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Musik",
+        "en": "musik",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Du kaufst ein Gut zu Hause.",
+    "english": "you buy a fine at home.",
+    "parts": [
+      "Du",
+      "kaufst",
+      "ein Gut",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gut",
+        "en": "fine",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie essen einen Artikel im Park.",
+    "english": "they eat a article in the park.",
+    "parts": [
+      "Sie",
+      "essen",
+      "einen Artikel",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Artikel",
+        "en": "article",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie kaufen eine Gattung bei der Arbeit.",
+    "english": "they buy a genus at work.",
+    "parts": [
+      "Sie",
+      "kaufen",
+      "eine Gattung",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gattung",
+        "en": "genus",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Wir haben eine Gründung zu Hause.",
+    "english": "we have a foundation at home.",
+    "parts": [
+      "Wir",
+      "haben",
+      "eine Gründung",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gründung",
+        "en": "foundation",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie ist eine Hochschule zu Hause.",
+    "english": "she is a universities at home.",
+    "parts": [
+      "Sie",
+      "ist",
+      "eine Hochschule",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Hochschule",
+        "en": "universities",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr esst ein Mensch in Berlin.",
+    "english": "you eat a gosh in Berlin.",
+    "parts": [
+      "Ihr",
+      "esst",
+      "ein Mensch",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Mensch",
+        "en": "gosh",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir haben eine Sicherheit im Park.",
+    "english": "we have a collateral in the park.",
+    "parts": [
+      "Wir",
+      "haben",
+      "eine Sicherheit",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Sicherheit",
+        "en": "collateral",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie kommen eine Division im Park.",
+    "english": "they come a division in the park.",
+    "parts": [
+      "Sie",
+      "kommen",
+      "eine Division",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Division",
+        "en": "division",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Du lernst einen Betrieb zu Hause.",
+    "english": "you learn a operations at home.",
+    "parts": [
+      "Du",
+      "lernst",
+      "einen Betrieb",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Betrieb",
+        "en": "operations",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ich kaufe ein Haus in Berlin.",
+    "english": "I buy a house in Berlin.",
+    "parts": [
+      "Ich",
+      "kaufe",
+      "ein Haus",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Haus",
+        "en": "house",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie lernen einen Beitrag zu Hause.",
+    "english": "they learn a contributor at home.",
+    "parts": [
+      "Sie",
+      "lernen",
+      "einen Beitrag",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Beitrag",
+        "en": "contributor",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie lernt eine Möglichkeit zu Hause.",
+    "english": "she learns a opportunity at home.",
+    "parts": [
+      "Sie",
+      "lernt",
+      "eine Möglichkeit",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Möglichkeit",
+        "en": "opportunity",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du kommst einen September bei der Arbeit.",
+    "english": "you come a september at work.",
+    "parts": [
+      "Du",
+      "kommst",
+      "einen September",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "September",
+        "en": "september",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr esst einen Lake zu Hause.",
+    "english": "you eat a lake at home.",
+    "parts": [
+      "Ihr",
+      "esst",
+      "einen Lake",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Lake",
+        "en": "lake",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie lernt eine DDR zu Hause.",
+    "english": "she learns a ddr at home.",
+    "parts": [
+      "Sie",
+      "lernt",
+      "eine DDR",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "DDR",
+        "en": "ddr",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Er liest ein Rolle bei der Arbeit.",
+    "english": "he reads a reel at work.",
+    "parts": [
+      "Er",
+      "liest",
+      "ein Rolle",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Rolle",
+        "en": "reel",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie haben eine Antwort in Berlin.",
+    "english": "they have a answer in Berlin.",
+    "parts": [
+      "Sie",
+      "haben",
+      "eine Antwort",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Antwort",
+        "en": "answer",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie lernt eine Kirche in Berlin.",
+    "english": "she learns a churches in Berlin.",
+    "parts": [
+      "Sie",
+      "lernt",
+      "eine Kirche",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Kirche",
+        "en": "churches",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ihr trinkt einen Standard bei der Arbeit.",
+    "english": "you drink a default at work.",
+    "parts": [
+      "Ihr",
+      "trinkt",
+      "einen Standard",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Standard",
+        "en": "default",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr seht eine Kleine zu Hause.",
+    "english": "you see a small at home.",
+    "parts": [
+      "Ihr",
+      "seht",
+      "eine Kleine",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Kleine",
+        "en": "small",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr trinkt ein Design in Berlin.",
+    "english": "you drink a design in Berlin.",
+    "parts": [
+      "Ihr",
+      "trinkt",
+      "ein Design",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Design",
+        "en": "design",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Du trinkst ein Soll bei der Arbeit.",
+    "english": "you drink a shall at work.",
+    "parts": [
+      "Du",
+      "trinkst",
+      "ein Soll",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Soll",
+        "en": "shall",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr lernt ein Gymnasium in Berlin.",
+    "english": "you learn a gymnasium in Berlin.",
+    "parts": [
+      "Ihr",
+      "lernt",
+      "ein Gymnasium",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gymnasium",
+        "en": "gymnasium",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir haben einen Sender im Park.",
+    "english": "we have a transmitter in the park.",
+    "parts": [
+      "Wir",
+      "haben",
+      "einen Sender",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Sender",
+        "en": "transmitter",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie ist eine Gesellschaft in Berlin.",
+    "english": "she is a society in Berlin.",
+    "parts": [
+      "Sie",
+      "ist",
+      "eine Gesellschaft",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gesellschaft",
+        "en": "society",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Er trinkt ein Gehen bei der Arbeit.",
+    "english": "he drinks a go at work.",
+    "parts": [
+      "Er",
+      "trinkt",
+      "ein Gehen",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gehen",
+        "en": "go",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Er kommt eine Kleine bei der Arbeit.",
+    "english": "he comes a small at work.",
+    "parts": [
+      "Er",
+      "kommt",
+      "eine Kleine",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Kleine",
+        "en": "small",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Er isst einen Post im Park.",
+    "english": "he eats a mail in the park.",
+    "parts": [
+      "Er",
+      "isst",
+      "einen Post",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Post",
+        "en": "mail",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Wir kaufen einen Schutz bei der Arbeit.",
+    "english": "we buy a shelter at work.",
+    "parts": [
+      "Wir",
+      "kaufen",
+      "einen Schutz",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Schutz",
+        "en": "shelter",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr seht eine Neun in Berlin.",
+    "english": "you see a neun in Berlin.",
+    "parts": [
+      "Ihr",
+      "seht",
+      "eine Neun",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Neun",
+        "en": "neun",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Er sieht eine Station bei der Arbeit.",
+    "english": "he sees a station at work.",
+    "parts": [
+      "Er",
+      "sieht",
+      "eine Station",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Station",
+        "en": "station",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie kauft einen Rand bei der Arbeit.",
+    "english": "she buys a rand at work.",
+    "parts": [
+      "Sie",
+      "kauft",
+      "einen Rand",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Rand",
+        "en": "rand",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ich habe eine Abteilung im Park.",
+    "english": "I have a department in the park.",
+    "parts": [
+      "Ich",
+      "habe",
+      "eine Abteilung",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Abteilung",
+        "en": "department",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ich gehe eine Qualität zu Hause.",
+    "english": "I go a quality at home.",
+    "parts": [
+      "Ich",
+      "gehe",
+      "eine Qualität",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Qualität",
+        "en": "quality",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Er geht eine Bank im Park.",
+    "english": "he gos a bank in the park.",
+    "parts": [
+      "Er",
+      "geht",
+      "eine Bank",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bank",
+        "en": "bank",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ihr geht einen Bahnhof zu Hause.",
+    "english": "you go a train at home.",
+    "parts": [
+      "Ihr",
+      "geht",
+      "einen Bahnhof",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bahnhof",
+        "en": "train",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr kommt ein Reich in Berlin.",
+    "english": "you come a realm in Berlin.",
+    "parts": [
+      "Ihr",
+      "kommt",
+      "ein Reich",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Reich",
+        "en": "realm",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir kommen einen Oktober im Park.",
+    "english": "we come a october in the park.",
+    "parts": [
+      "Wir",
+      "kommen",
+      "einen Oktober",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Oktober",
+        "en": "october",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er ist ein Dorf im Park.",
+    "english": "he is a villages in the park.",
+    "parts": [
+      "Er",
+      "ist",
+      "ein Dorf",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Dorf",
+        "en": "villages",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie sieht einen Beitrag bei der Arbeit.",
+    "english": "she sees a contributor at work.",
+    "parts": [
+      "Sie",
+      "sieht",
+      "einen Beitrag",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Beitrag",
+        "en": "contributor",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie liest einen Don im Park.",
+    "english": "she reads a don in the park.",
+    "parts": [
+      "Sie",
+      "liest",
+      "einen Don",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Don",
+        "en": "don",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ihr geht eine Erwähnung im Park.",
+    "english": "you go a mentioning in the park.",
+    "parts": [
+      "Ihr",
+      "geht",
+      "eine Erwähnung",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Erwähnung",
+        "en": "mentioning",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ihr seht ein Sein in Berlin.",
+    "english": "you see a be in Berlin.",
+    "parts": [
+      "Ihr",
+      "seht",
+      "ein Sein",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Sein",
+        "en": "be",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir essen ein Formen in Berlin.",
+    "english": "we eat a shapes in Berlin.",
+    "parts": [
+      "Wir",
+      "essen",
+      "ein Formen",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Formen",
+        "en": "shapes",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie geht eine Fakultät im Park.",
+    "english": "she gos a faculty in the park.",
+    "parts": [
+      "Sie",
+      "geht",
+      "eine Fakultät",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Fakultät",
+        "en": "faculty",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie geht eine Reihe zu Hause.",
+    "english": "she gos a series at home.",
+    "parts": [
+      "Sie",
+      "geht",
+      "eine Reihe",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Reihe",
+        "en": "series",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie lernt einen Link in Berlin.",
+    "english": "she learns a link in Berlin.",
+    "parts": [
+      "Sie",
+      "lernt",
+      "einen Link",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Link",
+        "en": "link",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie kommen eine Sicherheit zu Hause.",
+    "english": "they come a collateral at home.",
+    "parts": [
+      "Sie",
+      "kommen",
+      "eine Sicherheit",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Sicherheit",
+        "en": "collateral",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr kommt einen Landtag in Berlin.",
+    "english": "you come a landtag in Berlin.",
+    "parts": [
+      "Ihr",
+      "kommt",
+      "einen Landtag",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Landtag",
+        "en": "landtag",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ihr lernt eine Sache in Berlin.",
+    "english": "you learn a thing in Berlin.",
+    "parts": [
+      "Ihr",
+      "lernt",
+      "eine Sache",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Sache",
+        "en": "thing",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir trinken eine Formel bei der Arbeit.",
+    "english": "we drink a formula at work.",
+    "parts": [
+      "Wir",
+      "trinken",
+      "eine Formel",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Formel",
+        "en": "formula",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Du liest ein Auto bei der Arbeit.",
+    "english": "you read a car at work.",
+    "parts": [
+      "Du",
+      "liest",
+      "ein Auto",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Auto",
+        "en": "car",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr habt eine Ortschaft im Park.",
+    "english": "you have a town in the park.",
+    "parts": [
+      "Ihr",
+      "habt",
+      "eine Ortschaft",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Ortschaft",
+        "en": "town",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ich kaufe ein Ort in Berlin.",
+    "english": "I buy a venue in Berlin.",
+    "parts": [
+      "Ich",
+      "kaufe",
+      "ein Ort",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Ort",
+        "en": "venue",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie geht ein Hockey im Park.",
+    "english": "she gos a hockey in the park.",
+    "parts": [
+      "Sie",
+      "geht",
+      "ein Hockey",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Hockey",
+        "en": "hockey",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er geht ein Alter in Berlin.",
+    "english": "he gos a old in Berlin.",
+    "parts": [
+      "Er",
+      "geht",
+      "ein Alter",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Alter",
+        "en": "old",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Du gehst eine Regierung zu Hause.",
+    "english": "you go a cabinet at home.",
+    "parts": [
+      "Du",
+      "gehst",
+      "eine Regierung",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Regierung",
+        "en": "cabinet",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Wir trinken eine Bekannte in Berlin.",
+    "english": "we drink a known in Berlin.",
+    "parts": [
+      "Wir",
+      "trinken",
+      "eine Bekannte",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bekannte",
+        "en": "known",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir kaufen einen Präsident zu Hause.",
+    "english": "we buy a president at home.",
+    "parts": [
+      "Wir",
+      "kaufen",
+      "einen Präsident",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Präsident",
+        "en": "president",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ihr trinkt eine Entwicklung zu Hause.",
+    "english": "you drink a development at home.",
+    "parts": [
+      "Ihr",
+      "trinkt",
+      "eine Entwicklung",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Entwicklung",
+        "en": "development",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du bist ein Lexikon im Park.",
+    "english": "you is a lexicon in the park.",
+    "parts": [
+      "Du",
+      "bist",
+      "ein Lexikon",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Lexikon",
+        "en": "lexicon",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Wir kaufen einen Kopf in Berlin.",
+    "english": "we buy a head in Berlin.",
+    "parts": [
+      "Wir",
+      "kaufen",
+      "einen Kopf",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Kopf",
+        "en": "head",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie haben einen Bot zu Hause.",
+    "english": "they have a bot at home.",
+    "parts": [
+      "Sie",
+      "haben",
+      "einen Bot",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bot",
+        "en": "bot",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Er trinkt einen Dichter zu Hause.",
+    "english": "he drinks a poet at home.",
+    "parts": [
+      "Er",
+      "trinkt",
+      "einen Dichter",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Dichter",
+        "en": "poet",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Wir sehen eine Nacht bei der Arbeit.",
+    "english": "we see a nighttime at work.",
+    "parts": [
+      "Wir",
+      "sehen",
+      "eine Nacht",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "sehe",
+        "en": "see",
+        "infinitive": "sehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Nacht",
+        "en": "nighttime",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ich habe eine Qualität im Park.",
+    "english": "I have a quality in the park.",
+    "parts": [
+      "Ich",
+      "habe",
+      "eine Qualität",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Qualität",
+        "en": "quality",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie kommen eine Lehre bei der Arbeit.",
+    "english": "they come a apprenticeship at work.",
+    "parts": [
+      "Sie",
+      "kommen",
+      "eine Lehre",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Lehre",
+        "en": "apprenticeship",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie essen einen Schriftsteller bei der Arbeit.",
+    "english": "they eat a authors at work.",
+    "parts": [
+      "Sie",
+      "essen",
+      "einen Schriftsteller",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Schriftsteller",
+        "en": "authors",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie geht eine Pfarrkirche bei der Arbeit.",
+    "english": "she gos a parish at work.",
+    "parts": [
+      "Sie",
+      "geht",
+      "eine Pfarrkirche",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Pfarrkirche",
+        "en": "parish",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr habt einen Blick zu Hause.",
+    "english": "you have a glance at home.",
+    "parts": [
+      "Ihr",
+      "habt",
+      "einen Blick",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Blick",
+        "en": "glance",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie kauft einen Aufstieg zu Hause.",
+    "english": "she buys a ascension at home.",
+    "parts": [
+      "Sie",
+      "kauft",
+      "einen Aufstieg",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Aufstieg",
+        "en": "ascension",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Wir kaufen einen Bürgermeister bei der Arbeit.",
+    "english": "we buy a mayor at work.",
+    "parts": [
+      "Wir",
+      "kaufen",
+      "einen Bürgermeister",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bürgermeister",
+        "en": "mayor",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie kommt einen Bürgermeister im Park.",
+    "english": "she comes a mayor in the park.",
+    "parts": [
+      "Sie",
+      "kommt",
+      "einen Bürgermeister",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bürgermeister",
+        "en": "mayor",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ich habe einen Don bei der Arbeit.",
+    "english": "I have a don at work.",
+    "parts": [
+      "Ich",
+      "habe",
+      "einen Don",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Don",
+        "en": "don",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie lesen eine Begründung zu Hause.",
+    "english": "they read a justification at home.",
+    "parts": [
+      "Sie",
+      "lesen",
+      "eine Begründung",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Begründung",
+        "en": "justification",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ich habe einen Laut zu Hause.",
+    "english": "I have a loudly at home.",
+    "parts": [
+      "Ich",
+      "habe",
+      "einen Laut",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Laut",
+        "en": "loudly",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie trinkt einen Bruder im Park.",
+    "english": "she drinks a bro in the park.",
+    "parts": [
+      "Sie",
+      "trinkt",
+      "einen Bruder",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Bruder",
+        "en": "bro",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er isst einen Landkreis bei der Arbeit.",
+    "english": "he eats a county at work.",
+    "parts": [
+      "Er",
+      "isst",
+      "einen Landkreis",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Landkreis",
+        "en": "county",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Du hast eine Grafschaft im Park.",
+    "english": "you have a county in the park.",
+    "parts": [
+      "Du",
+      "hast",
+      "eine Grafschaft",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Grafschaft",
+        "en": "county",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie essen einen Anfang zu Hause.",
+    "english": "they eat a start at home.",
+    "parts": [
+      "Sie",
+      "essen",
+      "einen Anfang",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Anfang",
+        "en": "start",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie lesen einen Alben zu Hause.",
+    "english": "they read a albums at home.",
+    "parts": [
+      "Sie",
+      "lesen",
+      "einen Alben",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Alben",
+        "en": "albums",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Er kommt einen Lehrer im Park.",
+    "english": "he comes a tutor in the park.",
+    "parts": [
+      "Er",
+      "kommt",
+      "einen Lehrer",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Lehrer",
+        "en": "tutor",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie trinken eine Gerade im Park.",
+    "english": "they drink a straight in the park.",
+    "parts": [
+      "Sie",
+      "trinken",
+      "eine Gerade",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gerade",
+        "en": "straight",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Wir lesen ein Meer im Park.",
+    "english": "we read a seaside in the park.",
+    "parts": [
+      "Wir",
+      "lesen",
+      "ein Meer",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Meer",
+        "en": "seaside",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er kommt eine Gruppe zu Hause.",
+    "english": "he comes a gruppe at home.",
+    "parts": [
+      "Er",
+      "kommt",
+      "eine Gruppe",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gruppe",
+        "en": "gruppe",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du hast ein Service bei der Arbeit.",
+    "english": "you have a service at work.",
+    "parts": [
+      "Du",
+      "hast",
+      "ein Service",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Service",
+        "en": "service",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ich esse einen Markt im Park.",
+    "english": "I eat a markt in the park.",
+    "parts": [
+      "Ich",
+      "esse",
+      "einen Markt",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Markt",
+        "en": "markt",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ihr kommt ein Gegenüber bei der Arbeit.",
+    "english": "you come a opposite at work.",
+    "parts": [
+      "Ihr",
+      "kommt",
+      "ein Gegenüber",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gegenüber",
+        "en": "opposite",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr habt eine Produktion in Berlin.",
+    "english": "you have a output in Berlin.",
+    "parts": [
+      "Ihr",
+      "habt",
+      "eine Produktion",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Produktion",
+        "en": "output",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Er lernt ein Haus bei der Arbeit.",
+    "english": "he learns a house at work.",
+    "parts": [
+      "Er",
+      "lernt",
+      "ein Haus",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Haus",
+        "en": "house",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr esst einen Inhalt in Berlin.",
+    "english": "you eat a content in Berlin.",
+    "parts": [
+      "Ihr",
+      "esst",
+      "einen Inhalt",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Inhalt",
+        "en": "content",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ihr esst einen Rahmen im Park.",
+    "english": "you eat a frames in the park.",
+    "parts": [
+      "Ihr",
+      "esst",
+      "einen Rahmen",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Rahmen",
+        "en": "frames",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie hat eine Nutzung zu Hause.",
+    "english": "she has a usage at home.",
+    "parts": [
+      "Sie",
+      "hat",
+      "eine Nutzung",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Nutzung",
+        "en": "usage",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du bist eine Kategorie in Berlin.",
+    "english": "you is a category in Berlin.",
+    "parts": [
+      "Du",
+      "bist",
+      "eine Kategorie",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Kategorie",
+        "en": "category",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Er isst ein Gehen in Berlin.",
+    "english": "he eats a go in Berlin.",
+    "parts": [
+      "Er",
+      "isst",
+      "ein Gehen",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gehen",
+        "en": "go",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie gehen ein Mal im Park.",
+    "english": "they go a once in the park.",
+    "parts": [
+      "Sie",
+      "gehen",
+      "ein Mal",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Mal",
+        "en": "once",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er kauft einen Schriftsteller im Park.",
+    "english": "he buys a authors in the park.",
+    "parts": [
+      "Er",
+      "kauft",
+      "einen Schriftsteller",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Schriftsteller",
+        "en": "authors",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er isst eine Neun zu Hause.",
+    "english": "he eats a neun at home.",
+    "parts": [
+      "Er",
+      "isst",
+      "eine Neun",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Neun",
+        "en": "neun",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Er kauft ein Amt in Berlin.",
+    "english": "he buys a office in Berlin.",
+    "parts": [
+      "Er",
+      "kauft",
+      "ein Amt",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Amt",
+        "en": "office",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ihr kommt eine Prag zu Hause.",
+    "english": "you come a prague at home.",
+    "parts": [
+      "Ihr",
+      "kommt",
+      "eine Prag",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Prag",
+        "en": "prague",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ich kaufe eine Meinung bei der Arbeit.",
+    "english": "I buy a opinion at work.",
+    "parts": [
+      "Ich",
+      "kaufe",
+      "eine Meinung",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Meinung",
+        "en": "opinion",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Er isst ein Interview zu Hause.",
+    "english": "he eats a interview at home.",
+    "parts": [
+      "Er",
+      "isst",
+      "ein Interview",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Interview",
+        "en": "interview",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie ist eine Qualität im Park.",
+    "english": "she is a quality in the park.",
+    "parts": [
+      "Sie",
+      "ist",
+      "eine Qualität",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Qualität",
+        "en": "quality",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie haben einen Schriftsteller im Park.",
+    "english": "they have a authors in the park.",
+    "parts": [
+      "Sie",
+      "haben",
+      "einen Schriftsteller",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Schriftsteller",
+        "en": "authors",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ich bin ein Lexikon in Berlin.",
+    "english": "I am a lexicon in Berlin.",
+    "parts": [
+      "Ich",
+      "bin",
+      "ein Lexikon",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Lexikon",
+        "en": "lexicon",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Du kaufst ein Amt zu Hause.",
+    "english": "you buy a office at home.",
+    "parts": [
+      "Du",
+      "kaufst",
+      "ein Amt",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Amt",
+        "en": "office",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du isst einen Dank bei der Arbeit.",
+    "english": "you eat a thanks at work.",
+    "parts": [
+      "Du",
+      "isst",
+      "einen Dank",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Dank",
+        "en": "thanks",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Wir gehen eine Organisation zu Hause.",
+    "english": "we go a organization at home.",
+    "parts": [
+      "Wir",
+      "gehen",
+      "eine Organisation",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Organisation",
+        "en": "organization",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie haben einen Ausbau in Berlin.",
+    "english": "they have a extension in Berlin.",
+    "parts": [
+      "Sie",
+      "haben",
+      "einen Ausbau",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Ausbau",
+        "en": "extension",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Er geht ein Des zu Hause.",
+    "english": "he gos a des at home.",
+    "parts": [
+      "Er",
+      "geht",
+      "ein Des",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Des",
+        "en": "des",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie gehen eine Sammlung in Berlin.",
+    "english": "they go a compilation in Berlin.",
+    "parts": [
+      "Sie",
+      "gehen",
+      "eine Sammlung",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Sammlung",
+        "en": "compilation",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir kommen einen Musiker im Park.",
+    "english": "we come a musician in the park.",
+    "parts": [
+      "Wir",
+      "kommen",
+      "einen Musiker",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Musiker",
+        "en": "musician",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie sind eine Dritte in Berlin.",
+    "english": "they are a third in Berlin.",
+    "parts": [
+      "Sie",
+      "sind",
+      "eine Dritte",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Dritte",
+        "en": "third",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie essen ein Können bei der Arbeit.",
+    "english": "they eat a can at work.",
+    "parts": [
+      "Sie",
+      "essen",
+      "ein Können",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Können",
+        "en": "can",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ich lerne eine Erde bei der Arbeit.",
+    "english": "I learn a earth at work.",
+    "parts": [
+      "Ich",
+      "lerne",
+      "eine Erde",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Erde",
+        "en": "earth",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Er isst ein Selbst in Berlin.",
+    "english": "he eats a even in Berlin.",
+    "parts": [
+      "Er",
+      "isst",
+      "ein Selbst",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Selbst",
+        "en": "even",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Wir trinken eine Ortschaft im Park.",
+    "english": "we drink a town in the park.",
+    "parts": [
+      "Wir",
+      "trinken",
+      "eine Ortschaft",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Ortschaft",
+        "en": "town",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ihr kauft einen Einer im Park.",
+    "english": "you buy a an in the park.",
+    "parts": [
+      "Ihr",
+      "kauft",
+      "einen Einer",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Einer",
+        "en": "an",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie haben ein Gebiet bei der Arbeit.",
+    "english": "they have a turf at work.",
+    "parts": [
+      "Sie",
+      "haben",
+      "ein Gebiet",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gebiet",
+        "en": "turf",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Sie kommen eine Rein bei der Arbeit.",
+    "english": "they come a purely at work.",
+    "parts": [
+      "Sie",
+      "kommen",
+      "eine Rein",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Rein",
+        "en": "purely",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Wir kaufen eine Leistung in Berlin.",
+    "english": "we buy a performance in Berlin.",
+    "parts": [
+      "Wir",
+      "kaufen",
+      "eine Leistung",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Leistung",
+        "en": "performance",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie geht einen Staat in Berlin.",
+    "english": "she gos a state in Berlin.",
+    "parts": [
+      "Sie",
+      "geht",
+      "einen Staat",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Staat",
+        "en": "state",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ihr geht eine Mittel bei der Arbeit.",
+    "english": "you go a funds at work.",
+    "parts": [
+      "Ihr",
+      "geht",
+      "eine Mittel",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Mittel",
+        "en": "funds",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ich lerne einen Gründer zu Hause.",
+    "english": "I learn a founders at home.",
+    "parts": [
+      "Ich",
+      "lerne",
+      "einen Gründer",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Gründer",
+        "en": "founders",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Er isst einen November im Park.",
+    "english": "he eats a november in the park.",
+    "parts": [
+      "Er",
+      "isst",
+      "einen November",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "November",
+        "en": "november",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er hat eine Beste bei der Arbeit.",
+    "english": "he has a finest at work.",
+    "parts": [
+      "Er",
+      "hat",
+      "eine Beste",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Beste",
+        "en": "finest",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Du bist ein Soll in Berlin.",
+    "english": "you is a shall in Berlin.",
+    "parts": [
+      "Du",
+      "bist",
+      "ein Soll",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Soll",
+        "en": "shall",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ihr trinkt eine Moderne im Park.",
+    "english": "you drink a modernity in the park.",
+    "parts": [
+      "Ihr",
+      "trinkt",
+      "eine Moderne",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Moderne",
+        "en": "modernity",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie haben eine Herkunft zu Hause.",
+    "english": "they have a origin at home.",
+    "parts": [
+      "Sie",
+      "haben",
+      "eine Herkunft",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Herkunft",
+        "en": "origin",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ich gehe einen Professor zu Hause.",
+    "english": "I go a prof at home.",
+    "parts": [
+      "Ich",
+      "gehe",
+      "einen Professor",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Professor",
+        "en": "prof",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Ich gehe eine Region im Park.",
+    "english": "I go a region in the park.",
+    "parts": [
+      "Ich",
+      "gehe",
+      "eine Region",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "gehe",
+        "en": "go",
+        "infinitive": "gehen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Region",
+        "en": "region",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er ist einen Leser bei der Arbeit.",
+    "english": "he is a readership at work.",
+    "parts": [
+      "Er",
+      "ist",
+      "einen Leser",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Leser",
+        "en": "readership",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Wir essen eine Regie in Berlin.",
+    "english": "we eat a directed in Berlin.",
+    "parts": [
+      "Wir",
+      "essen",
+      "eine Regie",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Regie",
+        "en": "directed",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ich lese eine Schweiz im Park.",
+    "english": "I read a switzerland in the park.",
+    "parts": [
+      "Ich",
+      "lese",
+      "eine Schweiz",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "lese",
+        "en": "read",
+        "infinitive": "lesen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Schweiz",
+        "en": "switzerland",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie kommt einen Laut zu Hause.",
+    "english": "she comes a loudly at home.",
+    "parts": [
+      "Sie",
+      "kommt",
+      "einen Laut",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Laut",
+        "en": "loudly",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du hast eine Methode im Park.",
+    "english": "you have a methodology in the park.",
+    "parts": [
+      "Du",
+      "hast",
+      "eine Methode",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Methode",
+        "en": "methodology",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Ich trinke ein Oxford zu Hause.",
+    "english": "I drink a oxford at home.",
+    "parts": [
+      "Ich",
+      "trinke",
+      "ein Oxford",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Oxford",
+        "en": "oxford",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du isst einen Abschnitt zu Hause.",
+    "english": "you eat a section at home.",
+    "parts": [
+      "Du",
+      "isst",
+      "einen Abschnitt",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Abschnitt",
+        "en": "section",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie trinkt einen Post in Berlin.",
+    "english": "she drinks a mail in Berlin.",
+    "parts": [
+      "Sie",
+      "trinkt",
+      "einen Post",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Post",
+        "en": "mail",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ihr seid einen Großer bei der Arbeit.",
+    "english": "you are a large at work.",
+    "parts": [
+      "Ihr",
+      "seid",
+      "einen Großer",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Großer",
+        "en": "large",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Er ist ein Ort im Park.",
+    "english": "he is a venue in the park.",
+    "parts": [
+      "Er",
+      "ist",
+      "ein Ort",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Ort",
+        "en": "venue",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er hat einen Musiker in Berlin.",
+    "english": "he has a musician in Berlin.",
+    "parts": [
+      "Er",
+      "hat",
+      "einen Musiker",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Musiker",
+        "en": "musician",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Er isst einen Eintrag zu Hause.",
+    "english": "he eats a entry at home.",
+    "parts": [
+      "Er",
+      "isst",
+      "einen Eintrag",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Eintrag",
+        "en": "entry",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Sie essen eine Sache bei der Arbeit.",
+    "english": "they eat a thing at work.",
+    "parts": [
+      "Sie",
+      "essen",
+      "eine Sache",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "esse",
+        "en": "eat",
+        "infinitive": "essen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Sache",
+        "en": "thing",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Wir trinken eine Hälfte in Berlin.",
+    "english": "we drink a half in Berlin.",
+    "parts": [
+      "Wir",
+      "trinken",
+      "eine Hälfte",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Wir",
+        "en": "we",
+        "person": 1,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Hälfte",
+        "en": "half",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Sie kauft eine Seite im Park.",
+    "english": "she buys a side in the park.",
+    "parts": [
+      "Sie",
+      "kauft",
+      "eine Seite",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "kaufe",
+        "en": "buy",
+        "infinitive": "kaufen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Seite",
+        "en": "side",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie haben eine Landwirtschaft im Park.",
+    "english": "they have a farming in the park.",
+    "parts": [
+      "Sie",
+      "haben",
+      "eine Landwirtschaft",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "they",
+        "person": 3,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Landwirtschaft",
+        "en": "farming",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Sie trinkt einen Kampf zu Hause.",
+    "english": "she drinks a battle at home.",
+    "parts": [
+      "Sie",
+      "trinkt",
+      "einen Kampf",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Sie",
+        "en": "she",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "trinke",
+        "en": "drink",
+        "infinitive": "trinken",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Kampf",
+        "en": "battle",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  },
+  {
+    "german": "Du kommst eine Provinz im Park.",
+    "english": "you come a province in the park.",
+    "parts": [
+      "Du",
+      "kommst",
+      "eine Provinz",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Du",
+        "en": "you",
+        "person": 2,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "komme",
+        "en": "come",
+        "infinitive": "kommen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Provinz",
+        "en": "province",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er ist einen Pfarrer bei der Arbeit.",
+    "english": "he is a priest at work.",
+    "parts": [
+      "Er",
+      "ist",
+      "einen Pfarrer",
+      "bei der Arbeit"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "bin",
+        "en": "be",
+        "infinitive": "sein",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Pfarrer",
+        "en": "priest",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "bei der Arbeit",
+        "en": "at work"
+      }
+    }
+  },
+  {
+    "german": "Ihr lernt eine Erklärung in Berlin.",
+    "english": "you learn a explanation in Berlin.",
+    "parts": [
+      "Ihr",
+      "lernt",
+      "eine Erklärung",
+      "in Berlin"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ihr",
+        "en": "you",
+        "person": 2,
+        "number": "plural"
+      },
+      "verbBase": {
+        "de": "lerne",
+        "en": "learn",
+        "infinitive": "lernen",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Erklärung",
+        "en": "explanation",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "in Berlin",
+        "en": "in Berlin"
+      }
+    }
+  },
+  {
+    "german": "Ich habe ein Mehr im Park.",
+    "english": "I have a more in the park.",
+    "parts": [
+      "Ich",
+      "habe",
+      "ein Mehr",
+      "im Park"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Ich",
+        "en": "I",
+        "person": 1,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Mehr",
+        "en": "more",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "im Park",
+        "en": "in the park"
+      }
+    }
+  },
+  {
+    "german": "Er hat einen Artikel zu Hause.",
+    "english": "he has a article at home.",
+    "parts": [
+      "Er",
+      "hat",
+      "einen Artikel",
+      "zu Hause"
+    ],
+    "level": "A1",
+    "meta": {
+      "subject": {
+        "de": "Er",
+        "en": "he",
+        "person": 3,
+        "number": "singular"
+      },
+      "verbBase": {
+        "de": "habe",
+        "en": "have",
+        "infinitive": "haben",
+        "objectCategories": [
+          "noun"
+        ]
+      },
+      "object": {
+        "de": "Artikel",
+        "en": "article",
+        "category": "noun"
+      },
+      "adjective": null,
+      "adverb": null,
+      "location": {
+        "de": "zu Hause",
+        "en": "at home"
+      }
+    }
+  }
+]

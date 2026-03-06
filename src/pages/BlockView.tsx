@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { generateBlock, ExerciseItem, Level } from '../lib/generator';
+import { ExerciseItem } from '../lib/generator';
 import { api } from '../lib/api';
+import { awardXpWithHourlyCap } from '../lib/db';
 import { ExerciseRenderer } from '../components/ExerciseRenderer';
 
 export const BlockView: React.FC = () => {
@@ -18,19 +19,40 @@ export const BlockView: React.FC = () => {
   const [status, setStatus] = useState<'passed' | 'failed' | 'mastered' | null>(null);
 
   useEffect(() => {
-    // In a real app, fetch block definition from API/DB
-    // For now, generate random block based on ID or simple logic
-    // We assume blockId encodes some info or we just use random for demo
-    
-    // Fetch lesson to get level
-    // This part is mocked for now as we don't have the full DB populated yet
-    const level: Level = 'A1'; 
-    const concept = 'vocabulary'; // Default concept
+    async function init() {
+      if (!blockId || !lessonId) return;
+      try {
+        // Fetch block details
+        const block = await api.getBlock(blockId);
+        if (!block) {
+          console.error('Block not found');
+          // Fallback or error handling
+          setLoading(false);
+          return;
+        }
 
-    const generated = generateBlock(concept, level);
-    setExercises(generated);
-    setLoading(false);
-  }, [blockId]);
+        // Fetch lesson details (to get level)
+        // If api.getLesson is not available or fails, fallback to A1 or try to infer
+        let level = 'A1';
+        try {
+          const lesson = await api.getLesson(lessonId);
+          if (lesson) level = lesson.level;
+        } catch (e) {
+          console.warn('Failed to fetch lesson, using default level', e);
+        }
+
+        // Generate content
+        // Cast level to Level type if needed, or api.generateBlockContent handles it
+        const generated = await api.generateBlockContent(block, level);
+        setExercises(generated);
+      } catch (e) {
+        console.error('Failed to initialize block', e);
+      } finally {
+        setLoading(false);
+      }
+    }
+    init();
+  }, [blockId, lessonId]);
 
   const handleAnswer = (isCorrect: boolean) => {
     const newAnswers = [...answers, isCorrect];
@@ -55,28 +77,40 @@ export const BlockView: React.FC = () => {
     let earnedXp = 0;
     let newStatus: 'passed' | 'failed' | 'mastered' = 'failed';
 
-    if (percentage >= 100) {
-      earnedXp = 10;
-      newStatus = 'mastered';
-    } else if (percentage >= 80) {
-      earnedXp = 8;
+    if (percentage >= 90) {
+      earnedXp = 2;
       newStatus = 'mastered';
     } else if (percentage >= 60) {
-      earnedXp = 5;
+      earnedXp = 1;
       newStatus = 'passed';
     } else {
       earnedXp = 0;
       newStatus = 'failed';
     }
 
-    setXpEarned(earnedXp);
+    let awardedXp = earnedXp;
+    if (earnedXp > 0) {
+      const xpResult = await awardXpWithHourlyCap({
+        source: 'lesson_exercise',
+        basePoints: earnedXp,
+        capPerHour: 5,
+        metadata: {
+          lesson_id: lessonId,
+          block_id: blockId,
+          score: percentage
+        }
+      });
+      awardedXp = xpResult?.awardedPoints ?? 0;
+    }
+
+    setXpEarned(awardedXp);
     setStatus(newStatus);
     setCompleted(true);
 
     // Save progress
     if (blockId) {
         try {
-            await api.saveBlockProgress(blockId, percentage, newStatus !== 'failed', newStatus === 'mastered', earnedXp);
+            await api.saveBlockProgress(blockId, percentage, newStatus !== 'failed', newStatus === 'mastered', awardedXp);
         } catch (e) {
             console.error("Failed to save progress", e);
         }
@@ -84,6 +118,7 @@ export const BlockView: React.FC = () => {
   };
 
   if (loading) return <div className="p-8 text-center">Loading exercises...</div>;
+  if (exercises.length === 0) return <div className="p-8 text-center text-red-500">No exercises generated or block not found.</div>;
 
   if (completed) {
     return (

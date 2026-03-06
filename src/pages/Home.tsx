@@ -1,18 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, BookOpen, PenTool } from 'lucide-react';
-import { fetchUserProfile } from '../lib/db';
+import { fetchUserProfile, fetchSkillMetrics } from '../lib/db';
 import { useI18n } from '../hooks/useI18n';
 
 export default function Home() {
   const { t } = useI18n();
   const [officialLevel, setOfficialLevel] = React.useState<string | null>(null);
+  const [skills, setSkills] = React.useState<{skill_type: string, mastery_percentage: number}[]>([]);
 
   React.useEffect(() => {
     fetchUserProfile().then(profile => {
       setOfficialLevel(profile?.official_level ?? null);
     });
+    fetchSkillMetrics().then(data => {
+        setSkills(data);
+    });
   }, []);
+
+  const getSkillValue = (type: string) => {
+      const skill = skills.find(s => s.skill_type === type);
+      return skill ? `${Math.round(skill.mastery_percentage)}%` : t('home.no_data');
+  };
 
   return (
     <div className="space-y-8">
@@ -26,7 +35,7 @@ export default function Home() {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <Link 
-            to="/exercises" 
+            to="/course" 
             className="flex items-center justify-between p-4 bg-german-red/10 border border-german-red/20 rounded-lg hover:bg-german-red/20 transition-colors group"
           >
             <div className="flex items-center gap-3">
@@ -87,13 +96,13 @@ export default function Home() {
 
         <div className="bg-white dark:bg-card rounded-lg shadow-sm border border-border p-6">
           <h2 className="text-lg font-semibold mb-2">{t('home.grammar_mastery')}</h2>
-          <div className="text-lg text-muted-foreground">{t('home.no_data')}</div>
+          <div className="text-4xl font-bold text-primary">{getSkillValue('grammar')}</div>
           <p className="text-sm text-muted-foreground mt-1">{t('home.needs_practice')}</p>
         </div>
 
         <div className="bg-white dark:bg-card rounded-lg shadow-sm border border-border p-6">
           <h2 className="text-lg font-semibold mb-2">{t('home.vocab_size')}</h2>
-          <div className="text-lg text-muted-foreground">{t('home.no_data')}</div>
+          <div className="text-4xl font-bold text-primary">{getSkillValue('vocabulary')}</div>
           <p className="text-sm text-muted-foreground mt-1">{t('home.words_learned')}</p>
         </div>
       </section>

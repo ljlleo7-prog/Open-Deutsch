@@ -82,6 +82,20 @@ export async function saveExerciseProgress(progress: UserProgress) {
     console.error('Error saving progress:', error);
     return null;
   }
+  
+  // Update skill metrics
+  // Map exercise type to skill type
+  let skillType = 'vocabulary';
+  if (['grammar', 'tense', 'articles', 'conjugation', 'fill_blank'].some(t => progress.exercise_type.includes(t))) {
+    skillType = 'grammar';
+  } else if (['sentence', 'reconstruction', 'writing'].some(t => progress.exercise_type.includes(t))) {
+    skillType = 'sentence';
+  } else if (progress.exercise_type.includes('reading')) {
+    skillType = 'reading';
+  }
+  
+  await updateSkillMetrics(skillType, progress.score >= 60, progress.score >= 80);
+
   return data;
 }
 
@@ -155,6 +169,52 @@ export async function fetchSkillMetrics() {
   }
 
   return data || [];
+}
+
+export async function updateSkillMetrics(
+  skillType: string,
+  passed: boolean,
+  mastered: boolean
+) {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return;
+
+  // Fetch current metric
+  const { data: current } = await supabase
+    .from('opendeutsch_skill_metrics')
+    .select('*')
+    .eq('user_id', user.id)
+    .eq('skill_type', skillType)
+    .maybeSingle();
+
+  let mastery = current?.mastery_percentage ?? 0;
+  
+  // Logic: 
+  // If mastered, +5%
+  // If passed, +2%
+  // If failed, -1% (but not below 0)
+  // Max 100%
+  
+  if (mastered) {
+    mastery = Math.min(100, mastery + 5);
+  } else if (passed) {
+    mastery = Math.min(100, mastery + 2);
+  } else {
+    mastery = Math.max(0, mastery - 1);
+  }
+
+  const { error } = await supabase
+    .from('opendeutsch_skill_metrics')
+    .upsert({
+      user_id: user.id,
+      skill_type: skillType,
+      mastery_percentage: mastery,
+      last_updated: new Date().toISOString()
+    }, { onConflict: 'user_id, skill_type' });
+
+  if (error) {
+    console.error('Error updating skill metrics:', error);
+  }
 }
 
 export async function fetchLevelRules() {
@@ -352,6 +412,43 @@ async function updateXpPeriod(
         xp_earned: awardedPoints
       });
   }
+}
+
+export async function resetUserNamespaceData() {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return;
+
+  const userId = user.id;
+  const tables = [
+    'opendeutsch_user_progress',
+    'opendeutsch_user_block_progress',
+    'opendeutsch_xp_events',
+    'opendeutsch_xp_periods',
+    'opendeutsch_user_interests',
+    'opendeutsch_skill_metrics',
+    'opendeutsch_user_xp'
+  ];
+
+  for (const table of tables) {
+    const { error } = await supabase
+      .from(table)
+      .delete()
+      .eq('user_id', userId);
+    if (error) {
+      console.error(`Error clearing ${table}:`, error);
+    }
+  }
+
+  const { error: userError } = await supabase
+    .from('opendeutsch_users')
+    .update({
+      total_xp: 0,
+      official_level: 'A0',
+      updated_at: new Date().toISOString()
+    })
+    .eq('id', userId);
+
+  if (userError) console.error('Error resetting user profile:', userError);
 }
 
 export async function updateUserInterests(topics: string[]) {

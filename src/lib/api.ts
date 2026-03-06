@@ -1,6 +1,7 @@
 import { supabase } from './supabase';
 import { Level, Stage, Lesson, Block, UserBlockProgress, UserXP } from '../types';
-import { generateBlock } from './generator';
+import { generateBlock, ExerciseType } from './generator';
+import { updateSkillMetrics } from './db';
 
 export const api = {
   // Levels & Stages
@@ -33,15 +34,18 @@ export const api = {
     return data as Lesson[];
   },
 
+  async getLesson(lessonId: string) {
+    const { data, error } = await supabase
+      .from('opendeutsch_lessons')
+      .select('*')
+      .eq('id', lessonId)
+      .single();
+    if (error) throw error;
+    return data as Lesson;
+  },
+
   // Blocks
   async getBlocks(lessonId: string) {
-    // In a real app, blocks might be in the DB. 
-    // Here we might generate them on the fly if they don't exist, 
-    // or just fetch definitions and then generate content.
-    // For this implementation, we assume block DEFINITIONS are in DB (or implied)
-    // but we will generate the content client-side using the generator.
-    
-    // Check if we have block definitions in DB
     const { data, error } = await supabase
       .from('opendeutsch_blocks')
       .select('*')
@@ -50,6 +54,17 @@ export const api = {
       
     if (error) throw error;
     return data as Block[];
+  },
+
+  async getBlock(blockId: string) {
+    const { data, error } = await supabase
+      .from('opendeutsch_blocks')
+      .select('*')
+      .eq('id', blockId)
+      .single();
+    
+    if (error) return null; // Or throw error
+    return data as Block;
   },
 
   // Progress
@@ -112,17 +127,38 @@ export const api = {
 
     if (error) throw error;
     
-    // Update Total XP Categories (Simplified logic here, ideally backend trigger)
-    // We would need to know the block type to assign to category.
-    // For now, let's assume the client handles category updates or we do it separately.
+    // Update Total XP Categories and Skill Metrics
+    // Fetch block to know the type
+    const { data: block } = await supabase
+      .from('opendeutsch_blocks')
+      .select('type, concept')
+      .eq('id', blockId)
+      .single();
+
+    if (block) {
+      let skillType = 'vocabulary';
+      // Map block type to skill type
+      const type = block.type || '';
+      const concept = block.concept || '';
+      
+      if (['grammar', 'tense', 'articles', 'conjugation', 'fill_blank'].some(t => type.includes(t) || concept.includes(t))) {
+        skillType = 'grammar';
+      } else if (['sentence', 'reconstruction', 'writing'].some(t => type.includes(t) || concept.includes(t))) {
+        skillType = 'sentence';
+      } else if (type.includes('reading') || concept.includes('reading')) {
+        skillType = 'reading';
+      }
+
+      await updateSkillMetrics(skillType, passed, mastered);
+    }
   },
   
   // Content Generation Wrapper
-  generateBlockContent(block: Block, level: Level['id']) {
+  async generateBlockContent(block: Block, level: Level['id']) {
       const validLevels = ['A0', 'A1', 'A2', 'B1'] as const;
       const normalizedLevel = validLevels.includes(level as (typeof validLevels)[number])
         ? (level as (typeof validLevels)[number])
         : 'A1';
-      return generateBlock(block.concept, normalizedLevel);
+      return generateBlock(block.concept, normalizedLevel, block.type as ExerciseType);
   }
 };

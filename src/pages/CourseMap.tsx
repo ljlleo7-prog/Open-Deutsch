@@ -11,6 +11,21 @@ export const CourseMap: React.FC = () => {
   const [userXP, setUserXP] = useState<UserXP[]>([]);
   const [loading, setLoading] = useState(true);
 
+  const buildFallbackLessons = (stage: Stage, levelId: string): Lesson[] => {
+    const types: Lesson['type'][] = ['grammar', 'vocabulary', 'sentence'];
+    return Array.from({ length: 3 }, (_, index) => ({
+      id: `${stage.id}-lesson-${index + 1}`,
+      title: `${stage.title} ${index + 1}`,
+      level: levelId,
+      stage_id: stage.id,
+      type: types[index % types.length],
+      description: stage.description,
+      order_index: index + 1,
+      concept: `${stage.title.toLowerCase().replace(/\s+/g, '_')}_${index + 1}`,
+      required_xp: 0
+    }));
+  };
+
   useEffect(() => {
     async function fetchData() {
       try {
@@ -42,7 +57,7 @@ export const CourseMap: React.FC = () => {
         const lessonsMap: Record<string, Lesson[]> = {};
         for (const stage of stagesData) {
           const lessonsData = await api.getLessons(stage.id);
-          lessonsMap[stage.id] = lessonsData;
+          lessonsMap[stage.id] = lessonsData.length > 0 ? lessonsData : buildFallbackLessons(stage, selectedLevel);
         }
         setLessons(lessonsMap);
       } catch (e) {
