@@ -71,6 +71,7 @@ export default function PlacementTest() {
   const [exercises, setExercises] = React.useState<ExerciseItem[]>([]);
   const [currentIndex, setCurrentIndex] = React.useState(0);
   const [selectedOption, setSelectedOption] = React.useState<string | null>(null);
+  const [textInput, setTextInput] = React.useState('');
   const [feedback, setFeedback] = React.useState<'correct' | 'incorrect' | null>(null);
   const [showQuitConfirm, setShowQuitConfirm] = React.useState(false);
   const [result, setResult] = React.useState<PlacementResult | null>(null);
@@ -86,6 +87,7 @@ export default function PlacementTest() {
     setExercises(generated);
     setCurrentIndex(0);
     setSelectedOption(null);
+    setTextInput('');
     setFeedback(null);
     correctCountRef.current = 0;
     answeredCountRef.current = 0;
@@ -125,6 +127,11 @@ export default function PlacementTest() {
   }, [exercises, result]);
 
   const currentExercise = exercises[currentIndex];
+  const hasOptions = Boolean(currentExercise?.options && currentExercise.options.length > 0);
+  const canCheck = feedback === null && (hasOptions ? selectedOption !== null : textInput.trim().length > 0);
+
+  const normalizeAnswer = (value: string) =>
+    value.replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '').replace(/\s{2,}/g, ' ').trim().toLowerCase();
 
   const promptLabel = currentExercise?.type === 'multiple_choice'
     ? t('exercises.choose_translation')
@@ -136,11 +143,11 @@ export default function PlacementTest() {
           ? t('exercises.tense_prompt')
           : t('exercises.choose_translation');
 
-  const canCheck = selectedOption !== null && feedback === null;
-
   const checkAnswer = async () => {
     if (!currentExercise || feedback) return;
-    const isCorrect = selectedOption === currentExercise.answer;
+    const isCorrect = hasOptions
+      ? selectedOption === currentExercise.answer
+      : normalizeAnswer(textInput) === normalizeAnswer(currentExercise.answer);
     const nextAnswered = answeredCountRef.current + 1;
     const nextCorrect = correctCountRef.current + (isCorrect ? 1 : 0);
     answeredCountRef.current = nextAnswered;
@@ -155,6 +162,7 @@ export default function PlacementTest() {
       const nextIndex = currentIndex + 1;
       setCurrentIndex(nextIndex);
       setSelectedOption(null);
+      setTextInput('');
       setFeedback(null);
     } else {
       finalize();
@@ -341,25 +349,38 @@ export default function PlacementTest() {
           </div>
         )}
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          {(currentExercise.options || []).map(option => (
-            <button
-              key={option}
-              onClick={() => setSelectedOption(option)}
+        {hasOptions ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {(currentExercise.options || []).map(option => (
+              <button
+                key={option}
+                onClick={() => setSelectedOption(option)}
+                disabled={feedback !== null}
+                className={clsx(
+                  "px-4 py-3 rounded-lg border text-left transition-colors",
+                  selectedOption === option
+                    ? "border-primary bg-primary/10 text-primary"
+                    : "border-border hover:border-primary/40 hover:bg-primary/5 text-gray-800 dark:text-gray-200",
+                  feedback !== null && option === currentExercise.answer && "border-green-500 bg-green-50 text-green-700",
+                  feedback === 'incorrect' && option === selectedOption && option !== currentExercise.answer && "border-red-500 bg-red-50 text-red-700"
+                )}
+              >
+                {option}
+              </button>
+            ))}
+          </div>
+        ) : (
+          <div className="space-y-2">
+            <input
+              type="text"
+              value={textInput}
+              onChange={(event) => setTextInput(event.target.value)}
               disabled={feedback !== null}
-              className={clsx(
-                "px-4 py-3 rounded-lg border text-left transition-colors",
-                selectedOption === option
-                  ? "border-primary bg-primary/10 text-primary"
-                  : "border-border hover:border-primary/40 hover:bg-primary/5 text-gray-800 dark:text-gray-200",
-                feedback !== null && option === currentExercise.answer && "border-green-500 bg-green-50 text-green-700",
-                feedback === 'incorrect' && option === selectedOption && option !== currentExercise.answer && "border-red-500 bg-red-50 text-red-700"
-              )}
-            >
-              {option}
-            </button>
-          ))}
-        </div>
+              className="w-full px-4 py-3 rounded-lg border border-border text-gray-900 dark:text-white bg-white dark:bg-muted focus:ring-2 focus:ring-primary/50 focus:border-primary/60"
+              placeholder={t('exercises.writing_placeholder')}
+            />
+          </div>
+        )}
 
         {feedback && (
           <div className={clsx(

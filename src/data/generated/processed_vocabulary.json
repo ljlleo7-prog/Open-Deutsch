@@ -1,0 +1,1884 @@
+[
+  {
+    "root": "Aber",
+    "level": "A2",
+    "forms": [
+      "Aber"
+    ],
+    "meaning": "however",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Abgeordneter",
+    "level": "B2",
+    "forms": [
+      "Abgeordneter"
+    ],
+    "meaning": "member of parliament",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Abgeordneten",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Abitur",
+    "level": "B1",
+    "forms": [
+      "Abitur"
+    ],
+    "meaning": "A-levels",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Abiture",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Abo",
+    "level": "A1",
+    "forms": [
+      "Abo"
+    ],
+    "meaning": "subscription",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Abos",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "ABS",
+    "level": "A1",
+    "forms": [
+      "ABS"
+    ],
+    "meaning": "Anti-lock Braking System",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Abschluss",
+    "level": "B1",
+    "forms": [
+      "Abschluss"
+    ],
+    "meaning": "conclusion",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Abschlüsse",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Abschnitt",
+    "level": "B1",
+    "forms": [
+      "Abschnitt"
+    ],
+    "meaning": "section",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Abschnitte",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Abteilung",
+    "level": "B2",
+    "forms": [
+      "Abteilung"
+    ],
+    "meaning": "department",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Abteilungen",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Acht",
+    "level": "A1",
+    "forms": [
+      "Acht"
+    ],
+    "meaning": "eight",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Acht",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Adam",
+    "level": "A1",
+    "forms": [
+      "Adam"
+    ],
+    "meaning": "Adam",
+    "type": "Proper Noun",
+    "details": {
+      "gender": "m",
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Admin",
+    "level": "A2",
+    "forms": [
+      "Admin"
+    ],
+    "meaning": "administrator",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "admins",
+    "level": "A2",
+    "forms": [
+      "admins"
+    ],
+    "meaning": "administrators",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Adolf",
+    "level": "A1",
+    "forms": [
+      "Adolf"
+    ],
+    "meaning": "Adolf",
+    "type": "Proper Noun",
+    "details": {
+      "gender": "m",
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Air",
+    "level": "A1",
+    "forms": [
+      "Air"
+    ],
+    "meaning": "air",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Akademie",
+    "level": "B2",
+    "forms": [
+      "Akademie"
+    ],
+    "meaning": "academy",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Akademien",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Aktiv",
+    "level": "A2",
+    "forms": [
+      "Aktiv"
+    ],
+    "meaning": "active",
+    "type": "Adjective",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "aktuell",
+    "level": "A2",
+    "forms": [
+      "aktuell"
+    ],
+    "meaning": "current",
+    "type": "Adjective",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Alben",
+    "level": "A1",
+    "forms": [
+      "Alben"
+    ],
+    "meaning": "albums",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Alben",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Albert",
+    "level": "A1",
+    "forms": [
+      "Albert"
+    ],
+    "meaning": "Albert",
+    "type": "Proper Noun",
+    "details": {
+      "gender": "m",
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Albrecht",
+    "level": "A1",
+    "forms": [
+      "Albrecht"
+    ],
+    "meaning": "Albrecht",
+    "type": "Proper Noun",
+    "details": {
+      "gender": "m",
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Album",
+    "level": "A1",
+    "forms": [
+      "Album"
+    ],
+    "meaning": "album",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Alben",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Alexander",
+    "level": "A1",
+    "forms": [
+      "Alexander"
+    ],
+    "meaning": "Alexander",
+    "type": "Proper Noun",
+    "details": {
+      "gender": "m",
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Alfred",
+    "level": "A1",
+    "forms": [
+      "Alfred"
+    ],
+    "meaning": "Alfred",
+    "type": "Proper Noun",
+    "details": {
+      "gender": "m",
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "All",
+    "level": "A1",
+    "forms": [
+      "All"
+    ],
+    "meaning": "all",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "alle",
+    "level": "A1",
+    "forms": [
+      "alle"
+    ],
+    "meaning": "all",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Allen",
+    "level": "A1",
+    "forms": [
+      "Allen"
+    ],
+    "meaning": "all",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Aller",
+    "level": "A1",
+    "forms": [
+      "Aller"
+    ],
+    "meaning": "all",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "allerdings",
+    "level": "A2",
+    "forms": [
+      "allerdings"
+    ],
+    "meaning": "although",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "alles",
+    "level": "A1",
+    "forms": [
+      "alles"
+    ],
+    "meaning": "everything",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "allgemein",
+    "level": "B2",
+    "forms": [
+      "allgemein"
+    ],
+    "meaning": "general",
+    "type": "Adjective",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "also",
+    "level": "A1",
+    "forms": [
+      "also"
+    ],
+    "meaning": "also",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "auf",
+    "level": "A1",
+    "forms": [
+      "auf",
+      "Aufbau",
+      "Aufgabe",
+      "aufgaben",
+      "aufgeführt",
+      "aufgelöst",
+      "aufgenommen",
+      "aufgestellt"
+    ],
+    "meaning": "on, upon, at",
+    "type": "Preposition",
+    "details": {
+      "gender": null,
+      "plural": "auf",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Auf",
+    "level": "B1",
+    "forms": [
+      "Aufbau",
+      "Aufgabe",
+      "Aufgaben",
+      "Aufstieg"
+    ],
+    "meaning": "construction, building, rise",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Aufbauten",
+      "present_3rd": "baut",
+      "past_3rd": "baute",
+      "perfect": "hat gebaut"
+    }
+  },
+  {
+    "root": "Auflage",
+    "level": "B2",
+    "forms": [
+      "Auflage"
+    ],
+    "meaning": "edition, issue",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Auflagen",
+      "present_3rd": "legt",
+      "past_3rd": "legte",
+      "perfect": "hat gelegt"
+    }
+  },
+  {
+    "root": "Aufnahme",
+    "level": "B1",
+    "forms": [
+      "Aufnahme",
+      "Aufnahmen"
+    ],
+    "meaning": "admission, taking in",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Aufnahmen",
+      "present_3rd": "nimmt",
+      "past_3rd": "nahm",
+      "perfect": "hat genommen"
+    }
+  },
+  {
+    "root": "Aussage",
+    "level": "B1",
+    "forms": [
+      "Aussage",
+      "Aussagen"
+    ],
+    "meaning": "statement, saying",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Aussagen",
+      "present_3rd": "sagt",
+      "past_3rd": "sagte",
+      "perfect": "hat gesagt"
+    }
+  },
+  {
+    "root": "Award",
+    "level": "C1",
+    "forms": [
+      "Award"
+    ],
+    "meaning": "award",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Awards",
+      "present_3rd": "awards",
+      "past_3rd": "awarded",
+      "perfect": "has awarded"
+    }
+  },
+  {
+    "root": "Band",
+    "level": "A2",
+    "forms": [
+      "Band"
+    ],
+    "meaning": "band",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Bände",
+      "present_3rd": "bindet",
+      "past_3rd": "bande",
+      "perfect": "hat gebunden"
+    }
+  },
+  {
+    "root": "Bank",
+    "level": "A2",
+    "forms": [
+      "Bank"
+    ],
+    "meaning": "bank",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Bänke",
+      "present_3rd": "bankt",
+      "past_3rd": "bankte",
+      "perfect": "hat gebankt"
+    }
+  },
+  {
+    "root": "Bar",
+    "level": "A2",
+    "forms": [
+      "Bar"
+    ],
+    "meaning": "bar",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Bär",
+      "present_3rd": "bart",
+      "past_3rd": "bar",
+      "perfect": "hat gebart"
+    }
+  },
+  {
+    "root": "Barbara",
+    "level": "A2",
+    "forms": [
+      "Barbara"
+    ],
+    "meaning": "Barbara",
+    "type": "Proper Noun",
+    "details": {
+      "gender": "f",
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Basel",
+    "level": "A2",
+    "forms": [
+      "Basel"
+    ],
+    "meaning": "Basel",
+    "type": "Proper Noun",
+    "details": {
+      "gender": "n",
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Basis",
+    "level": "A2",
+    "forms": [
+      "Basis"
+    ],
+    "meaning": "basis",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Basen",
+      "present_3rd": "setzt",
+      "past_3rd": "setzte",
+      "perfect": "hat gesetzt"
+    }
+  },
+  {
+    "root": "Bau",
+    "level": "A2",
+    "forms": [
+      "Bau"
+    ],
+    "meaning": "construction",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Bauten",
+      "present_3rd": "baut",
+      "past_3rd": "baute",
+      "perfect": "hat gebaut"
+    }
+  },
+  {
+    "root": "Bayerischen",
+    "level": "A2",
+    "forms": [
+      "Bayerischen"
+    ],
+    "meaning": "Bavarian",
+    "type": "Adjective",
+    "details": {
+      "plural": "bayerischen",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Bayern",
+    "level": "A2",
+    "forms": [
+      "Bayern"
+    ],
+    "meaning": "Bavaria",
+    "type": "Proper Noun",
+    "details": {
+      "gender": "n",
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "bedeutet",
+    "level": "A2",
+    "forms": [
+      "bedeutet"
+    ],
+    "meaning": "means",
+    "type": "Verb",
+    "details": {
+      "present_3rd": "bedeutet",
+      "past_3rd": "bedeutete",
+      "perfect": "hat bedeutet"
+    }
+  },
+  {
+    "root": "Bedeutung",
+    "level": "A2",
+    "forms": [
+      "Bedeutung"
+    ],
+    "meaning": "meaning",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Bedeutungen",
+      "present_3rd": "setzt",
+      "past_3rd": "setzte",
+      "perfect": "hat gesetzt"
+    }
+  },
+  {
+    "root": "beendete",
+    "level": "A2",
+    "forms": [
+      "beendete"
+    ],
+    "meaning": "ended",
+    "type": "Verb",
+    "details": {
+      "present_3rd": null,
+      "past_3rd": "beendete",
+      "perfect": "hat beendet"
+    }
+  },
+  {
+    "root": "begann",
+    "level": "A2",
+    "forms": [
+      "begann"
+    ],
+    "meaning": "began",
+    "type": "Verb",
+    "details": {
+      "present_3rd": null,
+      "past_3rd": "begann",
+      "perfect": "hat begonnen"
+    }
+  },
+  {
+    "root": "Beginn",
+    "level": "A2",
+    "forms": [
+      "Beginn"
+    ],
+    "meaning": "beginning",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Beginne",
+      "present_3rd": "beginnt",
+      "past_3rd": "begann",
+      "perfect": "hat begonnen"
+    }
+  },
+  {
+    "root": "beginnt",
+    "level": "A2",
+    "forms": [
+      "beginnt"
+    ],
+    "meaning": "begins",
+    "type": "Verb",
+    "details": {
+      "present_3rd": "beginnt",
+      "past_3rd": "begann",
+      "perfect": "hat begonnen"
+    }
+  },
+  {
+    "root": "begonnen",
+    "level": "A2",
+    "forms": [
+      "begonnen"
+    ],
+    "meaning": "begun",
+    "type": "Verb",
+    "details": {
+      "present_3rd": null,
+      "past_3rd": "begonnen",
+      "perfect": "hat begonnen"
+    }
+  },
+  {
+    "root": "Begriff",
+    "level": "A2",
+    "forms": [
+      "Begriff"
+    ],
+    "meaning": "concept",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Begriffe",
+      "present_3rd": "begründet",
+      "past_3rd": "begründete",
+      "perfect": "hat begründet"
+    }
+  },
+  {
+    "root": "Begründung",
+    "level": "A2",
+    "forms": [
+      "Begründung"
+    ],
+    "meaning": "justification",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Begründungen",
+      "present_3rd": "setzt",
+      "past_3rd": "setzte",
+      "perfect": "hat gesetzt"
+    }
+  },
+  {
+    "root": "behalten",
+    "level": "A2",
+    "forms": [
+      "behalten"
+    ],
+    "meaning": "to keep",
+    "type": "Verb",
+    "details": {
+      "present_3rd": "hält",
+      "past_3rd": "hielt",
+      "perfect": "hat gehalten"
+    }
+  },
+  {
+    "root": "behandelt",
+    "level": "A2",
+    "forms": [
+      "behandelt"
+    ],
+    "meaning": "treated",
+    "type": "Verb",
+    "details": {
+      "present_3rd": null,
+      "past_3rd": "behandelt",
+      "perfect": "hat behandelt"
+    }
+  },
+  {
+    "root": "Bei",
+    "level": "A1",
+    "forms": [
+      "Bei"
+    ],
+    "meaning": "at",
+    "type": "Preposition",
+    "details": {
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "beide",
+    "level": "A1",
+    "forms": [
+      "beide"
+    ],
+    "meaning": "both",
+    "type": "Adverb",
+    "details": {
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "beiden",
+    "level": "A1",
+    "forms": [
+      "beiden"
+    ],
+    "meaning": "both",
+    "type": "Adverb",
+    "details": {
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Beispiel",
+    "level": "A2",
+    "forms": [
+      "Beispiel"
+    ],
+    "meaning": "example",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Beispiele",
+      "present_3rd": "setzt",
+      "past_3rd": "setzte",
+      "perfect": "hat gesetzt"
+    }
+  },
+  {
+    "root": "beispiele",
+    "level": "A2",
+    "forms": [
+      "beispiele"
+    ],
+    "meaning": "examples",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Beispiele",
+      "present_3rd": "setzt",
+      "past_3rd": "setzte",
+      "perfect": "hat gesetzt"
+    }
+  },
+  {
+    "root": "Beitrag",
+    "level": "A2",
+    "forms": [
+      "Beitrag"
+    ],
+    "meaning": "contribution",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Beiträge",
+      "present_3rd": "trägt",
+      "past_3rd": "trug",
+      "perfect": "hat getragen"
+    }
+  },
+  {
+    "root": "beiträge",
+    "level": "A2",
+    "forms": [
+      "beiträge"
+    ],
+    "meaning": "contributions",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Beiträge",
+      "present_3rd": "trägt",
+      "past_3rd": "trug",
+      "perfect": "hat getragen"
+    }
+  },
+  {
+    "root": "bekam",
+    "level": "A2",
+    "forms": [
+      "bekam"
+    ],
+    "meaning": "got",
+    "type": "Verb",
+    "details": {
+      "present_3rd": null,
+      "past_3rd": "bekam",
+      "perfect": "hat bekommen"
+    }
+  },
+  {
+    "root": "bekannt",
+    "level": "A2",
+    "forms": [
+      "bekannt"
+    ],
+    "meaning": "known",
+    "type": "Adjective",
+    "details": {
+      "plural": "bekannt",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Bekannte",
+    "level": "A2",
+    "forms": [
+      "Bekannte"
+    ],
+    "meaning": "known people",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Bekannten",
+      "present_3rd": "setzt",
+      "past_3rd": "setzte",
+      "perfect": "hat gesetzt"
+    }
+  },
+  {
+    "root": "bekommen",
+    "level": "A2",
+    "forms": [
+      "bekommen"
+    ],
+    "meaning": "to get",
+    "type": "Verb",
+    "details": {
+      "present_3rd": "kriegt",
+      "past_3rd": "bekam",
+      "perfect": "hat bekommen"
+    }
+  },
+  {
+    "root": "belegt",
+    "level": "A2",
+    "forms": [
+      "belegt"
+    ],
+    "meaning": "proven",
+    "type": "Verb",
+    "details": {
+      "present_3rd": null,
+      "past_3rd": "belegt",
+      "perfect": "hat belegt"
+    }
+  },
+  {
+    "root": "Belgien",
+    "level": "A2",
+    "forms": [
+      "Belgien"
+    ],
+    "meaning": "Belgium",
+    "type": "Proper Noun",
+    "details": {
+      "gender": "n",
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "benannt",
+    "level": "A2",
+    "forms": [
+      "benannt"
+    ],
+    "meaning": "named",
+    "type": "Verb",
+    "details": {
+      "present_3rd": null,
+      "past_3rd": "benannt",
+      "perfect": "hat benannt"
+    }
+  },
+  {
+    "root": "Benutzer",
+    "level": "A2",
+    "forms": [
+      "Benutzer"
+    ],
+    "meaning": "user",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Benutzer",
+      "present_3rd": "setzt",
+      "past_3rd": "setzte",
+      "perfect": "hat gesetzt"
+    }
+  },
+  {
+    "root": "benutzt",
+    "level": "A2",
+    "forms": [
+      "benutzt"
+    ],
+    "meaning": "uses",
+    "type": "Verb",
+    "details": {
+      "present_3rd": "benutzt",
+      "past_3rd": "benutzte",
+      "perfect": "hat benutzt"
+    }
+  },
+  {
+    "root": "Bereich",
+    "level": "A2",
+    "forms": [
+      "Bereich"
+    ],
+    "meaning": "area",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Bereiche",
+      "present_3rd": "setzt",
+      "past_3rd": "setzte",
+      "perfect": "hat gesetzt"
+    }
+  },
+  {
+    "root": "bereits",
+    "level": "A1",
+    "forms": [
+      "bereits"
+    ],
+    "meaning": "already",
+    "type": "Adverb",
+    "details": {
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Berg",
+    "level": "A2",
+    "forms": [
+      "Berg"
+    ],
+    "meaning": "mountain",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Berge",
+      "present_3rd": "steigt",
+      "past_3rd": "stieg",
+      "perfect": "hat gestiegen"
+    }
+  },
+  {
+    "root": "Bericht",
+    "level": "A2",
+    "forms": [
+      "Bericht"
+    ],
+    "meaning": "report",
+    "type": "Noun",
+    "details": {
+      "gender": "m",
+      "plural": "Berichte",
+      "present_3rd": "setzt",
+      "past_3rd": "setzte",
+      "perfect": "hat gesetzt"
+    }
+  },
+  {
+    "root": "berichtet",
+    "level": "A2",
+    "forms": [
+      "berichtet"
+    ],
+    "meaning": "reported",
+    "type": "Verb",
+    "details": {
+      "present_3rd": null,
+      "past_3rd": "berichtet",
+      "perfect": "hat berichtet"
+    }
+  },
+  {
+    "root": "beschreiben",
+    "level": "B1",
+    "forms": [
+      "beschrieben",
+      "beschreibt",
+      "beschrieben"
+    ],
+    "meaning": "to describe",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": "beschreiben",
+      "present_3rd": "beschreibt",
+      "past_3rd": "beschrieb",
+      "perfect": "hat beschrieben"
+    }
+  },
+  {
+    "root": "beschäftigt",
+    "level": "B2",
+    "forms": [
+      "beschäftigt",
+      "beschäftigt"
+    ],
+    "meaning": "is busy with",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": "beschäftigt",
+      "present_3rd": "beschäftigt",
+      "past_3rd": "beschäftigte",
+      "perfect": "hat beschäftigt"
+    }
+  },
+  {
+    "root": "besitzen",
+    "level": "B1",
+    "forms": [
+      "besitzt",
+      "besitzte",
+      "besitzen"
+    ],
+    "meaning": "to possess",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": "besitzen",
+      "present_3rd": "besitzt",
+      "past_3rd": "besitzte",
+      "perfect": "hat besessen"
+    }
+  },
+  {
+    "root": "besondere",
+    "level": "B2",
+    "forms": [
+      "besondere",
+      "besonders"
+    ],
+    "meaning": "special",
+    "type": "Adjective",
+    "details": {
+      "gender": "n",
+      "plural": "besondere",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "besser",
+    "level": "A2",
+    "forms": [
+      "besser",
+      "best"
+    ],
+    "meaning": "better",
+    "type": "Adverb",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Bestand",
+    "level": "B1",
+    "forms": [
+      "Bestand",
+      "Bestände"
+    ],
+    "meaning": "stock",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Bestände",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Bewegung",
+    "level": "B2",
+    "forms": [
+      "Bewegung",
+      "Bewegungen"
+    ],
+    "meaning": "movement",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Bewegungen",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Bezeichnung",
+    "level": "B2",
+    "forms": [
+      "Bezeichnung",
+      "Bezeichnungen"
+    ],
+    "meaning": "designation",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Bezeichnungen",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "des",
+    "level": "A1",
+    "forms": [
+      "deshalb",
+      "dessen",
+      "dieser",
+      "diese"
+    ],
+    "meaning": "therefore",
+    "type": "Other",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Deut",
+    "level": "B1",
+    "forms": [
+      "Deutsch",
+      "Deutsche",
+      "deutsches",
+      "Deutscher"
+    ],
+    "meaning": "German",
+    "type": "Adjective",
+    "details": {
+      "gender": "m",
+      "plural": "Deutsche",
+      "present_3rd": "ist",
+      "past_3rd": "war",
+      "perfect": "hat"
+    }
+  },
+  {
+    "root": "Design",
+    "level": "B2",
+    "forms": [
+      "Design"
+    ],
+    "meaning": "design",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Designs",
+      "present_3rd": "entwirft",
+      "past_3rd": "entwarf",
+      "perfect": "hat entworfen"
+    }
+  },
+  {
+    "root": "Dieter",
+    "level": "A2",
+    "forms": [
+      "Dieter"
+    ],
+    "meaning": "Dieter",
+    "type": "Proper Noun",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Dorf",
+    "level": "A1",
+    "forms": [
+      "Dorf"
+    ],
+    "meaning": "village",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Dörfer",
+      "present_3rd": "baut",
+      "past_3rd": "baute",
+      "perfect": "hat gebaut"
+    }
+  },
+  {
+    "root": "Drei",
+    "level": "A1",
+    "forms": [
+      "Drei"
+    ],
+    "meaning": "three",
+    "type": "Number",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "dich",
+    "level": "A1",
+    "forms": [
+      "dich"
+    ],
+    "meaning": "you (acc.)",
+    "type": "Pronoun",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "eben",
+    "level": "A1",
+    "forms": [
+      "ebenso",
+      "egal"
+    ],
+    "meaning": "same",
+    "type": "Adverb",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "edit",
+    "level": "B2",
+    "forms": [
+      "edit",
+      "Edition"
+    ],
+    "meaning": "edit",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Editionen",
+      "present_3rd": "editiert",
+      "past_3rd": "editierte",
+      "perfect": "hat editiert"
+    }
+  },
+  {
+    "root": "Edu",
+    "level": "A2",
+    "forms": [
+      "Eduard",
+      "edward"
+    ],
+    "meaning": "Edward",
+    "type": "Proper Noun",
+    "details": {
+      "gender": "m",
+      "plural": null,
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Ehe",
+    "level": "A1",
+    "forms": [
+      "Ehe",
+      "Ehefrau"
+    ],
+    "meaning": "marriage",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Ehen",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "ehemalig",
+    "level": "B1",
+    "forms": [
+      "ehemalige",
+      "ehemaligen",
+      "ehemaliger"
+    ],
+    "meaning": "former",
+    "type": "Adjective",
+    "details": {
+      "gender": null,
+      "plural": "ehemaligen",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "eigene",
+    "level": "A2",
+    "forms": [
+      "eigene",
+      "eigenen",
+      "eigener"
+    ],
+    "meaning": "own",
+    "type": "Adjective",
+    "details": {
+      "gender": null,
+      "plural": "eigenen",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "Ein",
+    "level": "A1",
+    "forms": [
+      "ein",
+      "Einer",
+      "Einfluss",
+      "Einführung",
+      "Einwohner"
+    ],
+    "meaning": "one",
+    "type": "Adjective",
+    "details": {
+      "gender": "m",
+      "plural": "Einwohner",
+      "present_3rd": "hat",
+      "past_3rd": "hatte",
+      "perfect": "hat"
+    }
+  },
+  {
+    "root": "Eins",
+    "level": "A1",
+    "forms": [
+      "Eins",
+      "Einsatz"
+    ],
+    "meaning": "one",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Einsätze",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "element",
+    "level": "B1",
+    "forms": [
+      "elemente"
+    ],
+    "meaning": "basic component or part",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "elemente",
+      "present_3rd": "elementiert",
+      "past_3rd": "elementierte",
+      "perfect": "hat elementiert"
+    }
+  },
+  {
+    "root": "Elf",
+    "level": "A2",
+    "forms": [
+      "Elf"
+    ],
+    "meaning": "supernatural being",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Elfen",
+      "present_3rd": "elft",
+      "past_3rd": "elfte",
+      "perfect": "hat elft"
+    }
+  },
+  {
+    "root": "Eltern",
+    "level": "A2",
+    "forms": [
+      "Eltern"
+    ],
+    "meaning": "parents",
+    "type": "Noun",
+    "details": {
+      "gender": "n",
+      "plural": "Eltern",
+      "present_3rd": "erzieht",
+      "past_3rd": "erzog",
+      "perfect": "hat erzogen"
+    }
+  },
+  {
+    "root": "Energie",
+    "level": "B2",
+    "forms": [
+      "Energie"
+    ],
+    "meaning": "energy",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Energien",
+      "present_3rd": "energisiert",
+      "past_3rd": "energisierte",
+      "perfect": "hat energisiert"
+    }
+  },
+  {
+    "root": "Englisch",
+    "level": "B1",
+    "forms": [
+      "Englisch",
+      "englische"
+    ],
+    "meaning": "English language",
+    "type": "Adjective",
+    "details": {
+      "gender": null,
+      "plural": "englische",
+      "present_3rd": null,
+      "past_3rd": null,
+      "perfect": null
+    }
+  },
+  {
+    "root": "entdeckt",
+    "level": "B2",
+    "forms": [
+      "entdeckt"
+    ],
+    "meaning": "discovered",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": "entdeckt",
+      "past_3rd": "entdeckte",
+      "perfect": "hat entdeckt"
+    }
+  },
+  {
+    "root": "entfernt",
+    "level": "B1",
+    "forms": [
+      "entfernt"
+    ],
+    "meaning": "removed",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": "entfernt",
+      "past_3rd": "entfernte",
+      "perfect": "hat entfernt"
+    }
+  },
+  {
+    "root": "enthalten",
+    "level": "B2",
+    "forms": [
+      "enthalten"
+    ],
+    "meaning": "contained",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": "enthält",
+      "past_3rd": "enthielt",
+      "perfect": "hat enthalten"
+    }
+  },
+  {
+    "root": "entstehen",
+    "level": "B2",
+    "forms": [
+      "entsteht",
+      "entstehen"
+    ],
+    "meaning": "to come into being",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": null,
+      "present_3rd": "entsteht",
+      "past_3rd": "entstand",
+      "perfect": "ist entstanden"
+    }
+  },
+  {
+    "root": "erklärt",
+    "level": "B1",
+    "forms": [
+      "erklärt",
+      "Erklärung"
+    ],
+    "meaning": "explained",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": "Erklärungen",
+      "present_3rd": "erklärt",
+      "past_3rd": "erklärte",
+      "perfect": "hat erklärt"
+    }
+  },
+  {
+    "root": "erlaubt",
+    "level": "A2",
+    "forms": [
+      "erlaubt"
+    ],
+    "meaning": "allowed",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": "erlaubt",
+      "present_3rd": "erlaubt",
+      "past_3rd": "erlaubte",
+      "perfect": "hat erlaubt"
+    }
+  },
+  {
+    "root": "erscheinen",
+    "level": "B2",
+    "forms": [
+      "erscheint",
+      "erschien",
+      "erscheinen"
+    ],
+    "meaning": "to appear",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": "Erscheinungen",
+      "present_3rd": "erscheint",
+      "past_3rd": "erschien",
+      "perfect": "hat erschienen"
+    }
+  },
+  {
+    "root": "ersetzt",
+    "level": "B1",
+    "forms": [
+      "ersetzt",
+      "ersetzt"
+    ],
+    "meaning": "replaced",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": "ersetzt",
+      "present_3rd": "ersetzt",
+      "past_3rd": "ersetze",
+      "perfect": "hat ersetzt"
+    }
+  },
+  {
+    "root": "Erste",
+    "level": "A1",
+    "forms": [
+      "Erste"
+    ],
+    "meaning": "first",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Ersten"
+    }
+  },
+  {
+    "root": "erstellt",
+    "level": "B2",
+    "forms": [
+      "erstellt",
+      "erstellt"
+    ],
+    "meaning": "created",
+    "type": "Verb",
+    "details": {
+      "gender": null,
+      "plural": "erstellt",
+      "present_3rd": "erstellt",
+      "past_3rd": "erstelle",
+      "perfect": "hat erstellt"
+    }
+  },
+  {
+    "root": "Erwähnung",
+    "level": "A2",
+    "forms": [
+      "Erwähnung"
+    ],
+    "meaning": "mention",
+    "type": "Noun",
+    "details": {
+      "gender": "f",
+      "plural": "Erwähnungen"
+    }
+  }
+]

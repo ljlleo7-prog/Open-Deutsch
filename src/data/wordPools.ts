@@ -94,9 +94,15 @@ export const wordPools = {
     { de: 'nehme', en: 'take', infinitive: 'nehmen', case: 'accusative', objectCategories: ['item'], level: 'A2' },
     { de: 'schicke', en: 'send', infinitive: 'schicken', case: 'dative', objectCategories: ['person', 'item'], level: 'A2' },
     { de: 'koche', en: 'cook', infinitive: 'kochen', case: 'accusative', objectCategories: ['food'], level: 'A2' },
+    
+    // B1 Verbs
     { de: 'erkläre', en: 'explain', infinitive: 'erklären', case: 'accusative', objectCategories: ['item', 'person'], level: 'B1' },
     { de: 'entscheide', en: 'decide', infinitive: 'entscheiden', case: 'preposition', objectCategories: ['item'], level: 'B1' },
     { de: 'vergleiche', en: 'compare', infinitive: 'vergleichen', case: 'accusative', objectCategories: ['item'], level: 'B1' },
+    { de: 'diskutiere', en: 'discuss', infinitive: 'diskutieren', case: 'preposition', objectCategories: ['item', 'media'], level: 'B1' },
+    { de: 'analysiere', en: 'analyze', infinitive: 'analysieren', case: 'accusative', objectCategories: ['item', 'media'], level: 'B1' },
+    { de: 'beschreibe', en: 'describe', infinitive: 'beschreiben', case: 'accusative', objectCategories: ['item', 'person', 'media'], level: 'B1' },
+    { de: 'empfehle', en: 'recommend', infinitive: 'empfehlen', case: 'dative', objectCategories: ['person', 'item'], level: 'B1' },
   ] as WordItem[],
   
   objects: [

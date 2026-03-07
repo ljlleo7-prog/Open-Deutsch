@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { generateContextReadingText, getReadingFallback, GeneratedText } from '../lib/generator';
+import { generateContextReadingText, fetchReadingsFromSupabase, GeneratedText } from '../lib/generator';
 import { Topic } from '../types';
 import { BookOpen, RefreshCw, Check, X, Car, Plane, History, Newspaper } from 'lucide-react';
 import { clsx } from 'clsx';
@@ -76,11 +76,22 @@ export default function Reading() {
   const buildTopicQuery = (topic: Topic) => {
     const queryMap: Record<string, string> = {
       history: 'Deutsche Geschichte',
-      f1: 'Formel 1',
+      f1: 'Formel 1 Weltmeisterschaft',
       aviation: 'Luftfahrt',
-      news: 'Nachrichten'
+      news: `Aktuelle Nachrichten ${new Date().getFullYear()}`
     };
     return queryMap[String(topic)] ?? String(topic);
+  };
+
+  const buildTopicQueries = (topic: Topic) => {
+    const year = new Date().getFullYear();
+    const queryMap: Record<string, string[]> = {
+      history: ['Deutsche Geschichte', 'Geschichte Deutschlands', 'Weimarer Republik', 'Deutsches Kaiserreich'],
+      f1: ['Formel 1 Weltmeisterschaft', `Formel 1 Saison ${year}`, 'Formel-1-Grand-Prix', 'F1 Rennen'],
+      aviation: ['Luftfahrt', 'Flugzeugtechnik', 'Luftverkehr', 'Deutsche Luftfahrtgeschichte'],
+      news: [`Aktuelle Nachrichten ${year}`, `Nachrichten Deutschland ${year}`, 'Tagesgeschehen', 'Wikinews Deutschland']
+    };
+    return queryMap[String(topic)] ?? [String(topic)];
   };
 
   const extractTextFromHtml = (html: string) => {
@@ -210,20 +221,32 @@ export default function Reading() {
       }
     ];
 
+    const shuffleProjects = (items: typeof projects) => shuffle([...items]);
     const candidates =
       String(topic) === 'news'
-        ? [projects[1], projects[0], projects[2]]
-        : [projects[0], projects[2]];
+        ? shuffleProjects([projects[1], projects[2], projects[0]])
+        : String(topic) === 'f1'
+          ? shuffleProjects([projects[2], projects[0]])
+          : shuffleProjects([projects[0], projects[2]]);
 
-    for (const project of candidates) {
-      const searchUrl = `${project.apiUrl}?origin=*&action=query&format=json&list=search&srlimit=4&srsearch=${encodeURIComponent(query)}`;
+    const fetchSearchTitles = async (project: typeof projects[number], searchQuery: string) => {
+      const offset = Math.floor(Math.random() * 4);
+      const searchUrl = `${project.apiUrl}?origin=*&action=query&format=json&list=search&srlimit=8&sroffset=${offset}&srnamespace=0&srsort=last_edit_desc&srsearch=${encodeURIComponent(searchQuery)}`;
       const searchResponse = await fetch(searchUrl);
       const searchData = await searchResponse.json();
-      const titles = (searchData?.query?.search ?? []).map((item: { title: string }) => item.title);
-      if (titles.length === 0) continue;
+      return (searchData?.query?.search ?? []).map((item: { title: string }) => item.title);
+    };
 
+    const fetchRecentWikinewsTitles = async (): Promise<string[]> => {
+      const recentUrl = `${projects[1].apiUrl}?origin=*&action=query&format=json&list=recentchanges&rclimit=10&rcnamespace=0&rcshow=!redirect&rcprop=title|timestamp`;
+      const recentResponse = await fetch(recentUrl);
+      const recentData: { query?: { recentchanges?: { title: string }[] } } = await recentResponse.json();
+      return Array.from(new Set((recentData.query?.recentchanges ?? []).map(item => item.title)));
+    };
+
+    const fetchSourcesFromTitles = async (project: typeof projects[number], titles: string[]) => {
       const sources: PrimarySource[] = [];
-      for (const title of titles) {
+      for (const title of shuffle([...titles])) {
         const parseUrl = `${project.apiUrl}?origin=*&action=parse&format=json&formatversion=2&page=${encodeURIComponent(title)}&prop=text`;
         const parseResponse = await fetch(parseUrl);
         const parseData = await parseResponse.json();
@@ -241,9 +264,42 @@ export default function Reading() {
         });
         if (sources.length >= 2) break;
       }
-      if (sources.length > 0) return sources;
+      return sources;
+    };
+
+    const queries = topic ? buildTopicQueries(topic) : [query];
+
+    const aggregated: PrimarySource[] = [];
+    const seen = new Set<string>();
+
+    if (String(topic) === 'news') {
+      const wikinewsTitles = await fetchRecentWikinewsTitles();
+      if (wikinewsTitles.length > 0) {
+        const newsSources = await fetchSourcesFromTitles(projects[1], wikinewsTitles);
+        for (const source of newsSources) {
+          const key = `${source.source}:${source.title}`;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          aggregated.push(source);
+        }
+      }
     }
-    return [];
+
+    for (const project of candidates) {
+      for (const searchQuery of shuffle([...queries])) {
+        const titles = await fetchSearchTitles(project, searchQuery);
+        if (titles.length === 0) continue;
+        const sources = await fetchSourcesFromTitles(project, titles);
+        for (const source of sources) {
+          const key = `${source.source}:${source.title}`;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          aggregated.push(source);
+        }
+        if (aggregated.length >= 2) return aggregated.slice(0, 2);
+      }
+    }
+    return aggregated.slice(0, 2);
   };
 
   const handleGenerate = async (topic: Topic) => {
@@ -254,6 +310,32 @@ export default function Reading() {
     setIsLoading(true);
     setSearchQuery(buildTopicQuery(topic));
     try {
+      // 1. Try Supabase first (Pre-generated content)
+      const dbReadings = await fetchReadingsFromSupabase(topic, 10);
+      if (dbReadings && dbReadings.length > 0) {
+        // If switching topics or first load, pick the newest (first) reading
+        // Otherwise, pick a random one to rotate (excluding current if possible)
+        let reading;
+        if (!currentText || currentText.topic !== topic) {
+          reading = dbReadings[0];
+        } else {
+          // Filter out current reading to avoid repeat
+          const others = dbReadings.filter(r => r.id !== currentText.id);
+          if (others.length > 0) {
+            reading = others[Math.floor(Math.random() * others.length)];
+          } else {
+            reading = dbReadings[0]; // Fallback if only 1 exists
+          }
+        }
+        
+        setCurrentText(reading);
+        setSelectedAnswers(Array(reading.questions.length).fill(null));
+        setShowFeedback(Array(reading.questions.length).fill(false));
+        setIsLoading(false);
+        return;
+      }
+
+      // 2. Fallback to Live Sources
       const sources = await fetchPrimarySources(buildTopicQuery(topic), topic);
       if (sources.length === 0) {
         throw new Error('No sources');
@@ -271,20 +353,13 @@ export default function Reading() {
       setSelectedAnswers(Array(questions.length).fill(null));
       setShowFeedback(Array(questions.length).fill(false));
     } catch (e) {
-      const dbFallback = getReadingFallback(topic);
-      if (dbFallback) {
-        setCurrentText(dbFallback);
-        setSelectedAnswers(Array(dbFallback.questions.length).fill(null));
-        setShowFeedback(Array(dbFallback.questions.length).fill(false));
-        setErrorMessage(null);
-      } else {
-        const generated = generateContextReadingText(topic);
-        setCurrentText(generated);
-        setSelectedAnswers(Array(generated.questions.length).fill(null));
-        setShowFeedback(Array(generated.questions.length).fill(false));
-        setErrorMessage(null);
-      }
       console.error(e);
+      // 3. Fallback to Local Generation
+      const generated = generateContextReadingText(topic);
+      setCurrentText(generated);
+      setSelectedAnswers(Array(generated.questions.length).fill(null));
+      setShowFeedback(Array(generated.questions.length).fill(false));
+      setErrorMessage(null);
     } finally {
       setIsLoading(false);
     }
@@ -422,9 +497,21 @@ export default function Reading() {
             <div className="bg-white dark:bg-card rounded-xl shadow-sm border border-border p-6 md:p-8">
               <div className="flex justify-between items-start mb-6">
                 <div>
-                  <span className="inline-block px-2 py-1 rounded text-xs font-medium bg-gray-100 dark:bg-gray-800 text-muted-foreground mb-2 uppercase">
-                    {topicLabel}
-                  </span>
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="inline-block px-2 py-1 rounded text-xs font-medium bg-gray-100 dark:bg-gray-800 text-muted-foreground uppercase">
+                      {topicLabel}
+                    </span>
+                    {currentText.level && (
+                      <span className="inline-block px-2 py-1 rounded text-xs font-medium bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 uppercase">
+                        {currentText.level}
+                      </span>
+                    )}
+                    {currentText.published_at && (
+                      <span className="inline-block px-2 py-1 rounded text-xs font-medium bg-gray-100 dark:bg-gray-800 text-muted-foreground uppercase">
+                        {new Date(currentText.published_at).toLocaleDateString()}
+                      </span>
+                    )}
+                  </div>
                   <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                     {currentText.title}
                   </h2>
@@ -443,6 +530,43 @@ export default function Reading() {
                   {currentText.content}
                 </p>
               </div>
+
+              {currentText.source && (
+                <div className="border-t border-border pt-6 mb-8">
+                  <h3 className="text-lg font-semibold mb-4">{t('reading.sources_title')}</h3>
+                  <div className="rounded-lg border border-border p-4 bg-gray-50 dark:bg-gray-900">
+                    <div className="text-xs uppercase text-muted-foreground mb-2">{currentText.source.name}</div>
+                    <a
+                      href={currentText.source.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-base font-semibold text-primary hover:underline"
+                    >
+                      {t('reading.original_article')}
+                    </a>
+                  </div>
+                </div>
+              )}
+
+              {currentText.vocabulary && currentText.vocabulary.length > 0 && (
+                <div className="border-t border-border pt-6 mb-8">
+                  <h3 className="text-lg font-semibold mb-4">{t('vocabulary.title')}</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {currentText.vocabulary.map((vocab, idx) => (
+                      <div key={idx} className="p-3 bg-gray-50 dark:bg-gray-900 rounded border border-border">
+                        <div className="font-bold text-gray-900 dark:text-white flex justify-between">
+                          <span>{vocab.word}</span>
+                          <span className="text-xs text-muted-foreground font-normal bg-gray-200 dark:bg-gray-800 px-2 py-0.5 rounded">{vocab.pos}</span>
+                        </div>
+                        <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">{vocab.translation}</div>
+                        {vocab.definition && (
+                          <div className="text-xs text-muted-foreground mt-1 italic">{vocab.definition}</div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {currentText.sources && currentText.sources.length > 0 && (
                 <div className="border-t border-border pt-6 mb-8">
