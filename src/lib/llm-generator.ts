@@ -112,7 +112,29 @@ export async function generateSentencesBatch(
       // Ignore regex errors
     }
     
-    const sentences = JSON.parse(jsonStr);
+    let sentences;
+    try {
+      sentences = JSON.parse(jsonStr);
+    } catch (e) {
+      console.warn("Initial JSON parse failed. Content was:", jsonStr);
+      throw e;
+    }
+    
+    if (!Array.isArray(sentences)) {
+      if (typeof sentences === 'object' && sentences !== null) {
+          // Check for wrapped object structure like { "sentences": [...] }
+          const values = Object.values(sentences);
+          const arrayVal = values.find(v => Array.isArray(v));
+          if (arrayVal) {
+             sentences = arrayVal;
+          } else {
+             // Maybe single object?
+             sentences = [sentences];
+          }
+      } else {
+         throw new Error("LLM response is not an array or valid object");
+      }
+    }
 
     // Map to StoredSentence structure
     return sentences.map((s: any) => ({

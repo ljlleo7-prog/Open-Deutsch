@@ -99,13 +99,40 @@ async function classifyAndGroupBatch(words: string[]): Promise<ProcessedVocabIte
     // Clean up JSON string
     content = content.replace(/```json\n?|\n?```/g, '').trim();
     
+    // Find the first '[' and last ']'
+    const firstBracket = content.indexOf('[');
+    const lastBracket = content.lastIndexOf(']');
+    
+    if (firstBracket !== -1 && lastBracket !== -1) {
+        content = content.substring(firstBracket, lastBracket + 1);
+    } else {
+        console.warn("Could not find array brackets [] in response. Attempting raw parse.");
+    }
+
     // Simple heuristic to fix trailing commas or comments
     content = content.replace(/\/\/.*$/gm, ''); // Remove comments
     
+    // Remove trailing commas before closing braces/brackets (common LLM error)
+    content = content.replace(/,(\s*[}\]])/g, '$1');
+
     try {
-        return JSON.parse(content);
+        const parsed = JSON.parse(content);
+        if (Array.isArray(parsed)) {
+            return parsed;
+        } else if (typeof parsed === 'object' && parsed !== null) {
+             // Sometimes LLM returns { "words": [...] }
+             const values = Object.values(parsed);
+             const arrayVal = values.find(v => Array.isArray(v));
+             if (arrayVal) return arrayVal as ProcessedVocabItem[];
+             
+             // Or maybe it just returned a single object?
+             return [parsed] as ProcessedVocabItem[];
+        }
+        return [];
     } catch (parseError) {
         console.error("JSON Parse Error. Content was:", content);
+        // Fallback: try to fix common JSON errors aggressively? 
+        // For now, let's just fail this batch but log clearly.
         return [];
     }
 
@@ -143,16 +170,34 @@ async function main() {
   
   console.log(`Loaded ${allWords.length} unique words.`);
 
+  // Load existing progress
+  let processedVocab: ProcessedVocabItem[] = [];
+  if (fs.existsSync(OUTPUT_FILE)) {
+    try {
+      const existingData = fs.readFileSync(OUTPUT_FILE, 'utf-8');
+      processedVocab = JSON.parse(existingData);
+      console.log(`Loaded ${processedVocab.length} already processed items.`);
+    } catch (e) {
+      console.warn('Could not load existing processed file, starting fresh.');
+    }
+  }
+
+  // Filter out already processed words
+  const processedRoots = new Set(processedVocab.map(item => item.root));
+  const processedForms = new Set<string>();
+  processedVocab.forEach(item => {
+    item.forms.forEach(form => processedForms.add(form));
+  });
+
+  const wordsToProcess = allWords.filter(word => !processedForms.has(word) && !processedRoots.has(word));
+  console.log(`${wordsToProcess.length} words remaining to process.`);
+
   // 2. Process in batches
   const BATCH_SIZE = 50; // Larger batch for classification
-  let processedVocab: ProcessedVocabItem[] = [];
   
-  // To avoid re-processing if script restarts, we could check for existing output file, 
-  // but for now we'll start fresh or append logic could be added.
-
-  for (let i = 0; i < allWords.length; i += BATCH_SIZE) {
-    const batch = allWords.slice(i, i + BATCH_SIZE);
-    console.log(`Processing batch ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(allWords.length / BATCH_SIZE)}...`);
+  for (let i = 0; i < wordsToProcess.length; i += BATCH_SIZE) {
+    const batch = wordsToProcess.slice(i, i + BATCH_SIZE);
+    console.log(`Processing batch ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(wordsToProcess.length / BATCH_SIZE)}...`);
     
     const results = await classifyAndGroupBatch(batch);
     
@@ -161,12 +206,10 @@ async function main() {
         console.log(`  > Classified ${results.length} groups.`);
     } else {
         console.warn(`  > Batch failed or returned empty.`);
-        // Fallback: Add words individually as unknowns if LLM fails? 
-        // For now, let's just log.
     }
     
     // Save intermediate results occasionally
-    if (i % (BATCH_SIZE * 5) === 0) {
+    if (i % (BATCH_SIZE * 5) === 0 || i + BATCH_SIZE >= wordsToProcess.length) {
          fs.writeFileSync(OUTPUT_FILE, JSON.stringify(processedVocab, null, 2));
          console.log(`  > Saved progress to ${OUTPUT_FILE}`);
     }

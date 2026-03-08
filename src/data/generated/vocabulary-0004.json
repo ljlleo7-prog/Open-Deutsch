@@ -1,1067 +1,397 @@
 [
   {
-    "de": "kommen",
-    "en": "come",
+    "de": "district",
+    "en": "district",
     "en_variants": [
-      "come",
-      "coming"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zuvor\t/ˌkɔmən t͡suˈfoːɐ̯/"
-    ]
-  },
-  {
-    "de": "Kommission",
-    "en": "commission",
-    "en_variants": [
-      "commission"
-    ],
-    "zh": [
-      "委員會"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Kommissionen",
-    "genitive": "Kommission",
-    "ipa": [
-      "kɔmɪˈsi̯oːn"
-    ]
-  },
-  {
-    "de": "kommt",
-    "en": "arrives",
-    "en_variants": [
-      "arrives",
-      "come",
-      "comes",
-      "coming"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zuvor\t/ˌkɔmt t͡suˈfoːɐ̯/"
-    ]
-  },
-  {
-    "de": "komplett",
-    "en": "fully",
-    "en_variants": [
-      "fully",
-      "completely",
-      "complete"
-    ],
-    "zh": [
-      "充分",
-      "完全",
-      "完整"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "kɔmˈplɛt"
-    ]
-  },
-  {
-    "de": "Komponist",
-    "en": "composer",
-    "en_variants": [
-      "composer"
-    ],
-    "zh": [
-      "作曲家"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Komponisten",
-    "genitive": "Komponisten",
-    "ipa": [
-      "ˌkɔmpoˈnɪst"
-    ]
-  },
-  {
-    "de": "Kongress",
-    "en": "congresses",
-    "en_variants": [
-      "congresses",
-      "congress"
-    ],
-    "zh": [
-      "國會"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Kongresse",
-    "genitive": "Kongresses",
-    "ipa": [
-      "kɔnˈɡʁɛs",
-      "kɔŋˈɡʁɛs"
-    ]
-  },
-  {
-    "de": "konnte",
-    "en": "could",
-    "en_variants": [
-      "could",
-      "couldn"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zurück\t/ˌkɔntə t͡suˈʁʏk/"
-    ]
-  },
-  {
-    "de": "konnten",
-    "en": "couldn",
-    "en_variants": [
-      "couldn"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zurück\t/ˌkɔntn̩ t͡suˈʁʏk/"
-    ]
-  },
-  {
-    "de": "Konrad",
-    "en": "konrad",
-    "en_variants": [
-      "konrad",
-      "conrad"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈkɔnʁaːt"
-    ]
-  },
-  {
-    "de": "Kontakt",
-    "en": "contact",
-    "en_variants": [
-      "contact",
-      "contacts"
-    ],
-    "zh": [
-      "接觸",
-      "聯絡"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Kontakte",
-    "genitive": "Kontakts",
-    "ipa": [
-      "kɔnˈtakt"
-    ]
-  },
-  {
-    "de": "Konzept",
-    "en": "approach",
-    "en_variants": [
-      "approach",
-      "concept",
-      "conception",
-      "concepts"
-    ],
-    "zh": [
-      "構想",
-      "概念",
-      "理念"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Konzepte",
-    "genitive": "Konzepts",
-    "ipa": [
-      "kɔnˈt͡sɛpt"
-    ]
-  },
-  {
-    "de": "Kopf",
-    "en": "head",
-    "en_variants": [
-      "head",
-      "heads",
-      "capita"
-    ],
-    "zh": [
-      "頭",
-      "頭部"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Köpfe",
-    "genitive": "Kopfs",
-    "ipa": [
-      "kɔp͡f"
-    ]
-  },
-  {
-    "de": "Kosten",
-    "en": "costs",
-    "en_variants": [
-      "costs",
-      "cost",
-      "expense",
-      "expenses"
-    ],
-    "zh": [
-      "費用",
-      "成本",
-      "開支"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "Kosten",
-    "genitive": "",
-    "ipa": [
-      "vor\t/ˌkɔstn̩ ˈfoːɐ̯/"
-    ]
-  },
-  {
-    "de": "Kraft",
-    "en": "kraft",
-    "en_variants": [
-      "kraft",
-      "force",
-      "strength",
-      "power"
-    ],
-    "zh": [
-      "武力",
-      "力氣",
-      "強度"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "kʁaft"
-    ]
-  },
-  {
-    "de": "Kreis",
-    "en": "circles",
-    "en_variants": [
-      "circles",
-      "kreis",
-      "circle",
-      "county"
-    ],
-    "zh": [
-      "圈",
-      "圈子",
-      "圓圈"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Kreise",
-    "genitive": "Kreises",
-    "ipa": [
-      "kʁaɪ̯s"
-    ]
-  },
-  {
-    "de": "Kreuz",
-    "en": "kreuz",
-    "en_variants": [
-      "kreuz",
-      "cross",
-      "crucifix"
-    ],
-    "zh": [
-      "十字架",
-      "cross",
-      "十字"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Kreuze",
-    "genitive": "Kreuzes",
-    "ipa": [
-      "und quer\t/kʁɔɪ̯t͡s ʊnt kveːɐ̯/"
-    ]
-  },
-  {
-    "de": "Krieg",
-    "en": "warfare",
-    "en_variants": [
-      "warfare",
-      "war",
-      "wars"
-    ],
-    "zh": [
-      "戰",
-      "戰爭"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Kriege",
-    "genitive": "Krieges",
-    "ipa": [
-      "zusammen\t/ˌkʁiːk t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "kriterien",
-    "en": "criteria",
-    "en_variants": [
-      "criteria"
-    ],
-    "zh": [
-      "標準"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "kʁiˈteːʁiən"
-    ]
-  },
-  {
-    "de": "Kritik",
-    "en": "criticism",
-    "en_variants": [
-      "criticism",
-      "critique",
-      "criticisms",
-      "critics"
-    ],
-    "zh": [
-      "批評",
-      "批判",
-      "評論家"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Kritiken",
-    "genitive": "Kritik",
-    "ipa": [
-      "kʁiˈtiːk",
-      "kʁɪˈtiːk"
-    ]
-  },
-  {
-    "de": "Kultur",
-    "en": "culture",
-    "en_variants": [
-      "culture",
-      "civilization"
-    ],
-    "zh": [
-      "文化",
-      "文明"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Kulturen",
-    "genitive": "Kultur",
-    "ipa": [
-      "kʊlˈtuːɐ̯"
-    ]
-  },
-  {
-    "de": "Kunst",
-    "en": "arts",
-    "en_variants": [
-      "arts",
-      "art"
-    ],
-    "zh": [
-      "藝術",
-      "美術",
-      "art"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Künste",
-    "genitive": "Kunst",
-    "ipa": [
-      "kʊnst"
-    ]
-  },
-  {
-    "de": "Kurt",
-    "en": "kurt",
-    "en_variants": [
-      "kurt"
-    ],
-    "zh": [
-      "kurt"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "kuɐ̯t",
-      "kʊʁt"
-    ]
-  },
-  {
-    "de": "kurz",
-    "en": "briefly",
-    "en_variants": [
-      "briefly",
-      "short",
-      "kurz",
-      "brief"
-    ],
-    "zh": [
-      "簡短",
-      "短期",
-      "短"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "und bündig\t/kʊʁt͡s ʊnt ˈbʏndɪk/",
-      "kʊʁt͡s ʊnt ˈbʏndɪç"
-    ]
-  },
-  {
-    "de": "kurze",
-    "en": "short",
-    "en_variants": [
-      "short",
-      "brief"
-    ],
-    "zh": [
-      "簡短",
-      "短期",
-      "短"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "Rochade\t/ˈkʊʁt͡sə ʁɔˈxaːdə/",
-      "ˈkʊʁt͡sə ʁɔˈʃaːdə"
-    ]
-  },
-  {
-    "de": "kurzen",
-    "en": "short",
-    "en_variants": [
-      "short",
-      "brief"
-    ],
-    "zh": [
-      "簡短",
-      "短期",
-      "短"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈkʊʁt͡sn̩"
-    ]
-  },
-  {
-    "de": "Köln",
-    "en": "cologne",
-    "en_variants": [
-      "cologne"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "kœln"
-    ]
-  },
-  {
-    "de": "König",
-    "en": "king",
-    "en_variants": [
-      "king",
-      "könig"
-    ],
-    "zh": [
-      "國王",
-      "king",
-      "王"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈkøːnɪk",
-      "ˈkøːnɪç"
-    ]
-  },
-  {
-    "de": "Königin",
-    "en": "queen",
-    "en_variants": [
-      "queen"
-    ],
-    "zh": [
-      "女王",
-      "皇后",
-      "queen"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Königinnen",
-    "genitive": "Königin",
-    "ipa": [
-      "ˈkøːnɪɡɪn"
-    ]
-  },
-  {
-    "de": "Königreich",
-    "en": "kingdom",
-    "en_variants": [
-      "kingdom"
-    ],
-    "zh": [
-      "王國",
-      "國度"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Königreiche",
-    "genitive": "Königreiches",
-    "ipa": [
-      "Ungarn\t/ˈkøːnɪkˌʁaɪ̯ç ˈʊŋɡaʁn/"
-    ]
-  },
-  {
-    "de": "königs",
-    "en": "king",
-    "en_variants": [
-      "king"
-    ],
-    "zh": [
-      "國王",
-      "king",
-      "王"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "Wusterhausens\t/ˈkøːnɪçs vʊstɐˈhaʊ̯zn̩s/"
-    ]
-  },
-  {
-    "de": "Können",
-    "en": "can",
-    "en_variants": [
-      "can"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "",
-    "genitive": "Könnens",
-    "ipa": [
-      "zurück\t/ˌkœnən t͡suˈʁʏk/"
-    ]
-  },
-  {
-    "de": "könnte",
-    "en": "could",
-    "en_variants": [
-      "could",
-      "might"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zurück\t/ˌkœntə t͡suˈʁʏk/"
-    ]
-  },
-  {
-    "de": "könnten",
-    "en": "could",
-    "en_variants": [
-      "could"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zurück\t/ˌkœntn̩ t͡suˈʁʏk/"
-    ]
-  },
-  {
-    "de": "Körper",
-    "en": "body",
-    "en_variants": [
-      "body",
-      "bodies"
-    ],
-    "zh": [
-      "屍體",
-      "體",
-      "身體"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Körper",
-    "genitive": "Körpers",
-    "ipa": [
-      "ˈkœʁpɐ"
-    ]
-  },
-  {
-    "de": "Künstler",
-    "en": "artist",
-    "en_variants": [
-      "artist",
-      "performers",
-      "artists"
-    ],
-    "zh": [
-      "藝術家",
-      "藝人"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Künstler",
-    "genitive": "Künstlers",
-    "ipa": [
-      "ˈkʏnstlɐ"
-    ]
-  },
-  {
-    "de": "Label",
-    "en": "label",
-    "en_variants": [
-      "label"
-    ],
-    "zh": [
-      "標籤"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Labels",
-    "genitive": "Labels",
-    "ipa": [
-      "ˈleːbl̩",
-      "ˈlɛɪ̯bl̩"
-    ]
-  },
-  {
-    "de": "lae",
-    "en": "lae",
-    "en_variants": [
-      "lae"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": []
-  },
-  {
-    "de": "lag",
-    "en": "lag",
-    "en_variants": [
-      "lag",
-      "lags"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zusammen\t/ˌlaːk t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "Lage",
-    "en": "situation",
-    "en_variants": [
-      "situation",
-      "lage",
-      "location"
-    ],
-    "zh": [
-      "情況",
-      "所在地",
-      "位置"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Lagen",
-    "genitive": "Lage",
-    "ipa": [
-      "ˈlaːɡə"
-    ]
-  },
-  {
-    "de": "Lake",
-    "en": "lake",
-    "en_variants": [
-      "lake"
-    ],
-    "zh": [
-      "湖泊",
-      "湖"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Laken",
-    "genitive": "Laken",
-    "ipa": [
-      "ˈlaːkə"
-    ]
-  },
-  {
-    "de": "Land",
-    "en": "country",
-    "en_variants": [
-      "country",
-      "land",
-      "lands"
-    ],
-    "zh": [
-      "國家",
-      "陸地",
-      "土地"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Länder",
-    "genitive": "Lands",
-    "ipa": [
-      "zwischen\t/ˌlant ˈt͡svɪʃn̩/"
-    ]
-  },
-  {
-    "de": "landes",
-    "en": "landes",
-    "en_variants": [
-      "landes"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈlandəs"
-    ]
-  },
-  {
-    "de": "Landkreis",
-    "en": "county",
-    "en_variants": [
-      "county",
-      "landkreis",
       "district"
     ],
     "zh": [
-      "郡",
-      "縣",
-      "landkreis"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Landkreise",
-    "genitive": "Landkreises",
-    "ipa": [
-      "ˈlantˌkʁaɪ̯s"
-    ]
-  },
-  {
-    "de": "Landschaft",
-    "en": "scenery",
-    "en_variants": [
-      "scenery",
-      "countryside",
-      "landscapes",
-      "landscape"
-    ],
-    "zh": [
-      "風景",
-      "鄉村",
-      "鄉下"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Landschaften",
-    "genitive": "Landschaft",
-    "ipa": [
-      "ˈlantʃaft"
-    ]
-  },
-  {
-    "de": "Landtag",
-    "en": "landtag",
-    "en_variants": [
-      "landtag"
-    ],
-    "zh": [
-      "landtag"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Landtage",
-    "genitive": "Landtages",
-    "ipa": [
-      "ˈlantˌtaːk"
-    ]
-  },
-  {
-    "de": "Landwirtschaft",
-    "en": "farming",
-    "en_variants": [
-      "farming",
-      "agriculture"
-    ],
-    "zh": [
-      "農耕",
-      "耕作",
-      "務農"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Landwirtschaften",
-    "genitive": "Landwirtschaft",
-    "ipa": [
-      "ˈlantvɪʁtʃaft"
-    ]
-  },
-  {
-    "de": "Lang",
-    "en": "lang",
-    "en_variants": [
-      "lang",
-      "long"
-    ],
-    "zh": [
-      "朗",
-      "郎",
-      "久"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zu\t/ˌlaŋ ˈt͡suː/"
-    ]
-  },
-  {
-    "de": "Lange",
-    "en": "lange",
-    "en_variants": [
-      "lange",
-      "long"
-    ],
-    "zh": [
-      "久",
-      "長"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zu\t/ˌlaŋə ˈt͡suː/"
-    ]
-  },
-  {
-    "de": "Langen",
-    "en": "langen",
-    "en_variants": [
-      "langen",
-      "long"
-    ],
-    "zh": [
-      "久",
-      "長"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zu\t/ˌlaŋən ˈt͡suː/"
-    ]
-  },
-  {
-    "de": "lassen",
-    "en": "let",
-    "en_variants": [
-      "let",
-      "letting"
-    ],
-    "zh": [
-      "讓"
+      "區",
+      "地區"
     ],
     "pos": "other",
     "gender": "",
     "plural": "",
     "genitive": "",
-    "ipa": [
-      "zusammen\t/ˌlasn̩ t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "Lauf",
-    "en": "barrel",
-    "en_variants": [
-      "barrel",
-      "run"
-    ],
-    "zh": [
-      "槍管",
-      "桶",
-      "跑"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Läufe",
-    "genitive": "Laufs",
-    "ipa": [
-      "zusammen\t/ˌlaʊ̯f t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "Laufbahn",
-    "en": "career",
-    "en_variants": [
-      "career",
-      "careers"
-    ],
-    "zh": [
-      "職業"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Laufbahnen",
-    "genitive": "Laufbahn",
-    "ipa": [
-      "ˈlaʊ̯fˌbaːn"
-    ]
-  },
-  {
-    "de": "Laut",
-    "en": "loudly",
-    "en_variants": [
-      "loudly",
-      "loud",
-      "according",
-      "noisy"
-    ],
-    "zh": [
-      "大聲"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Laute",
-    "genitive": "Lauts",
-    "ipa": [
-      "laʊ̯t"
-    ]
-  },
-  {
-    "de": "League",
-    "en": "league",
-    "en_variants": [
-      "league"
-    ],
-    "zh": [
-      "聯盟",
-      "同盟",
-      "聯賽"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Leagues",
-    "genitive": "League",
     "ipa": []
   },
   {
-    "de": "Leben",
-    "en": "living",
+    "de": "Distrikt",
+    "en": "district",
     "en_variants": [
-      "living",
-      "life",
-      "lifestyle",
-      "live",
-      "leben"
+      "district"
     ],
     "zh": [
-      "生活",
-      "生命",
-      "人生"
+      "區",
+      "地區"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Distrikte",
+    "genitive": "Distrikts",
+    "ipa": [
+      "dɪsˈtʁɪkt"
+    ]
+  },
+  {
+    "de": "Disziplin",
+    "en": "discipline",
+    "en_variants": [
+      "discipline",
+      "disciplined"
+    ],
+    "zh": [
+      "紀律",
+      "紀律處分"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Disziplinen",
+    "genitive": "Disziplin",
+    "ipa": [
+      "dɪst͡siˈpliːn"
+    ]
+  },
+  {
+    "de": "diverse",
+    "en": "various",
+    "en_variants": [
+      "various",
+      "assorted"
+    ],
+    "zh": [
+      "各種",
+      "各式"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "diˈvɛʁzə"
+    ]
+  },
+  {
+    "de": "Division",
+    "en": "division",
+    "en_variants": [
+      "division"
+    ],
+    "zh": [
+      "組織"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Divisionen",
+    "genitive": "Division",
+    "ipa": [
+      "diviˈzi̯oːn"
+    ]
+  },
+  {
+    "de": "Diözese",
+    "en": "diocese",
+    "en_variants": [
+      "diocese"
+    ],
+    "zh": [
+      "教區"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Diözesen",
+    "genitive": "Diözese",
+    "ipa": [
+      "diøˈt͡seːzə"
+    ]
+  },
+  {
+    "de": "DNA",
+    "en": "dna",
+    "en_variants": [
+      "dna"
+    ],
+    "zh": [
+      "dna"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "",
+    "genitive": "DNA",
+    "ipa": [
+      "ˌdeːʔɛnˈʔaː"
+    ]
+  },
+  {
+    "de": "doch",
+    "en": "yet",
+    "en_variants": [
+      "yet",
+      "but"
+    ],
+    "zh": [
+      "然而",
+      "但",
+      "不過"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "dɔx"
+    ]
+  },
+  {
+    "de": "Doktor",
+    "en": "doc",
+    "en_variants": [
+      "doc",
+      "phd",
+      "doctor"
+    ],
+    "zh": [
+      "doc",
+      "醫師",
+      "醫生"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Doktoren",
+    "genitive": "Doktors",
+    "ipa": [
+      "ˈdɔktoːɐ̯"
+    ]
+  },
+  {
+    "de": "Dokumentarfilm",
+    "en": "documentary",
+    "en_variants": [
+      "documentary",
+      "documentaries"
+    ],
+    "zh": [
+      "紀錄片"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Dokumentarfilme",
+    "genitive": "Dokumentarfilms",
+    "ipa": [
+      "dokumɛnˈtaːɐ̯ˌfɪlm"
+    ]
+  },
+  {
+    "de": "Dokumentation",
+    "en": "documentation",
+    "en_variants": [
+      "documentation",
+      "documentary"
+    ],
+    "zh": [
+      "紀錄片"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Dokumentationen",
+    "genitive": "Dokumentation",
+    "ipa": [
+      "dokumɛntaˈt͡si̯oːn"
+    ]
+  },
+  {
+    "de": "dokumente",
+    "en": "docs",
+    "en_variants": [
+      "docs",
+      "documents",
+      "document"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˌdokuˈmɛntə"
+    ]
+  },
+  {
+    "de": "dokumentiert",
+    "en": "documented",
+    "en_variants": [
+      "documented"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "dokumɛnˈtiːɐ̯t"
+    ]
+  },
+  {
+    "de": "Dollar",
+    "en": "$",
+    "en_variants": [
+      "$",
+      "dollars",
+      "dollar"
+    ],
+    "zh": [
+      "美元",
+      "元"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Dollar",
+    "genitive": "Dollars",
+    "ipa": [
+      "ˈdɔlaʁ"
+    ]
+  },
+  {
+    "de": "Dom",
+    "en": "cathedral",
+    "en_variants": [
+      "cathedral",
+      "dome",
+      "duomo",
+      "dom"
+    ],
+    "zh": [
+      "大教堂",
+      "穹",
+      "圓頂"
+    ],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "doːm"
+    ]
+  },
+  {
+    "de": "Don",
+    "en": "don",
+    "en_variants": [
+      "don"
+    ],
+    "zh": [
+      "唐",
+      "don"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "",
+    "genitive": "Don",
+    "ipa": [
+      "Quixote\t/dɔnkiˈxoːtə/"
+    ]
+  },
+  {
+    "de": "donald",
+    "en": "donald",
+    "en_variants": [
+      "donald"
+    ],
+    "zh": [
+      "donald"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": []
+  },
+  {
+    "de": "Donau",
+    "en": "danube",
+    "en_variants": [
+      "danube",
+      "donau"
+    ],
+    "zh": [
+      "多瑙河",
+      "多瑙"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "",
+    "genitive": "Donau",
+    "ipa": [
+      "ˈdoːnaʊ̯"
+    ]
+  },
+  {
+    "de": "Doppel",
+    "en": "doubles",
+    "en_variants": [
+      "doubles",
+      "dual",
+      "double"
+    ],
+    "zh": [
+      "雙打",
+      "雙重",
+      "雙"
     ],
     "pos": "noun",
     "gender": "n",
-    "plural": "Leben",
-    "genitive": "Lebens",
+    "plural": "Doppel",
+    "genitive": "Doppels",
     "ipa": [
-      "zusammen\t/ˌleːbm̩ t͡suˈzamən/",
-      "ˌleːbn̩ t͡suˈzamən"
+      "ˈdɔpl̩"
     ]
   },
   {
-    "de": "lebens",
-    "en": "life",
+    "de": "doppelt",
+    "en": "double",
     "en_variants": [
-      "life"
+      "double",
+      "twice"
     ],
     "zh": [
-      "生命",
-      "人生",
-      "生活"
+      "雙",
+      "雙重",
+      "雙倍"
     ],
     "pos": "other",
     "gender": "",
     "plural": "",
     "genitive": "",
     "ipa": [
-      "ˈleːbn̩s"
+      "verketteter Listen\t/ˈdɔpl̩t fɛɐ̯ˈkɛtətɐ ˈlɪstn̩/"
     ]
   },
   {
-    "de": "lebt",
-    "en": "lives",
+    "de": "Dorf",
+    "en": "villages",
     "en_variants": [
-      "lives"
+      "villages",
+      "dorf",
+      "village"
+    ],
+    "zh": [
+      "鄉村",
+      "村莊",
+      "村"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Dörfer",
+    "genitive": "Dorfs",
+    "ipa": [
+      "dɔʁf"
+    ]
+  },
+  {
+    "de": "dort",
+    "en": "there",
+    "en_variants": [
+      "there"
     ],
     "zh": [],
     "pos": "other",
@@ -1069,14 +399,14 @@
     "plural": "",
     "genitive": "",
     "ipa": [
-      "zusammen\t/ˌleːpt t͡suˈzamən/"
+      "zu Lande\t/ˈdɔʁtt͡suˌlandə/"
     ]
   },
   {
-    "de": "lebte",
-    "en": "lived",
+    "de": "dorthin",
+    "en": "there",
     "en_variants": [
-      "lived"
+      "there"
     ],
     "zh": [],
     "pos": "other",
@@ -1084,14 +414,121 @@
     "plural": "",
     "genitive": "",
     "ipa": [
-      "zusammen\t/ˌleːptə t͡suˈzamən/"
+      "ˈdɔʁthɪn",
+      "ˈdɔʁtˈhɪn"
     ]
   },
   {
-    "de": "lebten",
-    "en": "lived",
+    "de": "Dortmund",
+    "en": "dortmund",
     "en_variants": [
-      "lived"
+      "dortmund"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdɔrtmʊnt",
+      "ˈdɔʁtmʊnt"
+    ]
+  },
+  {
+    "de": "dos",
+    "en": "dos",
+    "en_variants": [
+      "dos"
+    ],
+    "zh": [
+      "dos"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ein\t/ˌdoːs ˈaɪ̯n/"
+    ]
+  },
+  {
+    "de": "Douglas",
+    "en": "douglas",
+    "en_variants": [
+      "douglas"
+    ],
+    "zh": [
+      "douglas"
+    ],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": []
+  },
+  {
+    "de": "down",
+    "en": "down",
+    "en_variants": [
+      "down"
+    ],
+    "zh": [
+      "往下",
+      "向下"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "daʊ̯n"
+    ]
+  },
+  {
+    "de": "Dozent",
+    "en": "lecturer",
+    "en_variants": [
+      "lecturer",
+      "instructor",
+      "teacher"
+    ],
+    "zh": [
+      "講師",
+      "教員",
+      "老師"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Dozenten",
+    "genitive": "Dozenten",
+    "ipa": [
+      "doˈt͡sɛnt"
+    ]
+  },
+  {
+    "de": "Drama",
+    "en": "drama",
+    "en_variants": [
+      "drama"
+    ],
+    "zh": [
+      "電視劇",
+      "劇情",
+      "戲劇"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Dramen",
+    "genitive": "Dramas",
+    "ipa": [
+      "ˈdʁaːma"
+    ]
+  },
+  {
+    "de": "dran",
+    "en": "tuned",
+    "en_variants": [
+      "tuned"
     ],
     "zh": [],
     "pos": "other",
@@ -1099,15 +536,2436 @@
     "plural": "",
     "genitive": "",
     "ipa": [
-      "zusammen\t/ˌleːptn̩ t͡suˈzamən/"
+      "dʁan"
     ]
   },
   {
-    "de": "lediglich",
+    "de": "Drehbuch",
+    "en": "screenplay",
+    "en_variants": [
+      "screenplay",
+      "script"
+    ],
+    "zh": [
+      "劇本",
+      "編劇",
+      "電影劇本"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Drehbücher",
+    "genitive": "Drehbuches",
+    "ipa": [
+      "ˈdʁeːˌbuːx"
+    ]
+  },
+  {
+    "de": "Drehbuchautor",
+    "en": "scriptwriter",
+    "en_variants": [
+      "scriptwriter",
+      "screenwriter"
+    ],
+    "zh": [
+      "編劇"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Drehbuchautoren",
+    "genitive": "Drehbuchautors",
+    "ipa": [
+      "ˈdʁeːbuːxˌʔaʊ̯toːɐ̯"
+    ]
+  },
+  {
+    "de": "drehte",
+    "en": "spun",
+    "en_variants": [
+      "spun",
+      "turned",
+      "rotated"
+    ],
+    "zh": [
+      "紡"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "zusammen\t/ˌdʁeːtə t͡suˈzamən/"
+    ]
+  },
+  {
+    "de": "Drei",
+    "en": "drei",
+    "en_variants": [
+      "drei",
+      "three",
+      "threes"
+    ],
+    "zh": [
+      "三",
+      "三個"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Dreien",
+    "genitive": "Drei",
+    "ipa": [
+      "Kreuze machen\t/dʁaɪ̯ ˈkʁɔɪ̯t͡sə ˈmaxn̩/"
+    ]
+  },
+  {
+    "de": "dreimal",
+    "en": "thrice",
+    "en_variants": [
+      "thrice"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdʁaɪ̯maːl"
+    ]
+  },
+  {
+    "de": "Dresden",
+    "en": "dresden",
+    "en_variants": [
+      "dresden"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdʁeːsdn̩"
+    ]
+  },
+  {
+    "de": "Dresdner",
+    "en": "dresdner",
+    "en_variants": [
+      "dresdner"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Dresdner",
+    "genitive": "Dresdners",
+    "ipa": [
+      "ˈdʁeːsdnɐ"
+    ]
+  },
+  {
+    "de": "dringend",
+    "en": "urgent",
+    "en_variants": [
+      "urgent",
+      "urgently"
+    ],
+    "zh": [
+      "緊急",
+      "急"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdʁɪŋənt"
+    ]
+  },
+  {
+    "de": "Dritte",
+    "en": "third",
+    "en_variants": [
+      "third"
+    ],
+    "zh": [
+      "第三"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "Zwischenzeit\t/ˈdʁɪtə ˈt͡svɪʃn̩ˌt͡saɪ̯t/"
+    ]
+  },
+  {
+    "de": "Drittel",
+    "en": "thirds",
+    "en_variants": [
+      "thirds",
+      "third"
+    ],
+    "zh": [
+      "第三"
+    ],
+    "pos": "noun",
+    "gender": "",
+    "plural": "Drittel",
+    "genitive": "Drittels",
+    "ipa": [
+      "ˈdʁɪtl̩"
+    ]
+  },
+  {
+    "de": "dritten",
+    "en": "third",
+    "en_variants": [
+      "third"
+    ],
+    "zh": [
+      "第三"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "Zwischenzeit\t/ˈdʁɪtn̩ ˈt͡svɪʃn̩ˌt͡saɪ̯t/"
+    ]
+  },
+  {
+    "de": "Dritter",
+    "en": "third",
+    "en_variants": [
+      "third"
+    ],
+    "zh": [
+      "第三"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "Zwischenzeit\t/ˈdʁɪtɐ ˈt͡svɪʃn̩ˌt͡saɪ̯t/"
+    ]
+  },
+  {
+    "de": "Druck",
+    "en": "print",
+    "en_variants": [
+      "print",
+      "pressure",
+      "printing",
+      "pressures"
+    ],
+    "zh": [
+      "印刷",
+      "列印",
+      "壓力"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Drücke",
+    "genitive": "Drucks",
+    "ipa": [
+      "nach\t/ˌdʁʊk ˈnaːx/"
+    ]
+  },
+  {
+    "de": "Duisburg",
+    "en": "duisburg",
+    "en_variants": [
+      "duisburg"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdyːsbʊʁk"
+    ]
+  },
+  {
+    "de": "duke",
+    "en": "duke",
+    "en_variants": [
+      "duke"
+    ],
+    "zh": [
+      "公爵"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": []
+  },
+  {
+    "de": "Dunkel",
+    "en": "dark",
+    "en_variants": [
+      "dark",
+      "darkness"
+    ],
+    "zh": [
+      "黑",
+      "暗",
+      "黑暗"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "",
+    "genitive": "Dunkels",
+    "ipa": [
+      "ˈdʊŋkl̩",
+      "ˈdʊŋkəl"
+    ]
+  },
+  {
+    "de": "Duo",
+    "en": "duo",
+    "en_variants": [
+      "duo"
+    ],
+    "zh": [
+      "duo"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Duos",
+    "genitive": "Duos",
+    "ipa": [
+      "ˈduːo"
+    ]
+  },
+  {
+    "de": "Dur",
+    "en": "dur",
+    "en_variants": [
+      "dur"
+    ],
+    "zh": [
+      "dur"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "",
+    "genitive": "Dur",
+    "ipa": [
+      "duːɐ̯"
+    ]
+  },
+  {
+    "de": "durch",
+    "en": "thru",
+    "en_variants": [
+      "thru",
+      "through",
+      "by"
+    ],
+    "zh": [
+      "透過",
+      "通過"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "Mark und Bein gehen\t/dʊʁç ˈmaʁk ʊnt ˈbaɪ̯n ˌɡeːən/"
+    ]
+  },
+  {
+    "de": "Durchbruch",
+    "en": "breakthrough",
+    "en_variants": [
+      "breakthrough",
+      "breakthroughs"
+    ],
+    "zh": [
+      "突破性",
+      "突破"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Durchbrüche",
+    "genitive": "Durchbruchs",
+    "ipa": [
+      "ˈdʊʁçˌbʁʊx"
+    ]
+  },
+  {
+    "de": "Durchführung",
+    "en": "implementation",
+    "en_variants": [
+      "implementation",
+      "realisation",
+      "execution",
+      "realization"
+    ],
+    "zh": [
+      "執行",
+      "處決",
+      "實現"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Durchführungen",
+    "genitive": "Durchführung",
+    "ipa": [
+      "ˈdʊʁçfyːʁʊŋ"
+    ]
+  },
+  {
+    "de": "durchgeführt",
+    "en": "carried",
+    "en_variants": [
+      "carried",
+      "conducted",
+      "performed",
+      "implemented"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdʊʁçɡəˌfyːɐ̯t"
+    ]
+  },
+  {
+    "de": "Durchmesser",
+    "en": "diameter",
+    "en_variants": [
+      "diameter",
+      "diameters"
+    ],
+    "zh": [
+      "直徑"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Durchmesser",
+    "genitive": "Durchmessers",
+    "ipa": [
+      "ˈdʊʁçˌmɛsɐ"
+    ]
+  },
+  {
+    "de": "durchschnittlich",
+    "en": "averaging",
+    "en_variants": [
+      "averaging",
+      "average",
+      "avg",
+      "averaged"
+    ],
+    "zh": [
+      "平均",
+      "平均值"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdʊʁçˌʃnɪtlɪç"
+    ]
+  },
+  {
+    "de": "durchschnittliche",
+    "en": "average",
+    "en_variants": [
+      "average",
+      "avg"
+    ],
+    "zh": [
+      "平均",
+      "平均值"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdʊʁçˌʃnɪtlɪçə"
+    ]
+  },
+  {
+    "de": "durchsetzen",
+    "en": "assert",
+    "en_variants": [
+      "assert",
+      "enforcing",
+      "enforce"
+    ],
+    "zh": [
+      "斷言"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "dʊʁçˈzɛt͡sn̩",
+      "ˈdʊʁçˌzɛt͡sn̩"
+    ]
+  },
+  {
+    "de": "DVD",
+    "en": "dvd",
+    "en_variants": [
+      "dvd",
+      "dvds"
+    ],
+    "zh": [
+      "dvd"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "DVDs",
+    "genitive": "DVD",
+    "ipa": [
+      "deːfaʊ̯ˈdeː"
+    ]
+  },
+  {
+    "de": "Dynastie",
+    "en": "dynasty",
+    "en_variants": [
+      "dynasty"
+    ],
+    "zh": [
+      "朝代",
+      "王朝"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Dynastien",
+    "genitive": "Dynastie",
+    "ipa": [
+      "dynasˈtiː"
+    ]
+  },
+  {
+    "de": "Dänemark",
+    "en": "denmark",
+    "en_variants": [
+      "denmark",
+      "danmark"
+    ],
+    "zh": [
+      "丹麥",
+      "danmark"
+    ],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdɛːnəˌmaʁk"
+    ]
+  },
+  {
+    "de": "dänische",
+    "en": "danish",
+    "en_variants": [
+      "danish"
+    ],
+    "zh": [
+      "丹麥"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdɛːnɪʃə"
+    ]
+  },
+  {
+    "de": "dänischen",
+    "en": "danish",
+    "en_variants": [
+      "danish"
+    ],
+    "zh": [
+      "丹麥"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdɛːnɪʃn̩"
+    ]
+  },
+  {
+    "de": "dänischer",
+    "en": "danish",
+    "en_variants": [
+      "danish"
+    ],
+    "zh": [
+      "丹麥"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdɛːnɪʃɐ"
+    ]
+  },
+  {
+    "de": "dörfer",
+    "en": "villages",
+    "en_variants": [
+      "villages"
+    ],
+    "zh": [
+      "鄉村",
+      "村莊"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdœʁfɐ"
+    ]
+  },
+  {
+    "de": "Düsseldorf",
+    "en": "düsseldorf",
+    "en_variants": [
+      "düsseldorf",
+      "dusseldorf"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈdʏsl̩ˌdɔʁf"
+    ]
+  },
+  {
+    "de": "Earl",
+    "en": "earl",
+    "en_variants": [
+      "earl"
+    ],
+    "zh": [
+      "earl"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Earls",
+    "genitive": "Earls",
+    "ipa": [
+      "ˈøːɐ̯l",
+      "ˈœʁl"
+    ]
+  },
+  {
+    "de": "eben",
+    "en": "just",
+    "en_variants": [
+      "just"
+    ],
+    "zh": [
+      "只是",
+      "只要"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈeːbn̩",
+      "ˈeːbm̩"
+    ]
+  },
+  {
+    "de": "ebenda",
+    "en": "idem",
+    "en_variants": [
+      "idem",
+      "ibid"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈeːbn̩daː",
+      "eːbənˈdaː"
+    ]
+  },
+  {
+    "de": "Ebene",
+    "en": "tier",
+    "en_variants": [
+      "tier",
+      "plains",
+      "layer",
+      "level"
+    ],
+    "zh": [
+      "平原",
+      "層",
+      "層次"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Ebenen",
+    "genitive": "Ebene",
+    "ipa": [
+      "ˈeːbənə"
+    ]
+  },
+  {
+    "de": "ebenfalls",
+    "en": "also",
+    "en_variants": [
+      "also",
+      "too",
+      "likewise"
+    ],
+    "zh": [
+      "還",
+      "也",
+      "太"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈeːbn̩ˌfals"
+    ]
+  },
+  {
+    "de": "ebenso",
+    "en": "also",
+    "en_variants": [
+      "also",
+      "equally",
+      "likewise"
+    ],
+    "zh": [
+      "還",
+      "也",
+      "同樣"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈeːbənzoː"
+    ]
+  },
+  {
+    "de": "Eberhard",
+    "en": "eberhard",
+    "en_variants": [
+      "eberhard"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈeːbɐhaʁt"
+    ]
+  },
+  {
+    "de": "echt",
+    "en": "genuine",
+    "en_variants": [
+      "genuine",
+      "legit",
+      "really"
+    ],
+    "zh": [
+      "合法"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "reflexive Verb\t/ɛçt ʁeflɛˌksiːvə ˈvɛʁp/"
+    ]
+  },
+  {
+    "de": "echte",
+    "en": "real",
+    "en_variants": [
+      "real",
+      "genuine"
+    ],
+    "zh": [
+      "real",
+      "真實"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "Reizker\t/ˌɛçtə ˈʁaɪ̯t͡skɐ/"
+    ]
+  },
+  {
+    "de": "Ecke",
+    "en": "corner",
+    "en_variants": [
+      "corner"
+    ],
+    "zh": [
+      "角落",
+      "轉角",
+      "角"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Ecken",
+    "genitive": "Ecke",
+    "ipa": [
+      "ˈɛkə"
+    ]
+  },
+  {
+    "de": "edgar",
+    "en": "edgar",
+    "en_variants": [
+      "edgar"
+    ],
+    "zh": [
+      "edgar"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": []
+  },
+  {
+    "de": "Edinburgh",
+    "en": "edinburgh",
+    "en_variants": [
+      "edinburgh"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛdɪnbərə"
+    ]
+  },
+  {
+    "de": "edit",
+    "en": "edit",
+    "en_variants": [
+      "edit"
+    ],
+    "zh": [
+      "編輯"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": []
+  },
+  {
+    "de": "Edition",
+    "en": "edition",
+    "en_variants": [
+      "edition"
+    ],
+    "zh": [
+      "版"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Editionen",
+    "genitive": "Edition",
+    "ipa": [
+      "ediˈt͡si̯oːn"
+    ]
+  },
+  {
+    "de": "Edmund",
+    "en": "edmund",
+    "en_variants": [
+      "edmund"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛtmʊnt"
+    ]
+  },
+  {
+    "de": "Eduard",
+    "en": "edward",
+    "en_variants": [
+      "edward",
+      "eduard"
+    ],
+    "zh": [
+      "edward",
+      "eduard"
+    ],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈeːduaʁt"
+    ]
+  },
+  {
+    "de": "edward",
+    "en": "edward",
+    "en_variants": [
+      "edward"
+    ],
+    "zh": [
+      "edward"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": []
+  },
+  {
+    "de": "Effekt",
+    "en": "effect",
+    "en_variants": [
+      "effect",
+      "effects"
+    ],
+    "zh": [
+      "特效",
+      "效果",
+      "效應"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Effekte",
+    "genitive": "Effekts",
+    "ipa": [
+      "ɛˈfɛkt"
+    ]
+  },
+  {
+    "de": "egal",
+    "en": "regardless",
+    "en_variants": [
+      "regardless",
+      "anyway",
+      "whatever"
+    ],
+    "zh": [
+      "總之",
+      "不管怎樣",
+      "反正"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "eˈɡaːl",
+      "ˈeːɡaːl"
+    ]
+  },
+  {
+    "de": "Ehe",
+    "en": "marriage",
+    "en_variants": [
+      "marriage"
+    ],
+    "zh": [
+      "結婚",
+      "婚姻"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Ehen",
+    "genitive": "Ehe",
+    "ipa": [
+      "ˈeːə"
+    ]
+  },
+  {
+    "de": "Ehefrau",
+    "en": "spouse",
+    "en_variants": [
+      "spouse",
+      "wife"
+    ],
+    "zh": [
+      "配偶",
+      "妻子"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Ehefrauen",
+    "genitive": "Ehefrau",
+    "ipa": [
+      "ˈeːəˌfʁaʊ̯"
+    ]
+  },
+  {
+    "de": "ehemalige",
+    "en": "alumni",
+    "en_variants": [
+      "alumni",
+      "former"
+    ],
+    "zh": [
+      "校友"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "jugoslawische Republik Mazedonien\t/ˈeːəˌmaːlɪɡə juɡoˈslaːvɪʃə ʁepuˈbliːk mat͡səˈdoːni̯ən/"
+    ]
+  },
+  {
+    "de": "ehemaligen",
+    "en": "former",
+    "en_variants": [
+      "former"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "jugoslawischen Republik Mazedonien\t/ˈeːəˌmaːlɪɡn̩ juɡoˈslaːvɪʃn̩ ʁepuˈbliːk mat͡səˈdoːni̯ən/"
+    ]
+  },
+  {
+    "de": "ehemaliger",
+    "en": "retired",
+    "en_variants": [
+      "retired",
+      "alumni",
+      "former"
+    ],
+    "zh": [
+      "退休",
+      "退役",
+      "校友"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "jugoslawischer Republik Mazedonien\t/ˈeːəˌmaːlɪɡɐ juɡoˈslaːvɪʃɐ ʁepuˈbliːk mat͡səˈdoːni̯ən/"
+    ]
+  },
+  {
+    "de": "ehemals",
+    "en": "formerly",
+    "en_variants": [
+      "formerly"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈeːəˌmaːls"
+    ]
+  },
+  {
+    "de": "Ehemann",
+    "en": "husband",
+    "en_variants": [
+      "husband",
+      "hubby"
+    ],
+    "zh": [
+      "丈夫",
+      "老公"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Ehemänner",
+    "genitive": "Ehemannes",
+    "ipa": [
+      "ˈeːəˌman"
+    ]
+  },
+  {
+    "de": "eher",
+    "en": "rather",
+    "en_variants": [
+      "rather",
+      "somewhat",
+      "sooner"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈeːɐ"
+    ]
+  },
+  {
+    "de": "ehren",
+    "en": "honour",
+    "en_variants": [
+      "honour",
+      "honorary",
+      "honor",
+      "honours",
+      "honors"
+    ],
+    "zh": [
+      "名譽",
+      "榮譽"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈeːʁən"
+    ]
+  },
+  {
+    "de": "Ehrlich",
+    "en": "ehrlich",
+    "en_variants": [
+      "ehrlich",
+      "honestly",
+      "honest"
+    ],
+    "zh": [
+      "誠實"
+    ],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "gesagt\t/ˈeːɐ̯lɪç ɡəˈzaːkt/"
+    ]
+  },
+  {
+    "de": "eier",
+    "en": "eggs",
+    "en_variants": [
+      "eggs",
+      "balls",
+      "egg"
+    ],
+    "zh": [
+      "蛋",
+      "雞蛋",
+      "卵"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "herum\t/ˌaɪ̯ɐ hɛˈʁʊm/"
+    ]
+  },
+  {
+    "de": "eigene",
+    "en": "own",
+    "en_variants": [
+      "own"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯ɡənə"
+    ]
+  },
+  {
+    "de": "eigenen",
+    "en": "own",
+    "en_variants": [
+      "own"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯ɡənən"
+    ]
+  },
+  {
+    "de": "eigener",
+    "en": "own",
+    "en_variants": [
+      "own"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯ɡənɐ"
+    ]
+  },
+  {
+    "de": "eigenes",
+    "en": "own",
+    "en_variants": [
+      "own"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯ɡənəs"
+    ]
+  },
+  {
+    "de": "Eigenschaft",
+    "en": "attribute",
+    "en_variants": [
+      "attribute",
+      "property"
+    ],
+    "zh": [
+      "屬性",
+      "地產",
+      "財產"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Eigenschaften",
+    "genitive": "Eigenschaft",
+    "ipa": [
+      "ˈaɪ̯ɡn̩ʃaft",
+      "ˈaɪ̯ɡŋ̍ʃaft"
+    ]
+  },
+  {
+    "de": "eigenschaften",
+    "en": "characteristics",
+    "en_variants": [
+      "characteristics",
+      "attributes",
+      "properties",
+      "features"
+    ],
+    "zh": [
+      "特徵",
+      "特性",
+      "特點"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯ɡn̩ʃaftn̩",
+      "ˈaɪ̯ɡŋ̍ʃaftn̩"
+    ]
+  },
+  {
+    "de": "eigenständige",
+    "en": "standalone",
+    "en_variants": [
+      "standalone"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯ɡn̩ˌʃtɛndɪɡə"
+    ]
+  },
+  {
+    "de": "eigentlich",
+    "en": "actually",
+    "en_variants": [
+      "actually"
+    ],
+    "zh": [
+      "實際上",
+      "其實"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯ɡn̩tlɪç"
+    ]
+  },
+  {
+    "de": "Eigentum",
+    "en": "property",
+    "en_variants": [
+      "property",
+      "ownership"
+    ],
+    "zh": [
+      "地產",
+      "屬性",
+      "財產"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Eigentume",
+    "genitive": "Eigentums",
+    "ipa": [
+      "ˈaɪ̯ɡn̩tuːm"
+    ]
+  },
+  {
+    "de": "Eigentümer",
+    "en": "owner",
+    "en_variants": [
+      "owner",
+      "owners",
+      "proprietor",
+      "ownership"
+    ],
+    "zh": [
+      "所有者",
+      "業主",
+      "所有權"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Eigentümer",
+    "genitive": "Eigentümers",
+    "ipa": [
+      "ˈaɪ̯ɡn̩ˌtyːmɐ"
+    ]
+  },
+  {
+    "de": "ein",
+    "en": "a",
+    "en_variants": [
+      "a",
+      "an",
+      "one",
+      "ein"
+    ],
+    "zh": [
+      "一",
+      "one",
+      "一個"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "Wetter zum Eierlegen\t/aɪ̯n ˈvɛtɐ t͡sʊm ˈaɪ̯ɐˌleːɡn̩/"
+    ]
+  },
+  {
+    "de": "eindeutig",
+    "en": "unambiguous",
+    "en_variants": [
+      "unambiguous",
+      "unequivocal",
+      "explicit",
+      "clearly"
+    ],
+    "zh": [
+      "明示",
+      "明文"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nˌdɔɪ̯tɪk",
+      "ˈaɪ̯nˌdɔɪ̯tɪç"
+    ]
+  },
+  {
+    "de": "Eindruck",
+    "en": "impression",
+    "en_variants": [
+      "impression"
+    ],
+    "zh": [
+      "印象"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Eindrücke",
+    "genitive": "Eindrucks",
+    "ipa": [
+      "ˈaɪ̯nˌdʁʊk"
+    ]
+  },
+  {
+    "de": "eine",
+    "en": "a",
+    "en_variants": [
+      "a",
+      "an",
+      "one"
+    ],
+    "zh": [
+      "一",
+      "one",
+      "一個"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "weiße Weste haben\t/ˈaɪ̯nə ˈvaɪ̯sə ˈvɛstə ˈhaːbn̩/"
+    ]
+  },
+  {
+    "de": "einem",
+    "en": "a",
+    "en_variants": [
+      "a",
+      "an"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "nackten Mann in die Tasche greifen\t/ˈaɪ̯nəm ˈnaktn̩ man ɪn diː ˈtaʃə ˈɡʁaɪ̯fn̩/"
+    ]
+  },
+  {
+    "de": "einen",
+    "en": "a",
+    "en_variants": [
+      "a",
+      "an",
+      "one"
+    ],
+    "zh": [
+      "一",
+      "one",
+      "一個"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "zur Brust nehmen\t/ˈaɪ̯nən t͡suːɐ̯ bʁʊst neːmən/"
+    ]
+  },
+  {
+    "de": "Einer",
+    "en": "an",
+    "en_variants": [
+      "an",
+      "one"
+    ],
+    "zh": [
+      "一",
+      "one",
+      "一個"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Einer",
+    "genitive": "Einers",
+    "ipa": [
+      "Sache ihren Lauf lassen\t/ˈaɪ̯nɐ ˈzaxə ˈiːʁən ˈlaʊ̯f ˈlasn̩/"
+    ]
+  },
+  {
+    "de": "einfach",
+    "en": "simple",
+    "en_variants": [
+      "simple",
+      "simply",
+      "just",
+      "easy"
+    ],
+    "zh": [
+      "簡單",
+      "只是",
+      "只要"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nfax"
+    ]
+  },
+  {
+    "de": "einfache",
+    "en": "simple",
+    "en_variants": [
+      "simple",
+      "simplicity",
+      "easy"
+    ],
+    "zh": [
+      "簡單",
+      "簡潔",
+      "容易"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "Sprache\t/ˈaɪ̯nˌfaxə ˈʃpʁaːxə/"
+    ]
+  },
+  {
+    "de": "einfachen",
+    "en": "simple",
+    "en_variants": [
+      "simple"
+    ],
+    "zh": [
+      "簡單"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "Sprache\t/ˈaɪ̯nˌfaxn̩ ˈʃpʁaːxə/"
+    ]
+  },
+  {
+    "de": "einfacher",
+    "en": "simple",
+    "en_variants": [
+      "simple",
+      "easier",
+      "simpler"
+    ],
+    "zh": [
+      "簡單"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "Sprache\t/ˈaɪ̯nˌfaxɐ ˈʃpʁaːxə/"
+    ]
+  },
+  {
+    "de": "Einfluss",
+    "en": "impact",
+    "en_variants": [
+      "impact",
+      "influencing",
+      "influence",
+      "influences"
+    ],
+    "zh": [
+      "撞擊",
+      "影響力",
+      "影響"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Einflüsse",
+    "genitive": "Einflusses",
+    "ipa": [
+      "ˈaɪ̯nˌflʊs"
+    ]
+  },
+  {
+    "de": "einfügen",
+    "en": "inserting",
+    "en_variants": [
+      "inserting",
+      "insert",
+      "paste",
+      "insertion"
+    ],
+    "zh": [
+      "插入"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nˌfyːɡn̩"
+    ]
+  },
+  {
+    "de": "Einführung",
+    "en": "introduction",
+    "en_variants": [
+      "introduction",
+      "introducing",
+      "introductory",
+      "imposition",
+      "launch"
+    ],
+    "zh": [
+      "引入",
+      "介紹",
+      "發射"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Einführungen",
+    "genitive": "Einführung",
+    "ipa": [
+      "ˈaɪ̯nˌfyːʁʊŋ"
+    ]
+  },
+  {
+    "de": "Eingang",
+    "en": "entry",
+    "en_variants": [
+      "entry",
+      "entrance",
+      "incoming",
+      "input"
+    ],
+    "zh": [
+      "入境",
+      "入場",
+      "入口"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Eingänge",
+    "genitive": "Einganges",
+    "ipa": [
+      "ˈaɪ̯nˌɡaŋ"
+    ]
+  },
+  {
+    "de": "eingebaut",
+    "en": "incorporated",
+    "en_variants": [
+      "incorporated",
+      "fitted",
+      "installed"
+    ],
+    "zh": [
+      "安裝"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌbaʊ̯t"
+    ]
+  },
+  {
+    "de": "eingebunden",
+    "en": "involved",
+    "en_variants": [
+      "involved",
+      "mounted"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌbʊndn̩"
+    ]
+  },
+  {
+    "de": "eingefügt",
+    "en": "pasted",
+    "en_variants": [
+      "pasted",
+      "inserted"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌfyːkt"
+    ]
+  },
+  {
+    "de": "eingeführt",
+    "en": "introduced",
+    "en_variants": [
+      "introduced",
+      "imported",
+      "instituted"
+    ],
+    "zh": [
+      "進口"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌfyːɐ̯t"
+    ]
+  },
+  {
+    "de": "eingeladen",
+    "en": "invited",
+    "en_variants": [
+      "invited",
+      "invites",
+      "invitation"
+    ],
+    "zh": [
+      "邀請",
+      "受邀"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌlaːdn̩"
+    ]
+  },
+  {
+    "de": "eingeordnet",
+    "en": "categorized",
+    "en_variants": [
+      "categorized",
+      "categorised"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌʔɔʁdnət"
+    ]
+  },
+  {
+    "de": "eingerichtet",
+    "en": "established",
+    "en_variants": [
+      "established",
+      "configured",
+      "furnished"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌʁɪçtət"
+    ]
+  },
+  {
+    "de": "eingesetzt",
+    "en": "utilized",
+    "en_variants": [
+      "utilized",
+      "deployed"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌzɛt͡st"
+    ]
+  },
+  {
+    "de": "eingestellt",
+    "en": "discontinued",
+    "en_variants": [
+      "discontinued",
+      "hired"
+    ],
+    "zh": [
+      "受雇"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌʃtɛlt"
+    ]
+  },
+  {
+    "de": "eingestuft",
+    "en": "classified",
+    "en_variants": [
+      "classified"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌʃtuːft"
+    ]
+  },
+  {
+    "de": "eingetragen",
+    "en": "inscribed",
+    "en_variants": [
+      "inscribed",
+      "registered",
+      "entered"
+    ],
+    "zh": [
+      "註冊"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌtʁaːɡn̩"
+    ]
+  },
+  {
+    "de": "eingeweiht",
+    "en": "inaugurated",
+    "en_variants": [
+      "inaugurated",
+      "privy"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌvaɪ̯t"
+    ]
+  },
+  {
+    "de": "eingezogen",
+    "en": "drafted",
+    "en_variants": [
+      "drafted",
+      "confiscated",
+      "recovered"
+    ],
+    "zh": [
+      "草擬",
+      "沒收"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɡəˌt͡soːɡn̩"
+    ]
+  },
+  {
+    "de": "Einheit",
+    "en": "unity",
+    "en_variants": [
+      "unity",
+      "squad",
+      "oneness",
+      "unit",
+      "entity"
+    ],
+    "zh": [
+      "統一",
+      "團結",
+      "班長"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Einheiten",
+    "genitive": "Einheit",
+    "ipa": [
+      "ˈaɪ̯nhaɪ̯t"
+    ]
+  },
+  {
+    "de": "einheiten",
+    "en": "units",
+    "en_variants": [
+      "units",
+      "entities",
+      "squads"
+    ],
+    "zh": [
+      "各單位",
+      "單元",
+      "單位"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nˌhaɪ̯tn̩",
+      "ˈaɪ̯nˌhaɪ̯tən"
+    ]
+  },
+  {
+    "de": "einige",
+    "en": "some",
+    "en_variants": [
+      "some"
+    ],
+    "zh": [
+      "一些",
+      "有些"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɪɡə"
+    ]
+  },
+  {
+    "de": "einigen",
+    "en": "some",
+    "en_variants": [
+      "some"
+    ],
+    "zh": [
+      "一些",
+      "有些"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nɪɡn̩"
+    ]
+  },
+  {
+    "de": "Einkommen",
+    "en": "incomes",
+    "en_variants": [
+      "incomes",
+      "earnings",
+      "income"
+    ],
+    "zh": [
+      "收入",
+      "收益"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Einkommen",
+    "genitive": "Einkommens",
+    "ipa": [
+      "ˈaɪ̯nˌkɔmən"
+    ]
+  },
+  {
+    "de": "Einleitung",
+    "en": "introduction",
+    "en_variants": [
+      "introduction",
+      "preamble",
+      "introductory",
+      "intro",
+      "initiation"
+    ],
+    "zh": [
+      "介紹"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Einleitungen",
+    "genitive": "Einleitung",
+    "ipa": [
+      "ˈaɪ̯nlaɪ̯tʊŋ"
+    ]
+  },
+  {
+    "de": "einmal",
+    "en": "once",
+    "en_variants": [
+      "once"
+    ],
+    "zh": [
+      "一次",
+      "一旦"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "mehr\t/ˌaɪ̯nmaːl ˈmeːɐ̯/"
+    ]
+  },
+  {
+    "de": "Einrichtung",
+    "en": "establishment",
+    "en_variants": [
+      "establishment",
+      "setup",
+      "configuration",
+      "furnishings"
+    ],
+    "zh": [
+      "建立",
+      "配置",
+      "陳設"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Einrichtungen",
+    "genitive": "Einrichtung",
+    "ipa": [
+      "ˈaɪ̯nˌʁɪçtʊŋ"
+    ]
+  },
+  {
+    "de": "einrichtungen",
+    "en": "facilities",
+    "en_variants": [
+      "facilities",
+      "institutions",
+      "establishments"
+    ],
+    "zh": [
+      "設施",
+      "機構"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nˌʁɪçtʊŋŋ̍",
+      "ˈaɪ̯nˌʁɪçtʊŋən"
+    ]
+  },
+  {
+    "de": "Eins",
+    "en": "one",
+    "en_variants": [
+      "one"
+    ],
+    "zh": [
+      "一",
+      "one",
+      "一個"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Einsen",
+    "genitive": "Eins",
+    "ipa": [
+      "aɪ̯ns"
+    ]
+  },
+  {
+    "de": "Einsatz",
+    "en": "usage",
+    "en_variants": [
+      "usage",
+      "deployment"
+    ],
+    "zh": [
+      "用法",
+      "用量",
+      "使用"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Einsätze",
+    "genitive": "Einsatzes",
+    "ipa": [
+      "ˈaɪ̯nˌzat͡s"
+    ]
+  },
+  {
+    "de": "einschließlich",
+    "en": "including",
+    "en_variants": [
+      "including"
+    ],
+    "zh": [
+      "包括"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nʃliːslɪç"
+    ]
+  },
+  {
+    "de": "Einschätzung",
+    "en": "estimation",
+    "en_variants": [
+      "estimation",
+      "sentiment"
+    ],
+    "zh": [
+      "估計",
+      "估算"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Einschätzungen",
+    "genitive": "Einschätzung",
+    "ipa": [
+      "ˈaɪ̯nˌʃɛt͡sʊŋ"
+    ]
+  },
+  {
+    "de": "einsetzen",
+    "en": "deploy",
+    "en_variants": [
+      "deploy"
+    ],
+    "zh": [
+      "部署"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nˌzɛt͡sn̩"
+    ]
+  },
+  {
+    "de": "Einspruch",
+    "en": "objection",
+    "en_variants": [
+      "objection",
+      "protest",
+      "opposition",
+      "objections",
+      "appeal"
+    ],
+    "zh": [
+      "反對",
+      "異議",
+      "抗議"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Einsprüche",
+    "genitive": "Einspruchs",
+    "ipa": [
+      "ˈaɪ̯nʃpʁʊx"
+    ]
+  },
+  {
+    "de": "einst",
+    "en": "once",
+    "en_variants": [
+      "once"
+    ],
+    "zh": [
+      "一次",
+      "一旦"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "aɪ̯nst"
+    ]
+  },
+  {
+    "de": "einstellen",
+    "en": "set",
+    "en_variants": [
+      "set",
+      "setting"
+    ],
+    "zh": [
+      "設",
+      "集",
+      "設定"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nˌʃtɛlən"
+    ]
+  },
+  {
+    "de": "Einstellung",
+    "en": "recruitment",
+    "en_variants": [
+      "recruitment",
+      "attitude",
+      "setting",
+      "attitudes"
+    ],
+    "zh": [
+      "招聘",
+      "招募",
+      "態度"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Einstellungen",
+    "genitive": "Einstellung",
+    "ipa": [
+      "ˈaɪ̯nˌʃtɛlʊŋ"
+    ]
+  },
+  {
+    "de": "einsätze",
+    "en": "inserts",
+    "en_variants": [
+      "inserts",
+      "bets",
+      "stakes"
+    ],
+    "zh": [
+      "利害關係"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nˌzɛt͡sə"
+    ]
+  },
+  {
+    "de": "Eintrag",
+    "en": "entry",
+    "en_variants": [
+      "entry"
+    ],
+    "zh": [
+      "入境"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Einträge",
+    "genitive": "Eintrags",
+    "ipa": [
+      "ˈaɪ̯nˌtʁaːk"
+    ]
+  },
+  {
+    "de": "Eintritt",
+    "en": "entry",
+    "en_variants": [
+      "entry",
+      "entrance",
+      "admission"
+    ],
+    "zh": [
+      "入境",
+      "入場",
+      "入口"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Eintritte",
+    "genitive": "Eintrittes",
+    "ipa": [
+      "ˈaɪ̯ntʁɪt"
+    ]
+  },
+  {
+    "de": "einträge",
+    "en": "listings",
+    "en_variants": [
+      "listings",
+      "entries"
+    ],
+    "zh": [
+      "上市",
+      "條目"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯ntʁɛːɡə"
+    ]
+  },
+  {
+    "de": "Einwohner",
+    "en": "inhabitants",
+    "en_variants": [
+      "inhabitants",
+      "residents",
+      "inhabitant",
+      "population"
+    ],
+    "zh": [
+      "居民",
+      "人口"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Einwohner",
+    "genitive": "Einwohners",
+    "ipa": [
+      "ˈaɪ̯nˌvoːnɐ"
+    ]
+  },
+  {
+    "de": "Einwohnerzahl",
+    "en": "demographics",
+    "en_variants": [
+      "demographics",
+      "population"
+    ],
+    "zh": [
+      "人口"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Einwohnerzahlen",
+    "genitive": "Einwohnerzahl",
+    "ipa": [
+      "ˈaɪ̯nvoːnɐˌt͡saːl"
+    ]
+  },
+  {
+    "de": "Einzel",
+    "en": "singles",
+    "en_variants": [
+      "singles",
+      "single",
+      "individual"
+    ],
+    "zh": [
+      "單曲",
+      "單打",
+      "單一"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Einzel",
+    "genitive": "Einzels",
+    "ipa": [
+      "ˈaɪ̯nt͡sl̩"
+    ]
+  },
+  {
+    "de": "einzeln",
+    "en": "individually",
+    "en_variants": [
+      "individually",
+      "separately"
+    ],
+    "zh": [
+      "個別"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nt͡sl̩n"
+    ]
+  },
+  {
+    "de": "einzelne",
+    "en": "single",
+    "en_variants": [
+      "single"
+    ],
+    "zh": [
+      "單一",
+      "單人",
+      "單身"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nt͡sl̩nə"
+    ]
+  },
+  {
+    "de": "einzelnen",
+    "en": "individual",
+    "en_variants": [
+      "individual"
+    ],
+    "zh": [
+      "個人",
+      "個別",
+      "個體"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nt͡sl̩nən"
+    ]
+  },
+  {
+    "de": "einzig",
     "en": "only",
     "en_variants": [
-      "only",
-      "merely"
+      "only"
     ],
     "zh": [
       "只",
@@ -1118,251 +2976,713 @@
     "plural": "",
     "genitive": "",
     "ipa": [
-      "ˈleːdɪklɪç"
+      "und allein\t/ˈaɪ̯nt͡sɪç ʊnt aˈlaɪ̯n/"
     ]
   },
   {
-    "de": "Lee",
-    "en": "lee",
+    "de": "einzige",
+    "en": "only",
     "en_variants": [
-      "lee"
+      "only",
+      "sole",
+      "single"
     ],
     "zh": [
-      "lee",
-      "李"
+      "只",
+      "只有",
+      "單一"
     ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "",
-    "genitive": "Lee",
-    "ipa": [
-      "leː"
-    ]
-  },
-  {
-    "de": "legte",
-    "en": "laid",
-    "en_variants": [
-      "laid"
-    ],
-    "zh": [],
     "pos": "other",
     "gender": "",
     "plural": "",
     "genitive": "",
     "ipa": [
-      "zusammen\t/ˌleːktə t͡suˈzamən/"
+      "ˈaɪ̯nt͡sɪɡə"
     ]
   },
   {
-    "de": "Lehre",
-    "en": "apprenticeship",
+    "de": "einzigen",
+    "en": "single",
     "en_variants": [
-      "apprenticeship",
-      "lesson",
-      "apprenticeships",
-      "doctrine",
-      "teaching"
+      "single",
+      "only"
     ],
     "zh": [
-      "學徒",
-      "教訓",
-      "課"
+      "單一",
+      "單人",
+      "單身"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈaɪ̯nt͡sɪɡŋ̩"
+    ]
+  },
+  {
+    "de": "Einzug",
+    "en": "indent",
+    "en_variants": [
+      "indent",
+      "indentation"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Einzüge",
+    "genitive": "Einzuges",
+    "ipa": [
+      "ˈaɪ̯nˌt͡suːk"
+    ]
+  },
+  {
+    "de": "einzugsgebiet",
+    "en": "catchment",
+    "en_variants": [
+      "catchment",
+      "basin"
+    ],
+    "zh": [
+      "盆地",
+      "海盆",
+      "流域"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": []
+  },
+  {
+    "de": "Eis",
+    "en": "icecream",
+    "en_variants": [
+      "icecream",
+      "eis",
+      "ice"
+    ],
+    "zh": [
+      "eis",
+      "冰塊",
+      "冰"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Eis",
+    "genitive": "Eis",
+    "ipa": [
+      "los\t/ˌaɪ̯s ˈloːs/"
+    ]
+  },
+  {
+    "de": "Eisen",
+    "en": "irons",
+    "en_variants": [
+      "irons",
+      "ferrous",
+      "iron"
+    ],
+    "zh": [
+      "熨斗",
+      "鋼鐵",
+      "鐵"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Eisen",
+    "genitive": "Eisens",
+    "ipa": [
+      "los\t/ˌaɪ̯zn̩ ˈloːs/"
+    ]
+  },
+  {
+    "de": "Eisenbahn",
+    "en": "rail",
+    "en_variants": [
+      "rail",
+      "railway",
+      "train",
+      "railways",
+      "railroad"
+    ],
+    "zh": [
+      "鐵路",
+      "鐵道",
+      "火車"
     ],
     "pos": "noun",
     "gender": "f",
-    "plural": "Lehren",
-    "genitive": "Lehre",
+    "plural": "Eisenbahnen",
+    "genitive": "Eisenbahn",
     "ipa": [
-      "ˈleːʁə"
+      "ˈaɪ̯zm̩ˌbaːn",
+      "ˈaɪ̯zn̩ˌbaːn"
     ]
   },
   {
-    "de": "Lehrer",
-    "en": "tutor",
+    "de": "Eishockey",
+    "en": "hockey",
     "en_variants": [
-      "tutor",
-      "instructor",
-      "teachers",
-      "teacher"
+      "hockey",
+      "eishockey"
     ],
     "zh": [
-      "家教",
-      "導師",
-      "教員"
+      "曲棍球",
+      "冰球"
     ],
     "pos": "noun",
-    "gender": "m",
-    "plural": "Lehrer",
-    "genitive": "Lehrers",
+    "gender": "n",
+    "plural": "",
+    "genitive": "Eishockeys",
     "ipa": [
-      "ˈleːʁɐ"
+      "ˈaɪ̯sˌhɔki",
+      "ˈaɪ̯sˌhɔke"
     ]
   },
   {
-    "de": "leicht",
-    "en": "easily",
+    "de": "Elbe",
+    "en": "elbe",
     "en_variants": [
-      "easily",
-      "slight",
-      "light",
-      "easy",
-      "lightweight",
-      "slightly"
+      "elbe"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛlbə"
+    ]
+  },
+  {
+    "de": "Elektrische",
+    "en": "electrical",
+    "en_variants": [
+      "electrical",
+      "electric"
     ],
     "zh": [
-      "輕微",
-      "光線",
-      "光"
+      "電氣",
+      "電",
+      "電動"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "Stuhl\t/eˌlɛktʁɪʃə ˈʃtuːl/"
+    ]
+  },
+  {
+    "de": "elektrischen",
+    "en": "electric",
+    "en_variants": [
+      "electric"
+    ],
+    "zh": [
+      "電氣",
+      "電",
+      "電動"
     ],
     "pos": "other",
     "gender": "",
     "plural": "",
     "genitive": "",
     "ipa": [
-      "laɪ̯çt"
+      "Stuhls\t/eˌlɛktʁɪʃn̩ ˈʃtuːls/"
     ]
   },
   {
-    "de": "Leider",
-    "en": "sorry",
+    "de": "elektronische",
+    "en": "electronic",
     "en_variants": [
-      "sorry",
-      "alas",
-      "sadly",
-      "unfortunately"
+      "electronic"
     ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Leider",
-    "genitive": "Leiders",
+    "zh": [
+      "電子"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
     "ipa": [
-      "ˈlaɪ̯dɐ"
+      "elɛkˈtʁoːnɪʃə"
     ]
   },
   {
-    "de": "Leipzig",
-    "en": "leipzig",
+    "de": "Element",
+    "en": "element",
     "en_variants": [
-      "leipzig"
+      "element"
     ],
-    "zh": [],
+    "zh": [
+      "元素",
+      "元件",
+      "要件"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Elemente",
+    "genitive": "Elements",
+    "ipa": [
+      "eləˈmɛnt"
+    ]
+  },
+  {
+    "de": "elemente",
+    "en": "elements",
+    "en_variants": [
+      "elements"
+    ],
+    "zh": [
+      "元素",
+      "要件"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "eləˈmɛntə"
+    ]
+  },
+  {
+    "de": "elementen",
+    "en": "elements",
+    "en_variants": [
+      "elements"
+    ],
+    "zh": [
+      "元素",
+      "要件"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "eləˈmɛntn̩"
+    ]
+  },
+  {
+    "de": "Elf",
+    "en": "eleven",
+    "en_variants": [
+      "eleven",
+      "elf"
+    ],
+    "zh": [
+      "十一",
+      "eleven",
+      "精靈"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Elfen",
+    "genitive": "Elf",
+    "ipa": [
+      "ɛlf"
+    ]
+  },
+  {
+    "de": "Elisabeth",
+    "en": "elizabeth",
+    "en_variants": [
+      "elizabeth",
+      "elisabeth"
+    ],
+    "zh": [
+      "elizabeth"
+    ],
     "pos": "noun",
     "gender": "",
     "plural": "",
     "genitive": "",
     "ipa": [
-      "ˈlaɪ̯pt͡sɪk",
-      "ˈlaɪ̯pt͡sɪç"
+      "eˈliːzabɛt"
     ]
   },
   {
-    "de": "Leistung",
-    "en": "performance",
+    "de": "elizabeth",
+    "en": "elizabeth",
     "en_variants": [
-      "performance",
-      "accomplishment",
-      "achievement",
+      "elizabeth"
+    ],
+    "zh": [
+      "elizabeth"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": []
+  },
+  {
+    "de": "Eltern",
+    "en": "parenting",
+    "en_variants": [
+      "parenting",
+      "parents",
+      "parent",
+      "parental"
+    ],
+    "zh": [
+      "養育",
+      "育兒",
+      "父母親"
+    ],
+    "pos": "noun",
+    "gender": "",
+    "plural": "Eltern",
+    "genitive": "",
+    "ipa": [
+      "ˈɛltɐn"
+    ]
+  },
+  {
+    "de": "emil",
+    "en": "emile",
+    "en_variants": [
+      "emile",
+      "emil"
+    ],
+    "zh": [
+      "emile"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": []
+  },
+  {
+    "de": "Empire",
+    "en": "empire",
+    "en_variants": [
+      "empire"
+    ],
+    "zh": [
+      "帝國"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "",
+    "genitive": "Empire",
+    "ipa": [
+      "ɑ̃ˈpiːɐ̯",
+      "ˈɛmpaɪ̯ɐ"
+    ]
+  },
+  {
+    "de": "End",
+    "en": "end",
+    "en_variants": [
+      "end"
+    ],
+    "zh": [
+      "終結",
+      "結尾",
+      "結束"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Ends",
+    "genitive": "Ends",
+    "ipa": [
+      "ɛnt"
+    ]
+  },
+  {
+    "de": "Ende",
+    "en": "ends",
+    "en_variants": [
+      "ends",
+      "finish",
+      "end",
+      "ending"
+    ],
+    "zh": [
+      "末端",
+      "完成",
+      "終結"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Enden",
+    "genitive": "Endes",
+    "ipa": [
+      "gut",
+      "alles gut\t/ˈɛndə ɡuːt aləs ˈɡuːt/"
+    ]
+  },
+  {
+    "de": "enden",
+    "en": "ends",
+    "en_variants": [
+      "ends",
+      "ending",
+      "endings"
+    ],
+    "zh": [
+      "末端",
+      "結局",
+      "結尾"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛndn̩"
+    ]
+  },
+  {
+    "de": "endet",
+    "en": "ends",
+    "en_variants": [
+      "ends",
+      "ending"
+    ],
+    "zh": [
+      "末端",
+      "結局",
+      "結尾"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛndət"
+    ]
+  },
+  {
+    "de": "endete",
+    "en": "ended",
+    "en_variants": [
+      "ended"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛndətə"
+    ]
+  },
+  {
+    "de": "endgültig",
+    "en": "final",
+    "en_variants": [
+      "final",
+      "definitively",
+      "definitive"
+    ],
+    "zh": [
+      "決賽"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛntɡʏltɪk",
+      "ˈɛntɡʏltɪç"
+    ]
+  },
+  {
+    "de": "endlich",
+    "en": "finally",
+    "en_variants": [
+      "finally",
+      "finite"
+    ],
+    "zh": [
+      "終於",
+      "有限"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛntlɪç"
+    ]
+  },
+  {
+    "de": "Endspiel",
+    "en": "endgame",
+    "en_variants": [
+      "endgame",
+      "finals"
+    ],
+    "zh": [
+      "殘局",
+      "決賽"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Endspiele",
+    "genitive": "Endspieles",
+    "ipa": [
+      "ˈɛntˌʃpiːl"
+    ]
+  },
+  {
+    "de": "Energie",
+    "en": "energy",
+    "en_variants": [
+      "energy",
+      "energie",
       "power"
     ],
     "zh": [
-      "績效",
-      "業績",
-      "成就"
+      "能量",
+      "能源",
+      "電力"
     ],
     "pos": "noun",
     "gender": "f",
-    "plural": "Leistungen",
-    "genitive": "Leistung",
+    "plural": "Energien",
+    "genitive": "Energie",
     "ipa": [
-      "ˈlaɪ̯stʊŋ"
+      "enɛʁˈɡiː"
     ]
   },
   {
-    "de": "leistungen",
-    "en": "services",
+    "de": "eng",
+    "en": "eng",
     "en_variants": [
-      "services",
-      "achievements",
-      "accomplishments",
-      "benefits",
-      "performances"
+      "eng",
+      "tight",
+      "closely",
+      "narrow"
     ],
     "zh": [
-      "服務業",
-      "服務",
-      "成就"
+      "eng",
+      "緊",
+      "狹義"
     ],
     "pos": "other",
     "gender": "",
     "plural": "",
     "genitive": "",
     "ipa": [
-      "ˈlaɪ̯stʊŋən"
+      "ɛŋ"
     ]
   },
   {
-    "de": "Leiter",
-    "en": "ladder",
+    "de": "Engagement",
+    "en": "dedication",
     "en_variants": [
-      "ladder",
-      "head",
-      "leader"
+      "dedication",
+      "engagement",
+      "commitment"
     ],
     "zh": [
-      "梯子",
-      "梯",
-      "階梯"
+      "奉獻",
+      "互動",
+      "參與"
     ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Leitern",
-    "genitive": "Leiter",
-    "ipa": [
-      "ˈlaɪ̯tɐ"
-    ]
-  },
-  {
-    "de": "Leitung",
-    "en": "director",
-    "en_variants": [
-      "director",
-      "leadership"
-    ],
-    "zh": [
-      "主任",
-      "導演",
-      "司長"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Leitungen",
-    "genitive": "Leitung",
-    "ipa": [
-      "ˈlaɪ̯tʊŋ"
-    ]
-  },
-  {
-    "de": "Lemma",
-    "en": "lemma",
-    "en_variants": [
-      "lemma"
-    ],
-    "zh": [],
     "pos": "noun",
     "gender": "n",
-    "plural": "Lemmata",
-    "genitive": "Lemmas",
+    "plural": "Engagements",
+    "genitive": "Engagements",
     "ipa": [
-      "ˈlɛma"
+      "ɑ̃ɡaʒəˈmɑ̃ː",
+      "ɑ̃ɡaʒˈmɑ̃ː"
     ]
   },
   {
-    "de": "les",
-    "en": "les",
+    "de": "engagiert",
+    "en": "dedicated",
     "en_variants": [
-      "les"
+      "dedicated",
+      "hired",
+      "engaged",
+      "committed"
+    ],
+    "zh": [
+      "奉獻",
+      "專用",
+      "受雇"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɑ̃ɡaˈʒiːɐ̯t"
+    ]
+  },
+  {
+    "de": "Enge",
+    "en": "narrow",
+    "en_variants": [
+      "narrow",
+      "tight"
+    ],
+    "zh": [
+      "狹義",
+      "狹隘",
+      "縮小"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Engen",
+    "genitive": "Enge",
+    "ipa": [
+      "ˈɛŋə"
+    ]
+  },
+  {
+    "de": "Engel",
+    "en": "angelic",
+    "en_variants": [
+      "angelic",
+      "engel",
+      "angels",
+      "angel"
+    ],
+    "zh": [
+      "天使",
+      "angel"
+    ],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛŋl̩"
+    ]
+  },
+  {
+    "de": "Engen",
+    "en": "narrow",
+    "en_variants": [
+      "narrow"
+    ],
+    "zh": [
+      "狹義",
+      "狹隘",
+      "縮小"
+    ],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛŋən"
+    ]
+  },
+  {
+    "de": "engl",
+    "en": "engl",
+    "en_variants": [
+      "engl"
     ],
     "zh": [],
     "pos": "other",
@@ -1372,129 +3692,848 @@
     "ipa": []
   },
   {
-    "de": "Lesen",
-    "en": "read",
+    "de": "England",
+    "en": "england",
     "en_variants": [
-      "read",
-      "reading"
+      "england"
     ],
     "zh": [
-      "讀",
-      "讀取",
-      "閱讀"
+      "英國",
+      "英格蘭"
     ],
     "pos": "noun",
-    "gender": "n",
-    "plural": "",
-    "genitive": "Lesens",
-    "ipa": [
-      "zusammen\t/ˌleːzn̩ t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "Leser",
-    "en": "readership",
-    "en_variants": [
-      "readership",
-      "readers",
-      "reader"
-    ],
-    "zh": [
-      "讀者"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Leser",
-    "genitive": "Lesers",
-    "ipa": [
-      "ˈleːzɐ"
-    ]
-  },
-  {
-    "de": "Letzte",
-    "en": "last",
-    "en_variants": [
-      "last",
-      "final",
-      "latest"
-    ],
-    "zh": [
-      "上次",
-      "最後",
-      "決賽"
-    ],
-    "pos": "noun",
-    "gender": "f",
+    "gender": "",
     "plural": "",
     "genitive": "",
     "ipa": [
-      "ˈlɛt͡stə"
+      "ˈɛŋlant"
     ]
   },
   {
-    "de": "letzten",
-    "en": "last",
+    "de": "Englisch",
+    "en": "english",
     "en_variants": [
-      "last"
+      "english"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛŋlɪʃ"
+    ]
+  },
+  {
+    "de": "englische",
+    "en": "english",
+    "en_variants": [
+      "english"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "Wochen\t/ˈɛŋlɪʃə ˈvɔxn̩/"
+    ]
+  },
+  {
+    "de": "Enkel",
+    "en": "grandsons",
+    "en_variants": [
+      "grandsons",
+      "grandchild",
+      "grandchildren",
+      "grandson"
     ],
     "zh": [
-      "上次",
-      "最後"
+      "孫子",
+      "外孫"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Enkel",
+    "genitive": "Enkels",
+    "ipa": [
+      "ˈɛŋkl̩"
+    ]
+  },
+  {
+    "de": "Ensemble",
+    "en": "ensemble",
+    "en_variants": [
+      "ensemble"
+    ],
+    "zh": [],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Ensembles",
+    "genitive": "Ensembles",
+    "ipa": [
+      "ɑ̃ˈsɑ̃ːbl̩"
+    ]
+  },
+  {
+    "de": "entdeckt",
+    "en": "spotted",
+    "en_variants": [
+      "spotted",
+      "discovered",
+      "detected",
+      "discovers"
+    ],
+    "zh": [
+      "斑點"
     ],
     "pos": "other",
     "gender": "",
     "plural": "",
     "genitive": "",
     "ipa": [
-      "ˈlɛt͡stn̩"
+      "wieder\t/ɛntˌdɛkt ˈviːdɐ/"
     ]
   },
   {
-    "de": "Letzter",
-    "en": "last",
+    "de": "entdeckte",
+    "en": "discovered",
     "en_variants": [
-      "last"
+      "discovered",
+      "spotted",
+      "rediscovered"
     ],
     "zh": [
-      "上次",
-      "最後"
+      "斑點"
     ],
-    "pos": "noun",
-    "gender": "m",
+    "pos": "other",
+    "gender": "",
     "plural": "",
     "genitive": "",
     "ipa": [
-      "ˈlɛt͡stɐ"
+      "wieder\t/ɛntˌdɛktə ˈviːdɐ/"
     ]
   },
   {
-    "de": "Leute",
-    "en": "folks",
+    "de": "Entdeckung",
+    "en": "detection",
     "en_variants": [
-      "folks",
-      "peeps",
-      "guys",
-      "folk",
-      "people"
+      "detection",
+      "discovering",
+      "discovery"
     ],
     "zh": [
-      "鄉親",
-      "民謠",
-      "民間"
+      "探測",
+      "偵測",
+      "檢測"
     ],
     "pos": "noun",
-    "gender": "",
-    "plural": "Leute",
-    "genitive": "",
+    "gender": "f",
+    "plural": "Entdeckungen",
+    "genitive": "Entdeckung",
     "ipa": [
-      "ˈlɔɪ̯tə"
+      "ɛntˈdɛkʊŋ"
     ]
   },
   {
-    "de": "Lexikon",
-    "en": "lexicon",
+    "de": "Entfernen",
+    "en": "removing",
     "en_variants": [
-      "lexicon",
+      "removing",
+      "delete",
+      "remove",
+      "removal"
+    ],
+    "zh": [
+      "刪除",
+      "刪去",
+      "移除"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "plural": "",
+    "genitive": "Entfernens",
+    "ipa": [
+      "mit\t/ɛntˌfɛʁnən ˈmɪt/"
+    ]
+  },
+  {
+    "de": "entfernt",
+    "en": "removed",
+    "en_variants": [
+      "removed",
+      "removes",
+      "remove"
+    ],
+    "zh": [
+      "刪除",
+      "移除"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "mit\t/ɛntˌfɛʁnt ˈmɪt/"
+    ]
+  },
+  {
+    "de": "Entfernung",
+    "en": "distance",
+    "en_variants": [
+      "distance",
+      "distances",
+      "takedown",
+      "removal"
+    ],
+    "zh": [
+      "距離"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Entfernungen",
+    "genitive": "Entfernung",
+    "ipa": [
+      "ɛntˈfɛʁnʊŋ"
+    ]
+  },
+  {
+    "de": "entgegen",
+    "en": "contrary",
+    "en_variants": [
+      "contrary"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈɡeːɡn̩"
+    ]
+  },
+  {
+    "de": "enthalten",
+    "en": "included",
+    "en_variants": [
+      "included",
+      "contained",
+      "include",
+      "contain"
+    ],
+    "zh": [
+      "包括"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "vor\t/ɛntˌhaltn̩ ˈfoːɐ̯/"
+    ]
+  },
+  {
+    "de": "enthielt",
+    "en": "contained",
+    "en_variants": [
+      "contained"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "vor\t/ɛntˌhiːlt ˈfoːɐ̯/"
+    ]
+  },
+  {
+    "de": "enthält",
+    "en": "contain",
+    "en_variants": [
+      "contain",
+      "contains",
+      "includes"
+    ],
+    "zh": [
+      "含有",
+      "包含",
+      "包括"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "vor\t/ɛntˌhɛlt ˈfoːɐ̯/"
+    ]
+  },
+  {
+    "de": "entlang",
+    "en": "along",
+    "en_variants": [
+      "along"
+    ],
+    "zh": [
+      "沿"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈlaŋ"
+    ]
+  },
+  {
+    "de": "entlassen",
+    "en": "sacked",
+    "en_variants": [
+      "sacked",
+      "fired",
+      "dismissed"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈlasn̩"
+    ]
+  },
+  {
+    "de": "entscheiden",
+    "en": "deciding",
+    "en_variants": [
+      "deciding",
+      "opting",
+      "decide"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "vorweg\t/ɛntˌʃaɪ̯dn̩ foːɐ̯ˈvɛk/"
+    ]
+  },
+  {
+    "de": "entscheidend",
+    "en": "decisive",
+    "en_variants": [
+      "decisive",
+      "crucial"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃaɪ̯dn̩t"
+    ]
+  },
+  {
+    "de": "entscheidet",
+    "en": "decides",
+    "en_variants": [
+      "decides",
+      "opts"
+    ],
+    "zh": [
+      "決定"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "vorweg\t/ɛntˌʃaɪ̯dət foːɐ̯ˈvɛk/"
+    ]
+  },
+  {
+    "de": "Entscheidung",
+    "en": "decision",
+    "en_variants": [
+      "decision",
+      "judgment",
+      "ruling"
+    ],
+    "zh": [
+      "決定",
+      "判斷",
+      "判決"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Entscheidungen",
+    "genitive": "Entscheidung",
+    "ipa": [
+      "ɛntˈʃaɪ̯dʊŋ"
+    ]
+  },
+  {
+    "de": "entscheidungen",
+    "en": "decisionmaking",
+    "en_variants": [
+      "decisionmaking",
+      "decisions",
+      "rulings",
+      "judgments",
+      "choices"
+    ],
+    "zh": [
+      "決定"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃaɪ̯dʊŋən"
+    ]
+  },
+  {
+    "de": "entschied",
+    "en": "decided",
+    "en_variants": [
+      "decided",
+      "opted"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "vorweg\t/ɛntˌʃiːt foːɐ̯ˈvɛk/"
+    ]
+  },
+  {
+    "de": "entschieden",
+    "en": "decidedly",
+    "en_variants": [
+      "decidedly",
+      "decided",
+      "opted",
+      "decisively"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "vorweg\t/ɛntˌʃiːdn̩ foːɐ̯ˈvɛk/"
+    ]
+  },
+  {
+    "de": "entsprach",
+    "en": "corresponded",
+    "en_variants": [
+      "corresponded"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃpʁaːx"
+    ]
+  },
+  {
+    "de": "entsprechen",
+    "en": "conform",
+    "en_variants": [
+      "conform",
+      "correspond"
+    ],
+    "zh": [
+      "對應"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃpʁɛçn̩"
+    ]
+  },
+  {
+    "de": "entsprechend",
+    "en": "appropriately",
+    "en_variants": [
+      "appropriately",
+      "accordingly",
+      "correspondingly",
+      "according"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃpʁɛçn̩t"
+    ]
+  },
+  {
+    "de": "entsprechende",
+    "en": "corresponding",
+    "en_variants": [
+      "corresponding"
+    ],
+    "zh": [
+      "相應",
+      "對應"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃpʁɛçn̩də"
+    ]
+  },
+  {
+    "de": "entsprechenden",
+    "en": "corresponding",
+    "en_variants": [
+      "corresponding"
+    ],
+    "zh": [
+      "相應",
+      "對應"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃpʁɛçn̩dən"
+    ]
+  },
+  {
+    "de": "entspricht",
+    "en": "conforms",
+    "en_variants": [
+      "conforms",
+      "complies",
+      "equals",
+      "corresponds"
+    ],
+    "zh": [
+      "等於",
+      "對應"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃpʁɪçt"
+    ]
+  },
+  {
+    "de": "entstand",
+    "en": "emerged",
+    "en_variants": [
+      "emerged",
+      "originated",
+      "arose"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃtant"
+    ]
+  },
+  {
+    "de": "entstanden",
+    "en": "originated",
+    "en_variants": [
+      "originated",
+      "arose",
+      "emerged"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃtandn̩"
+    ]
+  },
+  {
+    "de": "entstandenen",
+    "en": "incurred",
+    "en_variants": [
+      "incurred"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃtandənən"
+    ]
+  },
+  {
+    "de": "entstehen",
+    "en": "emergence",
+    "en_variants": [
+      "emergence",
+      "arise"
+    ],
+    "zh": [
+      "湧現",
+      "興起"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃteːən"
+    ]
+  },
+  {
+    "de": "entsteht",
+    "en": "emerges",
+    "en_variants": [
+      "emerges",
+      "arises"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈʃteːt"
+    ]
+  },
+  {
+    "de": "Entstehung",
+    "en": "origin",
+    "en_variants": [
+      "origin",
+      "emergence",
+      "formation",
+      "genesis"
+    ],
+    "zh": [
+      "出處",
+      "原產地",
+      "起源"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Entstehungen",
+    "genitive": "Entstehung",
+    "ipa": [
+      "ɛntˈʃteːʊŋ"
+    ]
+  },
+  {
+    "de": "entwarf",
+    "en": "designed",
+    "en_variants": [
+      "designed"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈvaʁf"
+    ]
+  },
+  {
+    "de": "entweder",
+    "en": "either",
+    "en_variants": [
+      "either"
+    ],
+    "zh": [
+      "要麼"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ˈɛntˌveːdɐ"
+    ]
+  },
+  {
+    "de": "entwickeln",
+    "en": "evolve",
+    "en_variants": [
+      "evolve",
+      "evolving",
+      "develop",
+      "developing"
+    ],
+    "zh": [
+      "演化",
+      "進化"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "weiter\t/ɛntˌvɪkl̩n ˈvaɪ̯tɐ/"
+    ]
+  },
+  {
+    "de": "entwickelt",
+    "en": "developed",
+    "en_variants": [
+      "developed",
+      "develops",
+      "evolved"
+    ],
+    "zh": [
+      "進化"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "weiter\t/ɛntˌvɪkl̩t ˈvaɪ̯tɐ/"
+    ]
+  },
+  {
+    "de": "entwickelte",
+    "en": "developed",
+    "en_variants": [
+      "developed",
+      "evolved"
+    ],
+    "zh": [
+      "進化"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "weiter\t/ɛntˌvɪkl̩tə ˈvaɪ̯tɐ/"
+    ]
+  },
+  {
+    "de": "entwickelten",
+    "en": "developed",
+    "en_variants": [
+      "developed",
+      "evolved"
+    ],
+    "zh": [
+      "進化"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "weiter\t/ɛntˌvɪkl̩tn̩ ˈvaɪ̯tɐ/"
+    ]
+  },
+  {
+    "de": "Entwicklung",
+    "en": "development",
+    "en_variants": [
+      "development",
+      "evolution"
+    ],
+    "zh": [
+      "發展",
+      "演化",
+      "演變"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Entwicklungen",
+    "genitive": "Entwicklung",
+    "ipa": [
+      "ɛntˈvɪklʊŋ"
+    ]
+  },
+  {
+    "de": "entwicklungen",
+    "en": "development",
+    "en_variants": [
+      "development",
+      "trends",
+      "evolution",
+      "developments"
+    ],
+    "zh": [
+      "發展",
+      "演化",
+      "演變"
+    ],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈvɪklʊŋən"
+    ]
+  },
+  {
+    "de": "entworfen",
+    "en": "designed",
+    "en_variants": [
+      "designed"
+    ],
+    "zh": [],
+    "pos": "other",
+    "gender": "",
+    "plural": "",
+    "genitive": "",
+    "ipa": [
+      "ɛntˈvɔʁfn̩"
+    ]
+  },
+  {
+    "de": "Entwurf",
+    "en": "blueprint",
+    "en_variants": [
+      "blueprint",
+      "draft",
+      "design",
+      "drafts"
+    ],
+    "zh": [
+      "藍圖",
+      "草稿",
+      "設計"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Entwürfe",
+    "genitive": "Entwurfs",
+    "ipa": [
+      "ɛntˈvʊʁf"
+    ]
+  },
+  {
+    "de": "Enzyklopädie",
+    "en": "encyclopedia",
+    "en_variants": [
       "encyclopedia",
       "encyclopaedia"
     ],
@@ -1502,3225 +4541,112 @@
       "百科全書"
     ],
     "pos": "noun",
-    "gender": "n",
-    "plural": "Lexika",
-    "genitive": "Lexikons",
+    "gender": "f",
+    "plural": "Enzyklopädien",
+    "genitive": "Enzyklopädie",
     "ipa": [
-      "ˈlɛksikɔn"
+      "ˌɛnt͡syklopɛˈdiː"
     ]
   },
   {
-    "de": "Licht",
-    "en": "light",
+    "de": "Episode",
+    "en": "episode",
     "en_variants": [
-      "light",
-      "lighting",
-      "lights"
+      "episode"
     ],
     "zh": [
-      "光線",
-      "光",
-      "燈光"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "lɪçt"
-    ]
-  },
-  {
-    "de": "Liebe",
-    "en": "dear",
-    "en_variants": [
-      "dear",
-      "love"
-    ],
-    "zh": [
-      "dear",
-      "戀愛",
-      "愛"
+      "插曲",
+      "集"
     ],
     "pos": "noun",
     "gender": "f",
-    "plural": "",
-    "genitive": "Liebe",
+    "plural": "Episoden",
+    "genitive": "Episode",
     "ipa": [
-      "wieder\t/ˌliːbə ˈviːdɐ/"
+      "epiˈzoːdə"
     ]
   },
   {
-    "de": "lieber",
-    "en": "dear",
+    "de": "episoden",
+    "en": "episodes",
     "en_variants": [
-      "dear",
-      "prefer"
+      "episodes",
+      "episode"
     ],
     "zh": [
-      "dear"
+      "插曲",
+      "集"
     ],
     "pos": "other",
     "gender": "",
     "plural": "",
     "genitive": "",
     "ipa": [
-      "ˈliːbɐ"
+      "epiˈzoːdn̩",
+      "epiˈzoːdən"
     ]
   },
   {
-    "de": "Lied",
-    "en": "song",
+    "de": "erbaut",
+    "en": "built",
     "en_variants": [
-      "song"
+      "built"
     ],
     "zh": [
-      "歌曲",
-      "宋",
-      "首歌"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Lieder",
-    "genitive": "Liedes",
-    "ipa": [
-      "ohne Worte\t/liːt ˈoːnə ˈvɔʁtə/"
-    ]
-  },
-  {
-    "de": "lieder",
-    "en": "songs",
-    "en_variants": [
-      "songs"
-    ],
-    "zh": [
-      "歌曲",
-      "歌"
+      "建",
+      "內建"
     ],
     "pos": "other",
     "gender": "",
     "plural": "",
     "genitive": "",
     "ipa": [
-      "ohne Worte\t/ˈliːdɐ ˈoːnə ˈvɔʁtə/"
+      "ɛɐ̯ˈbaʊ̯t"
     ]
   },
   {
-    "de": "lief",
-    "en": "ran",
+    "de": "Erbe",
+    "en": "heir",
     "en_variants": [
-      "ran",
-      "walked"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zuwider\t/ˌliːf t͡suˈviːdɐ/"
-    ]
-  },
-  {
-    "de": "liegen",
-    "en": "lie",
-    "en_variants": [
-      "lie",
-      "lying",
-      "couches"
+      "heir",
+      "inheritance",
+      "legacy",
+      "heritage"
     ],
     "zh": [
-      "謊言"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zusammen\t/ˌliːɡn̩ t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "liegt",
-    "en": "lies",
-    "en_variants": [
-      "lies"
-    ],
-    "zh": [
-      "謊言"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zusammen\t/ˌliːkt t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "life",
-    "en": "life",
-    "en_variants": [
-      "life"
-    ],
-    "zh": [
-      "生命",
-      "人生",
-      "生活"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": []
-  },
-  {
-    "de": "Liga",
-    "en": "league",
-    "en_variants": [
-      "league",
-      "liga"
-    ],
-    "zh": [
-      "聯盟",
-      "同盟",
-      "聯賽"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Ligen",
-    "genitive": "Liga",
-    "ipa": [
-      "ˈliːɡa"
-    ]
-  },
-  {
-    "de": "Linie",
-    "en": "lineage",
-    "en_variants": [
-      "lineage",
-      "line"
-    ],
-    "zh": [
-      "世系",
-      "血統",
-      "line"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Linien",
-    "genitive": "Linie",
-    "ipa": [
-      "ˈliːni̯ə"
-    ]
-  },
-  {
-    "de": "linien",
-    "en": "line",
-    "en_variants": [
-      "line",
-      "lines"
-    ],
-    "zh": [
-      "line",
-      "線",
-      "線路"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈliːni̯ən"
-    ]
-  },
-  {
-    "de": "Link",
-    "en": "link",
-    "en_variants": [
-      "link"
-    ],
-    "zh": [
-      "連結",
-      "link"
+      "繼承人",
+      "繼承權",
+      "繼承"
     ],
     "pos": "noun",
     "gender": "m",
-    "plural": "Links",
-    "genitive": "Links",
+    "plural": "Erben",
+    "genitive": "Erben",
     "ipa": [
-      "lɪŋk"
+      "ˈɛʁbə"
     ]
   },
   {
-    "de": "linken",
-    "en": "leftist",
+    "de": "erben",
+    "en": "inheritors",
     "en_variants": [
-      "leftist",
-      "left"
+      "inheritors",
+      "heir",
+      "inherit",
+      "heirs",
+      "inheritance"
     ],
     "zh": [
-      "左側",
-      "左",
-      "左翼"
+      "繼承人",
+      "繼承",
+      "繼承權"
     ],
     "pos": "other",
     "gender": "",
     "plural": "",
     "genitive": "",
     "ipa": [
-      "ˈlɪŋkn̩"
-    ]
-  },
-  {
-    "de": "links",
-    "en": "links",
-    "en_variants": [
-      "links",
-      "left"
-    ],
-    "zh": [
-      "左側",
-      "左",
-      "左翼"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "stehend\t/lɪŋks ˈʃteːənt/"
-    ]
-  },
-  {
-    "de": "Liste",
-    "en": "list",
-    "en_variants": [
-      "list",
-      "listing"
-    ],
-    "zh": [
-      "名單",
-      "清單",
-      "列表"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Listen",
-    "genitive": "Liste",
-    "ipa": [
-      "ˈlɪstə"
-    ]
-  },
-  {
-    "de": "listen",
-    "en": "lists",
-    "en_variants": [
-      "lists"
-    ],
-    "zh": [
-      "名單"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈlɪstn̩"
-    ]
-  },
-  {
-    "de": "Literatur",
-    "en": "literary",
-    "en_variants": [
-      "literary",
-      "literature",
-      "bibliography"
-    ],
-    "zh": [
-      "文學",
-      "文獻",
-      "書目"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Literaturen",
-    "genitive": "Literatur",
-    "ipa": [
-      "lɪtəʁaˈtuːɐ̯"
-    ]
-  },
-  {
-    "de": "Live",
-    "en": "live",
-    "en_variants": [
-      "live"
-    ],
-    "zh": [
-      "活",
-      "直播",
-      "live"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Liven",
-    "genitive": "Liven",
-    "ipa": [
-      "ˈliːvə"
-    ]
-  },
-  {
-    "de": "Lizenz",
-    "en": "licenses",
-    "en_variants": [
-      "licenses",
-      "licences",
-      "licence",
-      "license",
-      "licensing"
-    ],
-    "zh": [
-      "執照",
-      "許可證",
-      "許可"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Lizenzen",
-    "genitive": "Lizenz",
-    "ipa": [
-      "liˈt͡sɛnt͡s"
-    ]
-  },
-  {
-    "de": "London",
-    "en": "london",
-    "en_variants": [
-      "london"
-    ],
-    "zh": [
-      "倫敦"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈlɔndɔn"
-    ]
-  },
-  {
-    "de": "Los",
-    "en": "los",
-    "en_variants": [
-      "los"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Lose",
-    "genitive": "Loses",
-    "ipa": [
-      "zu\t/ˌloːs ˈt͡suː/"
-    ]
-  },
-  {
-    "de": "louis",
-    "en": "louis",
-    "en_variants": [
-      "louis"
-    ],
-    "zh": [
-      "louis",
-      "路易",
-      "路易斯"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": []
-  },
-  {
-    "de": "love",
-    "en": "love",
-    "en_variants": [
-      "love"
-    ],
-    "zh": [
-      "戀愛",
-      "愛",
-      "love"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": []
-  },
-  {
-    "de": "Ludwig",
-    "en": "louis",
-    "en_variants": [
-      "louis",
-      "ludwig"
-    ],
-    "zh": [
-      "louis",
-      "路易",
-      "路易斯"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈluːtvɪk",
-      "ˈluːtvɪç"
-    ]
-  },
-  {
-    "de": "Luft",
-    "en": "aerospace",
-    "en_variants": [
-      "aerospace",
-      "air"
-    ],
-    "zh": [
-      "航天",
-      "空中",
-      "air"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "lʊft"
-    ]
-  },
-  {
-    "de": "länder",
-    "en": "lands",
-    "en_variants": [
-      "lands",
-      "länder",
-      "lander",
-      "countries"
-    ],
-    "zh": [
-      "土地",
-      "國家",
-      "各國"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈlɛndɐ"
-    ]
-  },
-  {
-    "de": "ländern",
-    "en": "länder",
-    "en_variants": [
-      "länder",
-      "countries"
-    ],
-    "zh": [
-      "國家",
-      "各國"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈlɛndɐn"
-    ]
-  },
-  {
-    "de": "Länge",
-    "en": "lengths",
-    "en_variants": [
-      "lengths",
-      "length",
-      "longitude"
-    ],
-    "zh": [
-      "長度",
-      "經度"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Längen",
-    "genitive": "Länge",
-    "ipa": [
-      "ˈlɛŋə"
-    ]
-  },
-  {
-    "de": "länger",
-    "en": "longer",
-    "en_variants": [
-      "longer"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈlɛŋɐ"
-    ]
-  },
-  {
-    "de": "lässt",
-    "en": "lets",
-    "en_variants": [
-      "lets"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zusammen\t/ˌlɛst t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "läuft",
-    "en": "runs",
-    "en_variants": [
-      "runs",
-      "running",
-      "expires"
-    ],
-    "zh": [
-      "奔跑",
-      "跑步",
-      "運行"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zuwider\t/ˌlɔɪ̯ft t͡suˈviːdɐ/"
-    ]
-  },
-  {
-    "de": "löschen",
-    "en": "clear",
-    "en_variants": [
-      "clear",
-      "erase",
-      "deleting",
-      "deletion",
-      "delete"
-    ],
-    "zh": [
-      "清除",
-      "刪除",
-      "刪去"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "nach\t/ˌlœʃn̩ ˈnaːx/"
-    ]
-  },
-  {
-    "de": "löschung",
-    "en": "erasure",
-    "en_variants": [
-      "erasure",
-      "cancellation",
-      "deletion",
-      "delete"
-    ],
-    "zh": [
-      "取消",
-      "刪除",
-      "刪去"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": []
-  },
-  {
-    "de": "Lösung",
-    "en": "solving",
-    "en_variants": [
-      "solving",
-      "solution"
-    ],
-    "zh": [
-      "溶液"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Lösungen",
-    "genitive": "Lösung",
-    "ipa": [
-      "ˈløːzʊŋ"
-    ]
-  },
-  {
-    "de": "Lübeck",
-    "en": "lübeck",
-    "en_variants": [
-      "lübeck"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈlyːbɛk"
-    ]
-  },
-  {
-    "de": "machen",
-    "en": "making",
-    "en_variants": [
-      "making",
-      "make",
-      "do"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zurecht\t/ˌmaxn̩ t͡suˈʁɛçt/"
-    ]
-  },
-  {
-    "de": "Macht",
-    "en": "makes",
-    "en_variants": [
-      "makes",
-      "power"
-    ],
-    "zh": [
-      "電力",
-      "電源",
-      "動力"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Mächte",
-    "genitive": "Macht",
-    "ipa": [
-      "zuschanden\t/ˌmaxt t͡suˈʃandn̩/"
-    ]
-  },
-  {
-    "de": "machte",
-    "en": "made",
-    "en_variants": [
-      "made"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zuschanden\t/ˌmaxtə t͡suˈʃandn̩/"
-    ]
-  },
-  {
-    "de": "mag",
-    "en": "likes",
-    "en_variants": [
-      "likes",
-      "mag"
-    ],
-    "zh": [
-      "讚",
-      "mag"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "mit\t/ˌmaːk ˈmɪt/"
-    ]
-  },
-  {
-    "de": "Magazin",
-    "en": "magazine",
-    "en_variants": [
-      "magazine",
-      "magazines",
-      "magazin"
-    ],
-    "zh": [
-      "雜誌"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Magazine",
-    "genitive": "Magazins",
-    "ipa": [
-      "maɡaˈt͡siːn"
-    ]
-  },
-  {
-    "de": "Mai",
-    "en": "may",
-    "en_variants": [
-      "may",
-      "mai"
-    ],
-    "zh": [
-      "may",
-      "梅",
-      "五月份"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Maie",
-    "genitive": "Mai",
-    "ipa": [
-      "maɪ̯"
-    ]
-  },
-  {
-    "de": "Main",
-    "en": "main",
-    "en_variants": [
-      "main"
-    ],
-    "zh": [
-      "主要"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "",
-    "genitive": "Mains",
-    "ipa": [
-      "maɪ̯n"
-    ]
-  },
-  {
-    "de": "Mainz",
-    "en": "mainz",
-    "en_variants": [
-      "mainz"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "maɪ̯nt͡s"
-    ]
-  },
-  {
-    "de": "Mal",
-    "en": "once",
-    "en_variants": [
-      "once",
-      "times",
-      "mal"
-    ],
-    "zh": [
-      "一次",
-      "一旦",
-      "時代"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Male",
-    "genitive": "Mals",
-    "ipa": [
-      "vor\t/ˌmaːl ˈfoːɐ̯/"
-    ]
-  },
-  {
-    "de": "Maler",
-    "en": "painters",
-    "en_variants": [
-      "painters",
-      "painter",
-      "artist"
-    ],
-    "zh": [
-      "畫家",
-      "畫師",
-      "藝術家"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Maler",
-    "genitive": "Malers",
-    "ipa": [
-      "ˈmaːlɐ"
-    ]
-  },
-  {
-    "de": "Man",
-    "en": "man",
-    "en_variants": [
-      "man"
-    ],
-    "zh": [
-      "人",
-      "男人",
-      "man"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "Mans",
-    "genitive": "Mans",
-    "ipa": [
-      "soll den Tag nicht vor dem Abend loben\t/man zɔl deːn ˈtaːk nɪçt foːɐ̯ deːm ˈaːbn̩t ˈloːbm̩/"
-    ]
-  },
-  {
-    "de": "Manche",
-    "en": "manche",
-    "en_variants": [
-      "manche",
-      "some"
-    ],
-    "zh": [
-      "一些",
-      "有些"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "",
-    "genitive": "Manche",
-    "ipa": [
-      "mɑ̃ːʃ"
-    ]
-  },
-  {
-    "de": "manchmal",
-    "en": "sometimes",
-    "en_variants": [
-      "sometimes"
-    ],
-    "zh": [
-      "有時候"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmançmaːl"
-    ]
-  },
-  {
-    "de": "Manfred",
-    "en": "manfred",
-    "en_variants": [
-      "manfred"
-    ],
-    "zh": [
-      "manfred"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmanˌfʁeːt"
-    ]
-  },
-  {
-    "de": "Mann",
-    "en": "husband",
-    "en_variants": [
-      "husband",
-      "mann",
-      "man"
-    ],
-    "zh": [
-      "丈夫",
-      "曼",
-      "人"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "und Maus\t/man ʊnt maʊ̯s/"
-    ]
-  },
-  {
-    "de": "Mannschaft",
-    "en": "crew",
-    "en_variants": [
-      "crew",
-      "team"
-    ],
-    "zh": [
-      "船員",
-      "團隊",
-      "球隊"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Mannschaften",
-    "genitive": "Mannschaft",
-    "ipa": [
-      "ˈmanʃaft"
-    ]
-  },
-  {
-    "de": "mannschaften",
-    "en": "crews",
-    "en_variants": [
-      "crews",
-      "teams"
-    ],
-    "zh": [
-      "團隊",
-      "球隊",
-      "隊伍"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmanʃaftn̩"
-    ]
-  },
-  {
-    "de": "Maria",
-    "en": "mary",
-    "en_variants": [
-      "mary",
-      "maria"
-    ],
-    "zh": [
-      "mary",
-      "瑪麗",
-      "瑪莉"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "vom Siege\t/maˈʁiːa fɔm ˈziːɡə/"
-    ]
-  },
-  {
-    "de": "Marie",
-    "en": "marie",
-    "en_variants": [
-      "marie"
-    ],
-    "zh": [
-      "marie"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "maˈʁiː"
-    ]
-  },
-  {
-    "de": "Marine",
-    "en": "navy",
-    "en_variants": [
-      "navy",
-      "marines",
-      "marine",
-      "naval"
-    ],
-    "zh": [
-      "海軍",
-      "陸戰隊",
-      "海軍陸戰隊"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Marinen",
-    "genitive": "Marine",
-    "ipa": [
-      "maˈʁiːnə"
-    ]
-  },
-  {
-    "de": "Mark",
-    "en": "mark",
-    "en_variants": [
-      "mark"
-    ],
-    "zh": [
-      "標記",
-      "標示",
-      "馬克"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "maʁk"
-    ]
-  },
-  {
-    "de": "Markt",
-    "en": "markt",
-    "en_variants": [
-      "markt",
-      "marketplace",
-      "markets",
-      "market"
-    ],
-    "zh": [
-      "markt",
-      "市場"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "",
-    "genitive": "Markts",
-    "ipa": [
-      "maʁkt"
-    ]
-  },
-  {
-    "de": "Martin",
-    "en": "martin",
-    "en_variants": [
-      "martin"
-    ],
-    "zh": [
-      "martin",
-      "馬丁"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmaʁtiːn"
-    ]
-  },
-  {
-    "de": "Material",
-    "en": "materiel",
-    "en_variants": [
-      "materiel",
-      "material"
-    ],
-    "zh": [
-      "材料",
-      "物資",
-      "物料"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Materialien",
-    "genitive": "Materials",
-    "ipa": [
-      "mateˈʁi̯aːl"
-    ]
-  },
-  {
-    "de": "Matthias",
-    "en": "matthias",
-    "en_variants": [
-      "matthias"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "maˈtiːas"
-    ]
-  },
-  {
-    "de": "Max",
-    "en": "max",
-    "en_variants": [
-      "max"
-    ],
-    "zh": [
-      "最多",
-      "max",
-      "最大"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "Mustermann\t/maks ˈmʊstɐˌman/"
-    ]
-  },
-  {
-    "de": "Mecklenburg",
-    "en": "mecklenburg",
-    "en_variants": [
-      "mecklenburg"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": []
-  },
-  {
-    "de": "Medien",
-    "en": "media",
-    "en_variants": [
-      "media"
-    ],
-    "zh": [
-      "媒體",
-      "媒介"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmeːdi̯ən"
-    ]
-  },
-  {
-    "de": "Medizin",
-    "en": "medicine",
-    "en_variants": [
-      "medicine",
-      "medical",
-      "medication",
-      "medicines"
-    ],
-    "zh": [
-      "藥品",
-      "藥物",
-      "醫學"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Medizinen",
-    "genitive": "Medizin",
-    "ipa": [
-      "mediˈt͡siːn"
-    ]
-  },
-  {
-    "de": "Meer",
-    "en": "seaside",
-    "en_variants": [
-      "seaside",
-      "sea",
-      "ocean"
-    ],
-    "zh": [
-      "海邊",
-      "大海",
-      "海上"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Meere",
-    "genitive": "Meers",
-    "ipa": [
-      "meːɐ̯"
-    ]
-  },
-  {
-    "de": "Mehr",
-    "en": "more",
-    "en_variants": [
-      "more"
-    ],
-    "zh": [
-      "多",
-      "更多",
-      "更"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "",
-    "genitive": "Mehrs",
-    "ipa": [
-      "Schulden als Haare auf dem Kopf haben\t/meːɐ̯ ˈʃʊldn̩ als ˈhaːʁə aʊ̯f deːm kɔp͡f ˈhaːbn̩/"
-    ]
-  },
-  {
-    "de": "mehrere",
-    "en": "several",
-    "en_variants": [
-      "several",
-      "multiple"
-    ],
-    "zh": [
-      "多重",
-      "多種",
-      "多個"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmeːʁəʁə"
-    ]
-  },
-  {
-    "de": "mehrfach",
-    "en": "multiple",
-    "en_variants": [
-      "multiple",
-      "repeatedly"
-    ],
-    "zh": [
-      "多重",
-      "多種",
-      "多個"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmeːɐ̯fax"
-    ]
-  },
-  {
-    "de": "Mehrheit",
-    "en": "majority",
-    "en_variants": [
-      "majority",
-      "majorities"
-    ],
-    "zh": [
-      "多數"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Mehrheiten",
-    "genitive": "Mehrheit",
-    "ipa": [
-      "ˈmeːɐ̯haɪ̯t"
-    ]
-  },
-  {
-    "de": "mein",
-    "en": "my",
-    "en_variants": [
-      "my",
-      "mein"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "Vater erklärt mir jeden Sonntag unseren Nachthimmel\t/maɪ̯n ˈfaːtɐ ɛɐ̯ˈklɛːɐ̯t miːɐ̯ ˈjeːdn̩ ˈzɔntaːk ˈʊnzəʁən ˈnaxtˌhɪml̩/"
-    ]
-  },
-  {
-    "de": "meine",
-    "en": "meine",
-    "en_variants": [
-      "meine",
-      "my",
-      "mine"
-    ],
-    "zh": [
-      "礦山"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "Wenigkeit\t/ˈmaɪ̯nə ˈveːnɪkkaɪ̯t/",
-      "ˈmaɪ̯nə ˈveːnɪçkaɪ̯t"
-    ]
-  },
-  {
-    "de": "meinem",
-    "en": "my",
-    "en_variants": [
-      "my"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmaɪ̯nəm"
-    ]
-  },
-  {
-    "de": "meinen",
-    "en": "my",
-    "en_variants": [
-      "my"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmaɪ̯nn̩",
-      "ˈmaɪ̯nən"
-    ]
-  },
-  {
-    "de": "meiner",
-    "en": "my",
-    "en_variants": [
-      "my",
-      "mine"
-    ],
-    "zh": [
-      "礦山"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmaɪ̯nɐ"
-    ]
-  },
-  {
-    "de": "Meinung",
-    "en": "opinion",
-    "en_variants": [
-      "opinion",
-      "opinions"
-    ],
-    "zh": [
-      "意見"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Meinungen",
-    "genitive": "Meinung",
-    "ipa": [
-      "ˈmaɪ̯nʊŋ"
-    ]
-  },
-  {
-    "de": "meist",
-    "en": "usually",
-    "en_variants": [
-      "usually",
-      "most",
-      "mostly"
-    ],
-    "zh": [
-      "通常",
-      "最多",
-      "大部分"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "maɪ̯st"
-    ]
-  },
-  {
-    "de": "meisten",
-    "en": "most",
-    "en_variants": [
-      "most"
-    ],
-    "zh": [
-      "最多",
-      "大部分",
-      "多數"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmaɪ̯stn̩"
-    ]
-  },
-  {
-    "de": "Meister",
-    "en": "meister",
-    "en_variants": [
-      "meister",
-      "masters",
-      "master",
-      "champion",
-      "champions"
-    ],
-    "zh": [
-      "主人",
-      "大師",
-      "師父"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Meister",
-    "genitive": "Meisters",
-    "ipa": [
-      "ˈmaɪ̯stɐ"
-    ]
-  },
-  {
-    "de": "Meisterschaft",
-    "en": "mastery",
-    "en_variants": [
-      "mastery",
-      "championships",
-      "championship"
-    ],
-    "zh": [
-      "掌握",
-      "錦標賽"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Meisterschaften",
-    "genitive": "Meisterschaft",
-    "ipa": [
-      "ˈmaɪ̯stɐˌʃaft"
-    ]
-  },
-  {
-    "de": "Menge",
-    "en": "volume",
-    "en_variants": [
-      "volume",
-      "crowds",
-      "crowd",
-      "quantity"
-    ],
-    "zh": [
-      "體積",
-      "音量",
-      "人群"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Mengen",
-    "genitive": "Menge",
-    "ipa": [
-      "unter\t/ˌmɛŋə ˈʊntɐ/"
-    ]
-  },
-  {
-    "de": "Mensch",
-    "en": "gosh",
-    "en_variants": [
-      "gosh",
-      "humans",
-      "human",
-      "man"
-    ],
-    "zh": [
-      "人類",
-      "人",
-      "男人"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Menscher",
-    "genitive": "Menschs",
-    "ipa": [
-      "mɛnʃ"
-    ]
-  },
-  {
-    "de": "menschen",
-    "en": "humans",
-    "en_variants": [
-      "humans",
-      "human",
-      "people"
-    ],
-    "zh": [
-      "人類",
-      "人",
-      "人們"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmɛnʃn̩"
-    ]
-  },
-  {
-    "de": "Metal",
-    "en": "metal",
-    "en_variants": [
-      "metal"
-    ],
-    "zh": [
-      "金屬"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "",
-    "genitive": "Metal",
-    "ipa": [
-      "ˈmɛtl̩"
-    ]
-  },
-  {
-    "de": "Meter",
-    "en": "metre",
-    "en_variants": [
-      "metre",
-      "meters",
-      "metres",
-      "meter"
-    ],
-    "zh": [
-      "公尺",
-      "米"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "Meter",
-    "genitive": "Meters",
-    "ipa": [
-      "ˈmeːtɐ"
-    ]
-  },
-  {
-    "de": "metern",
-    "en": "metre",
-    "en_variants": [
-      "metre",
-      "meters",
-      "metres"
-    ],
-    "zh": [
-      "公尺",
-      "米"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmeːtɐn"
-    ]
-  },
-  {
-    "de": "Methode",
-    "en": "methodology",
-    "en_variants": [
-      "methodology",
-      "method"
-    ],
-    "zh": [
-      "法",
-      "方法",
-      "辦法"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Methoden",
-    "genitive": "Methode",
-    "ipa": [
-      "meˈtoːdə"
-    ]
-  },
-  {
-    "de": "Mexiko",
-    "en": "mexico",
-    "en_variants": [
-      "mexico"
-    ],
-    "zh": [
-      "墨西哥"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmɛksikoː"
-    ]
-  },
-  {
-    "de": "Meyer",
-    "en": "meyer",
-    "en_variants": [
-      "meyer"
-    ],
-    "zh": [
-      "meyer"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmaɪ̯ɐ"
-    ]
-  },
-  {
-    "de": "mich",
-    "en": "me",
-    "en_variants": [
-      "me",
-      "myself",
-      "mich"
-    ],
-    "zh": [
-      "自己"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "mɪç"
-    ]
-  },
-  {
-    "de": "Michael",
-    "en": "michael",
-    "en_variants": [
-      "michael"
-    ],
-    "zh": [
-      "麥可",
-      "michael"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmɪçaːʔeːl"
-    ]
-  },
-  {
-    "de": "millionen",
-    "en": "million",
-    "en_variants": [
-      "million",
-      "millions"
-    ],
-    "zh": [
-      "百萬"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "mɪˈli̯oːnən"
-    ]
-  },
-  {
-    "de": "Min",
-    "en": "mins",
-    "en_variants": [
-      "mins",
-      "min"
-    ],
-    "zh": [
-      "閔",
-      "敏"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "miːn"
-    ]
-  },
-  {
-    "de": "mindestens",
-    "en": "minimum",
-    "en_variants": [
-      "minimum"
-    ],
-    "zh": [
-      "最少",
-      "最小"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmɪndəstn̩s"
-    ]
-  },
-  {
-    "de": "minuten",
-    "en": "mins",
-    "en_variants": [
-      "mins",
-      "minutes",
-      "min"
-    ],
-    "zh": [
-      "分鐘",
-      "閔",
-      "敏"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "miˈnuːtn̩",
-      "miˈnuːtən"
-    ]
-  },
-  {
-    "de": "Mio",
-    "en": "million",
-    "en_variants": [
-      "million",
-      "mio",
-      "millions"
-    ],
-    "zh": [
-      "百萬",
-      "mio",
-      "美央"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "mɪˈli̯oːn",
-      "mɪˈli̯oːnən"
-    ]
-  },
-  {
-    "de": "Mir",
-    "en": "me",
-    "en_variants": [
-      "me",
-      "mir"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "",
-    "genitive": "Mirs",
-    "ipa": [
-      "nichts",
-      "dir nichts\t/ˈmiːɐ̯ nɪçt͡s ˈdiːɐ̯ nɪçt͡s/"
-    ]
-  },
-  {
-    "de": "mit",
-    "en": "using",
-    "en_variants": [
-      "using",
-      "with",
-      "mit"
-    ],
-    "zh": [
-      "使用",
-      "麻省理工",
-      "mit"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zweierlei Maß messen\t/mɪt ˈt͡svaɪ̯ɐlaɪ̯ maːs ˈmɛsn̩/"
-    ]
-  },
-  {
-    "de": "Mitarbeiter",
-    "en": "employee",
-    "en_variants": [
-      "employee",
-      "employees",
-      "associates",
-      "collaborators",
-      "staff"
-    ],
-    "zh": [
-      "僱員",
-      "員工",
-      "職工"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Mitarbeiter",
-    "genitive": "Mitarbeiters",
-    "ipa": [
-      "ˈmɪtʔaʁˌbaɪ̯tɐ"
-    ]
-  },
-  {
-    "de": "Mitglied",
-    "en": "member",
-    "en_variants": [
-      "member"
-    ],
-    "zh": [
-      "會員",
-      "成員"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Mitglieder",
-    "genitive": "Mitgliedes",
-    "ipa": [
-      "ˈmɪtˌɡliːt"
-    ]
-  },
-  {
-    "de": "mitglieder",
-    "en": "member",
-    "en_variants": [
-      "member",
-      "membership",
-      "members"
-    ],
-    "zh": [
-      "會員",
-      "成員"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmɪtˌɡliːdɐ"
-    ]
-  },
-  {
-    "de": "mitgliedern",
-    "en": "members",
-    "en_variants": [
-      "members"
-    ],
-    "zh": [
-      "成員"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmɪtˌɡliːdɐn"
-    ]
-  },
-  {
-    "de": "Mitte",
-    "en": "middle",
-    "en_variants": [
-      "middle",
-      "mitte",
-      "mid",
-      "center",
-      "centre"
-    ],
-    "zh": [
-      "中間",
-      "mitte",
-      "中心"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmɪtə"
-    ]
-  },
-  {
-    "de": "Mittel",
-    "en": "funds",
-    "en_variants": [
-      "funds",
-      "appropriation",
-      "medium",
-      "resources",
-      "appropriations"
-    ],
-    "zh": [
-      "基金",
-      "資金",
-      "介質"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "",
-    "genitive": "Mittel",
-    "ipa": [
-      "ˈmɪtl̩"
-    ]
-  },
-  {
-    "de": "Mittelalter",
-    "en": "medieval",
-    "en_variants": [
-      "medieval",
-      "mediaeval"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "",
-    "genitive": "Mittelalters",
-    "ipa": [
-      "ˈmɪtl̩ˌʔaltɐ"
-    ]
-  },
-  {
-    "de": "mittlerweile",
-    "en": "meantime",
-    "en_variants": [
-      "meantime",
-      "meanwhile"
-    ],
-    "zh": [
-      "與此同時"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "mɪtlɐˈvaɪ̯lə"
-    ]
-  },
-  {
-    "de": "Modell",
-    "en": "models",
-    "en_variants": [
-      "models",
-      "model"
-    ],
-    "zh": [
-      "模型",
-      "模特",
-      "型號"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Modelle",
-    "genitive": "Modells",
-    "ipa": [
-      "moˈdɛl"
-    ]
-  },
-  {
-    "de": "Moderne",
-    "en": "modernity",
-    "en_variants": [
-      "modernity",
-      "modern",
-      "moderne",
-      "modernism"
-    ],
-    "zh": [
-      "摩登",
-      "現代",
-      "近代"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "",
-    "genitive": "Moderne",
-    "ipa": [
-      "moˈdɛʁnə"
-    ]
-  },
-  {
-    "de": "modernen",
-    "en": "modern",
-    "en_variants": [
-      "modern"
-    ],
-    "zh": [
-      "摩登",
-      "現代",
-      "近代"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "moˈdɛʁnən"
-    ]
-  },
-  {
-    "de": "Monat",
-    "en": "monthly",
-    "en_variants": [
-      "monthly",
-      "month"
-    ],
-    "zh": [
-      "月刊",
-      "每月",
-      "月"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "Monate",
-    "genitive": "Monates",
-    "ipa": [
-      "ˈmoːnat"
-    ]
-  },
-  {
-    "de": "monate",
-    "en": "months",
-    "en_variants": [
-      "months",
-      "month"
-    ],
-    "zh": [
-      "月",
-      "月份",
-      "個月"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmoːnatə"
-    ]
-  },
-  {
-    "de": "monaten",
-    "en": "months",
-    "en_variants": [
-      "months",
-      "month"
-    ],
-    "zh": [
-      "月",
-      "月份",
-      "個月"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmoːnatn̩"
-    ]
-  },
-  {
-    "de": "Morgen",
-    "en": "morgen",
-    "en_variants": [
-      "morgen",
-      "mornings",
-      "tomorrow",
-      "morning"
-    ],
-    "zh": [
-      "明天",
-      "明日",
-      "早晨"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmɔʁɡn̩",
-      "ˈmɔʁɡŋ̍"
-    ]
-  },
-  {
-    "de": "Moskau",
-    "en": "moscow",
-    "en_variants": [
-      "moscow"
-    ],
-    "zh": [
-      "莫斯科"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmɔskaʊ̯"
-    ]
-  },
-  {
-    "de": "Motor",
-    "en": "engine",
-    "en_variants": [
-      "engine",
-      "motor"
-    ],
-    "zh": [
-      "引擎",
-      "發動機",
-      "馬達"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Motoren",
-    "genitive": "Motors",
-    "ipa": [
-      "ˈmoːtoːɐ̯",
-      "moˈtoːɐ̯",
-      "ˈmoːtoɐ̯"
-    ]
-  },
-  {
-    "de": "Museum",
-    "en": "museum",
-    "en_variants": [
-      "museum"
-    ],
-    "zh": [
-      "博物館"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Museen",
-    "genitive": "Museums",
-    "ipa": [
-      "muˈzeːʊm"
-    ]
-  },
-  {
-    "de": "Musik",
-    "en": "musik",
-    "en_variants": [
-      "musik",
-      "music"
-    ],
-    "zh": [
-      "音樂"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Musiken",
-    "genitive": "Musik",
-    "ipa": [
-      "muˈziːk"
-    ]
-  },
-  {
-    "de": "Musiker",
-    "en": "musician",
-    "en_variants": [
-      "musician",
-      "musicians"
-    ],
-    "zh": [
-      "樂手"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Musiker",
-    "genitive": "Musikers",
-    "ipa": [
-      "ˈmuːzɪkɐ"
-    ]
-  },
-  {
-    "de": "Muss",
-    "en": "must",
-    "en_variants": [
-      "must"
-    ],
-    "zh": [
-      "必須"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "",
-    "genitive": "Muss",
-    "ipa": [
-      "zurück\t/ˌmʊs t͡suˈʁʏk/"
-    ]
-  },
-  {
-    "de": "Mutter",
-    "en": "mum",
-    "en_variants": [
-      "mum",
-      "mothers",
-      "mom",
-      "mother"
-    ],
-    "zh": [
-      "母后",
-      "母親"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "Natur\t/ˈmʊtɐ naˈtuːɐ̯/"
-    ]
-  },
-  {
-    "de": "Mädchen",
-    "en": "girl",
-    "en_variants": [
-      "girl",
-      "girls",
-      "girlie"
-    ],
-    "zh": [
-      "女生",
-      "姑娘",
-      "女孩"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Mädchen",
-    "genitive": "Mädchens",
-    "ipa": [
-      "ˈmeːtçən",
-      "ˈmɛːtçən"
-    ]
-  },
-  {
-    "de": "männer",
-    "en": "males",
-    "en_variants": [
-      "males",
-      "men",
-      "male",
-      "mens"
-    ],
-    "zh": [
-      "男性",
-      "男人",
-      "男子"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmɛnɐ"
-    ]
-  },
-  {
-    "de": "März",
-    "en": "march",
-    "en_variants": [
-      "march",
-      "märz"
-    ],
-    "zh": [
-      "三月",
-      "märz"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Märze",
-    "genitive": "März",
-    "ipa": [
-      "mɛʁt͡s"
-    ]
-  },
-  {
-    "de": "möchte",
-    "en": "wants",
-    "en_variants": [
-      "wants"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmœçtə"
-    ]
-  },
-  {
-    "de": "möglich",
-    "en": "possible",
-    "en_variants": [
-      "possible",
-      "possibility"
-    ],
-    "zh": [
-      "可能",
-      "可能性"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmøːklɪç"
-    ]
-  },
-  {
-    "de": "möglicherweise",
-    "en": "perhaps",
-    "en_variants": [
-      "perhaps",
-      "maybe",
-      "possibly",
-      "potentially"
-    ],
-    "zh": [
-      "或許",
-      "也許"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmøːklɪçɐˈvaɪ̯zə"
-    ]
-  },
-  {
-    "de": "Möglichkeit",
-    "en": "opportunity",
-    "en_variants": [
-      "opportunity",
-      "option",
-      "possibility"
-    ],
-    "zh": [
-      "機遇",
-      "機會",
-      "選項"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Möglichkeiten",
-    "genitive": "Möglichkeit",
-    "ipa": [
-      "ˈmøːklɪçkaɪ̯t"
-    ]
-  },
-  {
-    "de": "möglichst",
-    "en": "preferably",
-    "en_variants": [
-      "preferably"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmøːklɪçst"
-    ]
-  },
-  {
-    "de": "Müller",
-    "en": "müller",
-    "en_variants": [
-      "müller",
-      "miller",
-      "muller",
-      "mueller"
-    ],
-    "zh": [
-      "müller",
-      "米勒",
-      "miller"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmʏlɐ"
-    ]
-  },
-  {
-    "de": "München",
-    "en": "munich",
-    "en_variants": [
-      "munich"
-    ],
-    "zh": [
-      "慕尼黑"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmʏnçn̩"
-    ]
-  },
-  {
-    "de": "Münster",
-    "en": "münster",
-    "en_variants": [
-      "münster",
-      "munster"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈmʏnstɐ"
-    ]
-  },
-  {
-    "de": "müssen",
-    "en": "must",
-    "en_variants": [
-      "must"
-    ],
-    "zh": [
-      "必須"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zurück\t/ˌmʏsn̩ t͡suˈʁʏk/"
-    ]
-  },
-  {
-    "de": "nach",
-    "en": "to",
-    "en_variants": [
-      "to",
-      "after"
-    ],
-    "zh": [
-      "後",
-      "之後"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "wie vor\t/naːx viː foːɐ̯/"
-    ]
-  },
-  {
-    "de": "nachdem",
-    "en": "after",
-    "en_variants": [
-      "after"
-    ],
-    "zh": [
-      "後",
-      "之後"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "naːxˈdeːm"
-    ]
-  },
-  {
-    "de": "Nachfolger",
-    "en": "successors",
-    "en_variants": [
-      "successors",
-      "successor"
-    ],
-    "zh": [
-      "繼任者",
-      "繼任"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Nachfolger",
-    "genitive": "Nachfolgers",
-    "ipa": [
-      "ˈnaːxˌfɔlɡɐ"
-    ]
-  },
-  {
-    "de": "nachgewiesen",
-    "en": "detected",
-    "en_variants": [
-      "detected",
-      "demonstrated",
-      "proven"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈnaːxɡəˌviːzn̩"
-    ]
-  },
-  {
-    "de": "Nacht",
-    "en": "nighttime",
-    "en_variants": [
-      "nighttime",
-      "night"
-    ],
-    "zh": [
-      "夜間",
-      "夜晚",
-      "晚上"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Nächte",
-    "genitive": "Nacht",
-    "ipa": [
-      "naxt"
-    ]
-  },
-  {
-    "de": "Nahe",
-    "en": "close",
-    "en_variants": [
-      "close",
-      "near",
-      "nahe",
-      "nearby"
-    ],
-    "zh": [
-      "關閉",
-      "近",
-      "靠近"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "",
-    "genitive": "Nahe",
-    "ipa": [
-      "Osten\t/ˌnaːə ˈɔstn̩/"
-    ]
-  },
-  {
-    "de": "nahezu",
-    "en": "almost",
-    "en_variants": [
-      "almost",
-      "nearly",
-      "virtually"
-    ],
-    "zh": [
-      "幾乎"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈnaːəˈt͡suː"
-    ]
-  },
-  {
-    "de": "nahm",
-    "en": "took",
-    "en_variants": [
-      "took"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zusammen\t/ˌnaːm t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "Nahmen",
-    "en": "took",
-    "en_variants": [
-      "took"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zusammen\t/ˌnaːmən t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "Name",
-    "en": "name",
-    "en_variants": [
-      "name"
-    ],
-    "zh": [
-      "名字",
-      "名稱",
-      "姓名"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Namen",
-    "genitive": "Namens",
-    "ipa": [
-      "ˈnaːmə"
-    ]
-  },
-  {
-    "de": "Namen",
-    "en": "name",
-    "en_variants": [
-      "name",
-      "names"
-    ],
-    "zh": [
-      "名字",
-      "名稱",
-      "姓名"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Namen",
-    "genitive": "Namens",
-    "ipa": [
-      "ˈnaːmən"
-    ]
-  },
-  {
-    "de": "namens",
-    "en": "named",
-    "en_variants": [
-      "named"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈnaːməns"
-    ]
-  },
-  {
-    "de": "national",
-    "en": "national",
-    "en_variants": [
-      "national",
-      "nationally"
-    ],
-    "zh": [
-      "national",
-      "國家",
-      "全國"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˌnat͡si̯oˈnaːl"
-    ]
-  },
-  {
-    "de": "nationale",
-    "en": "national",
-    "en_variants": [
-      "national",
-      "nationale"
-    ],
-    "zh": [
-      "national",
-      "國家"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "Volksarmee\t/nat͡si̯oˈnaːlə ˈfɔlksʔaʁˌmeː/"
-    ]
-  },
-  {
-    "de": "nationalen",
-    "en": "national",
-    "en_variants": [
-      "national"
-    ],
-    "zh": [
-      "national",
-      "國家"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˌnat͡si̯oˈnaːlən"
-    ]
-  },
-  {
-    "de": "Nationalsozialismus",
-    "en": "nazism",
-    "en_variants": [
-      "nazism",
-      "nazi"
-    ],
-    "zh": [
-      "納粹"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "",
-    "genitive": "Nationalsozialismus",
-    "ipa": [
-      "nat͡si̯oˈnaːlzot͡si̯aˌlɪsmʊs"
-    ]
-  },
-  {
-    "de": "Natur",
-    "en": "natur",
-    "en_variants": [
-      "natur",
-      "nature"
-    ],
-    "zh": [
-      "大自然",
-      "自然",
-      "性質"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Naturen",
-    "genitive": "Natur",
-    "ipa": [
-      "naˈtuːɐ̯"
-    ]
-  },
-  {
-    "de": "natürlich",
-    "en": "course",
-    "en_variants": [
-      "course",
-      "naturally"
-    ],
-    "zh": [
-      "課程",
-      "自然"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "naˈtyːɐ̯lɪç"
-    ]
-  },
-  {
-    "de": "neben",
-    "en": "beside",
-    "en_variants": [
-      "beside",
-      "besides"
-    ],
-    "zh": [
-      "況且"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈneːbm̩",
-      "ˈneːbn̩"
-    ]
-  },
-  {
-    "de": "nehmen",
-    "en": "take",
-    "en_variants": [
-      "take"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zusammen\t/ˌneːmən t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "Nein",
-    "en": "nope",
-    "en_variants": [
-      "nope",
-      "no"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Nein",
-    "genitive": "Nein",
-    "ipa": [
-      "naɪ̯n"
-    ]
-  },
-  {
-    "de": "nennen",
-    "en": "call",
-    "en_variants": [
-      "call",
-      "calling"
-    ],
-    "zh": [
-      "致電",
-      "電話",
-      "打電話"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "um\t/ˌnɛnən ˈʊm/"
-    ]
-  },
-  {
-    "de": "Netz",
-    "en": "web",
-    "en_variants": [
-      "web",
-      "net",
-      "grid",
-      "network",
-      "nets"
-    ],
-    "zh": [
-      "web",
-      "網",
-      "網路"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "Netze",
-    "genitive": "Netzes",
-    "ipa": [
-      "nɛt͡s"
-    ]
-  },
-  {
-    "de": "neu",
-    "en": "new",
-    "en_variants": [
-      "new",
-      "neu"
-    ],
-    "zh": [
-      "新",
-      "新的"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "nɔɪ̯"
-    ]
-  },
-  {
-    "de": "Neue",
-    "en": "new",
-    "en_variants": [
-      "new",
-      "neue"
-    ],
-    "zh": [
-      "新",
-      "新的"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "Welt\t/ˈnɔɪ̯ə vɛlt/"
-    ]
-  },
-  {
-    "de": "neuen",
-    "en": "new",
-    "en_variants": [
-      "new"
-    ],
-    "zh": [
-      "新",
-      "新的"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "Welt\t/ˈnɔɪ̯ən vɛlt/"
-    ]
-  },
-  {
-    "de": "neuer",
-    "en": "neuer",
-    "en_variants": [
-      "neuer",
-      "new",
-      "newer"
-    ],
-    "zh": [
-      "neuer",
-      "新",
-      "新的"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "Welt\t/ˈnɔɪ̯ɐ vɛlt/"
-    ]
-  },
-  {
-    "de": "Neues",
-    "en": "new",
-    "en_variants": [
-      "new",
-      "neues"
-    ],
-    "zh": [
-      "新",
-      "新的"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "Testament\t/ˌnɔɪ̯əs tɛstaˈmɛnt/"
-    ]
-  },
-  {
-    "de": "Neun",
-    "en": "neun",
-    "en_variants": [
-      "neun",
-      "nine",
-      "niner"
-    ],
-    "zh": [
-      "neun",
-      "九",
-      "九個"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Neunen",
-    "genitive": "Neun",
-    "ipa": [
-      "nɔɪ̯n"
-    ]
-  },
-  {
-    "de": "nicht",
-    "en": "not",
-    "en_variants": [
-      "not"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zu Schmidtchen gehen",
-      "sondern zu Schmidt\t/nɪçt t͡su ˈʃmɪtçən ˈɡeːən ˈzɔndɐn t͡su ˈʃmɪt/"
-    ]
-  },
-  {
-    "de": "Nichts",
-    "en": "nothing",
-    "en_variants": [
-      "nothing",
-      "nothingness",
-      "nothin"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "n",
-    "plural": "",
-    "genitive": "Nichts",
-    "ipa": [
-      "zu melden haben\t/nɪçt͡s t͡suː ˈmɛldn̩ ˈhaːbn̩/"
-    ]
-  },
-  {
-    "de": "nie",
-    "en": "never",
-    "en_variants": [
-      "never",
-      "nie"
-    ],
-    "zh": [
-      "從未",
-      "從不",
-      "從來沒有"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "und nimmer\t/niː ʊnt ˈnɪmɐ/"
-    ]
-  },
-  {
-    "de": "Niederlage",
-    "en": "rout",
-    "en_variants": [
-      "rout",
-      "defeat"
-    ],
-    "zh": [
-      "擊潰",
-      "敗"
-    ],
-    "pos": "noun",
-    "gender": "f",
-    "plural": "Niederlagen",
-    "genitive": "Niederlage",
-    "ipa": [
-      "ˈniːdɐˌlaːɡə"
-    ]
-  },
-  {
-    "de": "Niedersachsen",
-    "en": "niedersachsen",
-    "en_variants": [
-      "niedersachsen",
-      "bremen",
-      "saxony"
-    ],
-    "zh": [
-      "niedersachsen"
-    ],
-    "pos": "noun",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "ˈniːdɐˌzaksn̩"
-    ]
-  },
-  {
-    "de": "Niemand",
-    "en": "noone",
-    "en_variants": [
-      "noone",
-      "nobody"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "",
-    "genitive": "Niemandes",
-    "ipa": [
-      "ˈniːmant"
-    ]
-  },
-  {
-    "de": "nimmt",
-    "en": "takes",
-    "en_variants": [
-      "takes",
-      "assumes"
-    ],
-    "zh": [],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "zusammen\t/ˌnɪmt t͡suˈzamən/"
-    ]
-  },
-  {
-    "de": "Nix",
-    "en": "nothing",
-    "en_variants": [
-      "nothing",
-      "nix"
-    ],
-    "zh": [],
-    "pos": "noun",
-    "gender": "m",
-    "plural": "Nixe",
-    "genitive": "Nixes",
-    "ipa": [
-      "nɪks"
-    ]
-  },
-  {
-    "de": "noch",
-    "en": "still",
-    "en_variants": [
-      "still",
-      "yet",
-      "nor"
-    ],
-    "zh": [
-      "仍然",
-      "依然",
-      "然而"
-    ],
-    "pos": "other",
-    "gender": "",
-    "plural": "",
-    "genitive": "",
-    "ipa": [
-      "und noch\t/ˈnɔx ʊnt ˈnɔx/"
+      "ˈɛʁbn̩"
     ]
   }
 ]

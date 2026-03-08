@@ -8,7 +8,7 @@ export interface UserProfile {
   created_at: string;
 }
 
-export type Topic = 'history' | 'f1' | 'aviation' | 'news' | string;
+export type Topic = 'history' | 'f1' | 'aviation' | 'news' | 'transportation' | 'tech' | string;
 
 export interface UserInterest {
   topic: Topic;

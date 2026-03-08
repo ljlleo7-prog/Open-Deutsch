@@ -32,6 +32,7 @@ export interface GeneratedText {
   content: string;
   topic: Topic;
   level?: Level;
+  complexity_score?: number;
   source?: {
     name: string;
     url: string;
@@ -544,9 +545,33 @@ const extractGermanSentence = (extract: string, word: string) => {
   return sentences.find(sentence => matcher.test(sentence) && isGermanSentenceClean(sentence)) || null;
 };
 
+const fetchSupabaseExampleSentence = async (word: string) => {
+  try {
+    const { data, error } = await supabase
+      .from('opendeutsch_vocab_database')
+      .select('details')
+      .eq('root', word)
+      .limit(1);
+    if (error || !data || data.length === 0) return null;
+    const details = typeof data[0].details === 'string'
+      ? JSON.parse(data[0].details)
+      : data[0].details;
+    const example = details?.example_de || details?.example;
+    if (example && isGermanSentenceClean(example)) return example;
+  } catch (err) {
+    console.warn('Supabase example fetch failed', err);
+  }
+  return null;
+};
+
 const fetchRemoteExampleSentence = async (word: string) => {
   const cached = remoteExampleCache.get(word);
   if (cached) return cached;
+  const supabaseExample = await fetchSupabaseExampleSentence(word);
+  if (supabaseExample) {
+    remoteExampleCache.set(word, supabaseExample);
+    return supabaseExample;
+  }
   const extracts = await fetchWikiExtracts(word, 4, 1);
   for (const extract of extracts) {
     const sentence = extractGermanSentence(extract, word);
@@ -557,6 +582,7 @@ const fetchRemoteExampleSentence = async (word: string) => {
   }
   return null;
 };
+
 const parseJsonFromResponse = async (response: Response) => {
   try {
     return await response.json();
@@ -598,7 +624,10 @@ const fetchWikiExtracts = async (query: string, sentenceCount = 5, limit = 2) =>
     buildProxyUrl(searchUrl),
     buildProxyUrl(searchUrl.replace('de.wikipedia.org', 'de.m.wikipedia.org'))
   ]);
-  if (!searchData) return [];
+  if (!searchData) {
+    console.warn('Wikipedia unreachable; VPN required to access Wikipedia sources.');
+    return [];
+  }
   const titles = searchData?.query?.search?.map((item: { title: string }) => item.title) ?? [];
   if (titles.length === 0) return [];
   const titlesParam = titles.map((title: string) => encodeURIComponent(title)).join('|');
@@ -608,7 +637,10 @@ const fetchWikiExtracts = async (query: string, sentenceCount = 5, limit = 2) =>
     buildProxyUrl(extractUrl),
     buildProxyUrl(extractUrl.replace('de.wikipedia.org', 'de.m.wikipedia.org'))
   ]);
-  if (!extractData) return [];
+  if (!extractData) {
+    console.warn('Wikipedia unreachable; VPN required to access Wikipedia sources.');
+    return [];
+  }
   const pages = extractData?.query?.pages ?? {};
   return Object.values(pages)
     .map((page: { extract?: string }) => page.extract || '')
@@ -808,9 +840,9 @@ export const getReadingFallback = (topic: Topic): GeneratedText | null => {
   return null;
 };
 
-export const fetchReadingsFromSupabase = async (topic: string, limit: number = 5): Promise<GeneratedText[]> => {
+export const fetchReadingsFromSupabase = async (topic: string | null, limit: number = 5, searchTerm?: string, level?: string): Promise<GeneratedText[]> => {
   try {
-    const { data: readings, error } = await supabase
+    let query = supabase
               .from('opendeutsch_readings')
               .select(`
                 id,
@@ -818,6 +850,7 @@ export const fetchReadingsFromSupabase = async (topic: string, limit: number = 5
                 content,
                 topic,
                 level,
+                complexity_score,
                 source_name,
                 source_url,
                 published_at,
@@ -832,8 +865,21 @@ export const fetchReadingsFromSupabase = async (topic: string, limit: number = 5
                   options,
                   correct_index
                 )
-              `)
-              .eq('topic', topic)
+              `);
+
+    if (topic) {
+      query = query.eq('topic', topic);
+    }
+
+    if (level) {
+      query = query.eq('level', level);
+    }
+
+    if (searchTerm) {
+      query = query.or(`title.ilike.%${searchTerm}%,content.ilike.%${searchTerm}%`);
+    }
+
+    const { data: readings, error } = await query
               .order('published_at', { ascending: false })
               .limit(limit);
 
@@ -850,6 +896,7 @@ export const fetchReadingsFromSupabase = async (topic: string, limit: number = 5
       content: r.content,
       topic: r.topic as Topic,
       level: (r.level as Level) || 'B1',
+      complexity_score: r.complexity_score,
       source: {
         name: r.source_name || 'Unknown',
         url: r.source_url || '#'

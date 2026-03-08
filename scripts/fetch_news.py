@@ -12,7 +12,7 @@ from openai import OpenAI
 from bs4 import BeautifulSoup
 from supabase import create_client, Client
 from dotenv import load_dotenv
-from datetime import datetime
+from datetime import datetime, timezone
 import dateparser
 from tenacity import retry, stop_after_attempt, wait_fixed, retry_if_exception_type
 import requests
@@ -57,11 +57,16 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 RSS_FEEDS = {
     "f1": [
         "https://www.motorsport-total.com/rss/formel1.xml",
-        "https://www.formel1.de/rss/news.xml"
+        "https://www.formel1.de/rss/news.xml",
+        "https://www.motorsport-magazin.com/rss/formel1.xml",
+        "https://de.motorsport.com/rss/f1/news/",
+        "https://www.auto-motor-und-sport.de/rss/formel-1/",
+        "https://www.speedweek.com/formel1/rss/news.xml"
     ],
     "aviation": [
         "https://www.aero.de/rss.xml",
-        "https://www.fliegerweb.com/de/rss/news"
+        "https://www.fliegerweb.com/de/rss/news",
+        "https://aviationweek.com/rss.xml"
     ],
     "news": [
         "https://rss.dw.com/xml/rss-de-all",
@@ -69,7 +74,18 @@ RSS_FEEDS = {
     ],
     "tech": [
         "https://www.heise.de/rss/heise-atom.xml",
-        "https://www.golem.de/rss.php?feed=RSS2.0"
+        "https://www.golem.de/rss.php?feed=RSS2.0",
+        "https://www.nature.com/nature.rss"
+    ],
+    "transportation": [
+        "https://www.verkehrsrundschau.de/rss.xml",
+        "https://www.dvz.de/rss.xml",
+        "https://www.bahnblogstelle.com/feed/"
+    ],
+    "history": [
+        "https://www.damals.de/feed/",
+        "https://www.geschichtspuls.de/feed/",
+        "https://www.h-net.org/announce/rss/H-German.xml"
     ]
 }
 
@@ -99,10 +115,17 @@ def save_reading_to_db(reading: Dict[str, Any]):
             "source_name": reading["source"]["name"],
             "source_url": reading["source"]["url"],
             "created_at": reading["created_at"],
-            "published_at": reading.get("published_at", reading["created_at"])
+            "published_at": reading.get("published_at", reading["created_at"]),
+            "complexity_score": reading.get("complexity_score", 500) # Default to 500 (B1-ish)
         }
         
-        response = supabase.table("opendeutsch_readings").insert(reading_data).execute()
+        try:
+            response = supabase.table("opendeutsch_readings").insert(reading_data).execute()
+        except Exception as e:
+            logger.warning(f"Failed to insert with complexity_score, retrying without it: {e}")
+            del reading_data["complexity_score"]
+            response = supabase.table("opendeutsch_readings").insert(reading_data).execute()
+
         if not response.data:
             logger.error("Failed to insert reading.")
             return
@@ -157,7 +180,11 @@ def fetch_feed_items(topic: str, urls: List[str]) -> List[Dict[str, str]]:
                 
                 # If no date found, use current time
                 if not published_at:
-                    published_at = datetime.now()
+                    published_at = datetime.now(timezone.utc)
+                
+                # Ensure timezone awareness
+                if published_at.tzinfo is None:
+                    published_at = published_at.replace(tzinfo=timezone.utc)
 
                 items.append({
                     "title": entry.title,
@@ -170,7 +197,7 @@ def fetch_feed_items(topic: str, urls: List[str]) -> List[Dict[str, str]]:
             logger.error(f"Error fetching feed {url}: {e}")
     
     # Sort by published_at descending (newest first)
-    items.sort(key=lambda x: x['published_at'] or datetime.min, reverse=True)
+    items.sort(key=lambda x: x['published_at'], reverse=True)
     return items
 
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
@@ -208,10 +235,16 @@ def generate_simplified_content(text: str, level: str, topic: str) -> Optional[D
     - Make it coherent and engaging.
     - OUTPUT MUST BE IN GERMAN.
     
+    Constraint:
+    - If the topic is 'history', please include a disclaimer at the beginning of the content in German:
+      "Hinweis: Dies ist ein adaptierter historischer Text. Er dient Bildungszwecken und spiegelt möglicherweise historische Sichtweisen wider, die nicht den heutigen Werten entsprechen."
+    
     Return ONLY a JSON object with this structure:
     {{
         "title": "Simplified German Title",
-        "content": "The simplified German text..."
+        "content": "The simplified German text...",
+        "complexity_score": 500  // Estimate a complexity score between 200 (A1) and 1000 (C2). 
+                                // A2 ~ 300-500, B1 ~ 500-700, B2 ~ 700-900.
     }}
     """
     
@@ -236,8 +269,12 @@ def generate_questions_and_vocab(text: str, level: str) -> Optional[Dict[str, An
     system_prompt = f"""Based on the German text provided, generate comprehension questions and extract difficult vocabulary.
     Target Level: {level}
     
+    INSTRUCTIONS:
     1. Generate 3-5 multiple choice questions in German.
-    2. Extract 5-10 difficult vocabulary words/phrases used in the text.
+    2. IMPORTANT: All questions MUST be answerable ONLY using the provided text. Do NOT use outside knowledge.
+    3. The CORRECT answer MUST be explicitly stated or directly inferred from the text.
+    4. Distractors (wrong options) should be plausible but clearly incorrect based on the text.
+    5. Extract 5-10 difficult vocabulary words/phrases used in the text.
     
     Return ONLY a JSON object with this structure:
     {{
@@ -321,11 +358,12 @@ def main():
                 logger.warning(f"Content too short or empty for {item['link']}")
                 continue
                 
-            # Generate Simplified Content (Start with B1 as default, or random?)
-            # For now, let's pick a level based on topic or random.
-            # Or generate for multiple levels? Let's stick to B1 for now as per previous logic
-            # but maybe rotate?
-            level = "B1" 
+            # Generate Simplified Content with varied difficulty
+            # User requested "post-A1 to pre-B2", so we focus on A2 and B1.
+            # We can also include B2 for advanced learners.
+            target_levels = ["A2", "B1", "B2"]
+            weights = [0.4, 0.4, 0.2] # 40% A2, 40% B1, 20% B2
+            level = random.choices(target_levels, weights=weights, k=1)[0]
             
             logger.info(f"Simplifying to {level}...")
             try:
@@ -346,6 +384,7 @@ def main():
                     reading_entry = {
                         "title": simplified['title'],
                         "content": simplified['content'],
+                        "complexity_score": simplified.get('complexity_score', 500),
                         "topic": topic,
                         "level": level,
                         "source": {
