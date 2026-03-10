@@ -1,5 +1,6 @@
 import { wordPools, conjugations, pastConjugations, topicPools } from '../data/wordPools';
 import { Topic } from '../types';
+import { lessonGuides } from '../data/lessonGuides';
 import vocab0000 from '../data/generated/vocabulary-0000.json';
 import vocab0001 from '../data/generated/vocabulary-0001.json';
 import vocab0002 from '../data/generated/vocabulary-0002.json';
@@ -10,7 +11,7 @@ import vocab0006 from '../data/generated/vocabulary-0006.json';
 import vocab0007 from '../data/generated/vocabulary-0007.json';
 // import readingsData from '../data/generated/readings.json'; // Removed to avoid bundling
 import { Level, GeneratedSentence } from '../types/generator-types';
-import { getOrGenerateSentence, getSentencesFromDB, getVocabForLevel } from './llm-generator';
+import { getOrGenerateSentence, getSentencesFromDB, getVocabForLevel, generateConceptExercises, getExercisesFromDB } from './llm-generator';
 import { supabase } from './supabase';
 
 export type { Level, GeneratedSentence };
@@ -166,12 +167,6 @@ const LOCAL_VOCAB_POOL = LOCAL_VOCAB.filter(item => isAllowedVocabularyWord(item
 const LOCAL_VOCAB_INDEX = buildVocabIndex(LOCAL_VOCAB_POOL);
 const LOCAL_VOCAB_EN_INDEX = buildVocabEnIndex(LOCAL_VOCAB_POOL);
 
-const pickRandomItems = <T,>(items: T[], count: number) => {
-  if (items.length <= count) return [...items];
-  const shuffled = shuffleArray(items);
-  return shuffled.slice(0, count);
-};
-
 const difficultyScore = (entry: VocabularyEntry) => {
   const de = entry.de || '';
   const en = entry.en || '';
@@ -199,6 +194,93 @@ const getLocalVocabularyForLevel = (level: Level) => {
     filtered = LOCAL_VOCAB_POOL.filter(item => difficultyScore(item) <= maxScore);
   }
   return filtered.length > 0 ? filtered : LOCAL_VOCAB_POOL;
+};
+
+const pickRandomItems = <T,>(items: T[], count: number) => {
+  if (items.length <= count) return [...items];
+  const shuffled = shuffleArray(items);
+  return shuffled.slice(0, count);
+};
+
+const buildLessonGuideExercises = async (concept: string, level: Level, type?: ExerciseType): Promise<ExerciseItem[] | null> => {
+  // 0. Try to fetch from DB first (Priority 1)
+  try {
+    const dbExercises = await getExercisesFromDB(concept, level, 10, type);
+    if (dbExercises.length >= 5) {
+      const selected = shuffleArray(dbExercises).slice(0, 5);
+      return selected.map(ex => ({
+        id: ex.id,
+        type: (ex.type as ExerciseType) || 'multiple_choice',
+        level: ex.level,
+        prompt: ex.prompt,
+        options: ex.options,
+        answer: ex.answer,
+        explanation: ex.explanation
+      }));
+    }
+  } catch (err) {
+    console.warn('DB Exercise fetch failed:', err);
+  }
+
+  const guide = lessonGuides[concept];
+  let exercises: ExerciseItem[] = [];
+
+  // 1. Generate from Lesson Guide Examples
+  if (guide) {
+    const examples = guide.sections.flatMap(section => section.example ?? []);
+    if (examples.length > 0) {
+      const exampleTranslations = examples
+        .map(example => example.translations?.en || example.translations?.de || example.de)
+        .filter(Boolean);
+      const vocabFallback = getLocalVocabularyForLevel(level).map(item => item.en).filter(Boolean);
+      const pool = Array.from(new Set([...exampleTranslations, ...vocabFallback]));
+      
+      const buildOptions = (correct: string) => {
+        const distractors = pickRandomItems(pool.filter(option => option !== correct), 3);
+        const options = shuffleArray([correct, ...distractors]);
+        return options;
+      };
+
+      exercises = examples.map((example, index) => {
+        const correct = example.translations?.en || example.translations?.de || example.de;
+        return {
+          id: `${concept}-${Date.now()}-${index}-${Math.random().toString(36).slice(2, 7)}`,
+          type: 'multiple_choice' as ExerciseType,
+          level,
+          prompt: `Translate: ${example.de}`,
+          options: buildOptions(correct),
+          answer: correct
+        };
+      });
+    }
+  }
+
+  // 2. Generate from LLM if needed (target 10 total)
+  if (exercises.length < 10) {
+    const needed = 10 - exercises.length;
+    try {
+      const llmExercises = await generateConceptExercises(concept, level, needed);
+      if (llmExercises.length > 0) {
+        const converted = llmExercises.map((ex, index) => ({
+          id: `${concept}-llm-${Date.now()}-${index}`,
+          type: 'multiple_choice' as ExerciseType,
+          level,
+          prompt: ex.prompt,
+          options: shuffleArray(ex.options), // Ensure options are randomized
+          answer: ex.answer
+        }));
+        exercises = [...exercises, ...converted];
+      }
+    } catch (err) {
+      console.warn('Failed to generate LLM exercises:', err);
+    }
+  }
+
+  if (exercises.length === 0) return null;
+
+  // 3. Pick 5 random exercises
+  const selected = shuffleArray(exercises).slice(0, 5);
+  return selected;
 };
 
 const normalizeEnglish = (value: string) => value.toLowerCase().replace(/[^a-z]/g, '');
@@ -535,16 +617,6 @@ const buildContextSentence = (level: Level, topic?: Topic, contextVocab?: Vocabu
 const remoteVocabCache = new Map<string, VocabularyEntry[]>();
 const remoteExampleCache = new Map<string, string>();
 
-const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-
-const extractGermanSentence = (extract: string, word: string) => {
-  const sentences = (extract.match(/[^.!?]+[.!?]+/g) || [extract])
-    .map(sentence => sentence.trim())
-    .filter(Boolean);
-  const matcher = new RegExp(`\\b${escapeRegExp(word)}\\b`, 'i');
-  return sentences.find(sentence => matcher.test(sentence) && isGermanSentenceClean(sentence)) || null;
-};
-
 const fetchSupabaseExampleSentence = async (word: string) => {
   try {
     const { data, error } = await supabase
@@ -571,14 +643,6 @@ const fetchRemoteExampleSentence = async (word: string) => {
   if (supabaseExample) {
     remoteExampleCache.set(word, supabaseExample);
     return supabaseExample;
-  }
-  const extracts = await fetchWikiExtracts(word, 4, 1);
-  for (const extract of extracts) {
-    const sentence = extractGermanSentence(extract, word);
-    if (sentence) {
-      remoteExampleCache.set(word, sentence);
-      return sentence;
-    }
   }
   return null;
 };
@@ -801,10 +865,27 @@ const getVocabularyPool = async (count: number, topic: Topic | undefined, level:
   return shuffleArray([...remoteFiltered, ...local]).slice(0, count);
 };
 
-const buildFallbackExample = (entry: VocabularyEntry) => ({
-  de: `Ich lerne das Wort "${entry.de}".`,
-  en: `I am learning the word "${entry.en}".`
+const buildFallbackExample = () => ({
+  de: 'no examples available',
+  en: ''
 });
+
+const fetchExampleSentence = async (word: string, level: Level) => {
+  try {
+    // Try opendeutsch_sentence_database first
+    const dbSentences = await getSentencesFromDB(level, 'present', 5, undefined, [word]);
+    if (dbSentences && dbSentences.length > 0) {
+      const sentence = getRandomItem(dbSentences);
+      return sentence.german;
+    }
+  } catch (err) {
+    console.warn('DB sentence fetch failed for vocab card:', err);
+  }
+
+  // Fallback to remote/wiki
+  const remoteExample = await fetchRemoteExampleSentence(word);
+  return remoteExample;
+};
 
 export const generateVocabularyCards = async (
   level: Level,
@@ -817,16 +898,16 @@ export const generateVocabularyCards = async (
   const fallback = getTopicVocabulary(topic, count - unique.length, level).filter(item => isAllowedVocabularyWord(item.de));
   const selected = [...unique, ...fallback].slice(0, count);
   const cards = await Promise.all(selected.map(async (entry) => {
-    const remoteExample = await fetchRemoteExampleSentence(entry.de);
+    const exampleSentence = await fetchExampleSentence(entry.de, level);
     return {
       id: `${normalizeWord(entry.de)}-${Math.random().toString(36).slice(2)}`,
       word: entry,
-      example: remoteExample
-        ? { de: remoteExample, en: buildFallbackExample(entry).en }
-        : buildFallbackExample(entry),
+      example: exampleSentence
+        ? { de: exampleSentence, en: '' }
+        : buildFallbackExample(),
       level,
       topic,
-      source: remoteExample ? 'remote' as const : 'local' as const
+      source: exampleSentence ? 'remote' as const : 'local' as const
     };
   }));
   return cards;
@@ -1009,28 +1090,49 @@ function buildObjectOptions(sentence: GeneratedSentence) {
   const verbBase = sentence.meta.verbBase;
   const isLocation = sentence.meta.object.category === 'location';
   if (isLocation) {
-    const options = wordPools.locations.map(item => item.de);
+    // For locations, we must avoid using other locations as distractors because the context
+    // (e.g. "Ich wohne in ...") usually allows any location.
+    // Instead, we use non-location nouns that might look similar or just random objects.
+    const nonLocationPool = wordPools.objects.map(item => item.de);
     const correct = sentence.meta.object.de;
-    const unique = Array.from(new Set(options));
-    const distractors = pickClosestWords(correct, unique, 3, 0.2);
+    const distractors = pickClosestWords(correct, nonLocationPool, 3, 0.15);
+    
+    // Ensure we have enough distractors
+    if (distractors.length < 3) {
+      const remaining = 3 - distractors.length;
+      const randomExtras = pickRandomItems(nonLocationPool.filter(w => !distractors.includes(w)), remaining);
+      distractors.push(...randomExtras);
+    }
+    
     const trimmed = shuffleArray([correct, ...distractors]).slice(0, 4);
     if (!trimmed.includes(correct)) {
       trimmed[Math.floor(Math.random() * trimmed.length)] = correct;
     }
     return shuffleArray(trimmed);
   }
-  const filteredObjects = verbBase.objectCategories
-    ? wordPools.objects.filter(objectItem => verbBase.objectCategories?.includes(objectItem.category || ''))
-    : wordPools.objects;
-  const basePool = filteredObjects.length > 0 ? filteredObjects : wordPools.objects;
-  const categoryPool = sentence.meta.object.category
-    ? basePool.filter(item => item.category === sentence.meta.object.category)
-    : [];
-  const objectPool = categoryPool.length >= 4 ? categoryPool : basePool;
-  const objectOptions = objectPool.map(item => adjective ? `${adjective.de} ${item.de}` : item.de);
+  
+  // For other objects, we also want to avoid ambiguity.
+  // E.g. "Ich esse ..." -> Apfel (correct), Banane (distractor) -> Ambiguous!
+  // So we should mix in words from DIFFERENT categories.
+  const targetCategory = sentence.meta.object.category;
+  
+  const otherCategoryObjects = wordPools.objects.filter(item => 
+    item.category !== targetCategory && 
+    item.category !== 'context'
+  );
+  
+  // If we don't have enough other-category objects, fall back to all objects but try to avoid same category
+  const basePool = otherCategoryObjects.length > 10 
+    ? otherCategoryObjects 
+    : wordPools.objects.filter(item => item.de !== sentence.meta.object.de);
+
+  const objectOptions = basePool.map(item => adjective ? `${adjective.de} ${item.de}` : item.de);
   const correct = adjective ? `${adjective.de} ${sentence.meta.object.de}` : sentence.meta.object.de;
   const unique = Array.from(new Set(objectOptions));
+  
+  // Pick words that look similar but are from different categories
   const distractors = pickClosestWords(correct, unique, 3, 0.2);
+  
   const options = shuffleArray([correct, ...distractors]).slice(0, 4);
   if (!options.includes(correct)) {
     options[Math.floor(Math.random() * options.length)] = correct;
@@ -1208,6 +1310,10 @@ export async function generateExercises({
 }
 
 export async function generateBlock(concept: string, level: Level, explicitType?: ExerciseType): Promise<ExerciseItem[]> {
+    const lessonExercises = await buildLessonGuideExercises(concept, level, explicitType);
+    if (lessonExercises) {
+      return lessonExercises;
+    }
     let type: ExerciseType = 'sentence_reconstruction';
     
     if (explicitType) {

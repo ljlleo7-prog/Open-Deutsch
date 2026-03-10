@@ -34,16 +34,20 @@ export const BlockView: React.FC = () => {
         // Fetch lesson details (to get level)
         // If api.getLesson is not available or fails, fallback to A1 or try to infer
         let level = 'A1';
+        let lessonConcept: string | undefined;
         try {
           const lesson = await api.getLesson(lessonId);
-          if (lesson) level = lesson.level;
+          if (lesson) {
+            level = lesson.level;
+            lessonConcept = lesson.concept;
+          }
         } catch (e) {
           console.warn('Failed to fetch lesson, using default level', e);
         }
 
         // Generate content
         // Cast level to Level type if needed, or api.generateBlockContent handles it
-        const generated = await api.generateBlockContent(block, level);
+        const generated = await api.generateBlockContent(block, level, lessonConcept);
         setExercises(generated);
       } catch (e) {
         console.error('Failed to initialize block', e);

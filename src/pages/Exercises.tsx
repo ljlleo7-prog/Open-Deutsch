@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ExerciseItem, ExerciseType, generateExercises, Level } from '../lib/generator';
-import { awardXp, saveExerciseProgress } from '../lib/db';
+import { awardXpWithHourlyCap, saveExerciseProgress } from '../lib/db';
 import { RefreshCw, Check, X, ArrowRight } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useI18n } from '../hooks/useI18n';
@@ -78,14 +78,16 @@ export default function Exercises() {
         score: 100,
         lesson_id: 'practice_mode'
       });
-      const basePoints = currentExercise.type === 'sentence_reconstruction' ? 10
-        : currentExercise.type === 'fill_blank' ? 12
-        : currentExercise.type === 'tense' ? 12
-        : currentExercise.type === 'sentence_writing' ? 15
-        : 8;
-      awardXp({
+      const basePoints = currentExercise.type === 'sentence_writing' ? 4
+        : currentExercise.type === 'fill_blank' ? 3
+        : currentExercise.type === 'tense' ? 3
+        : currentExercise.type === 'sentence_reconstruction' ? 2
+        : currentExercise.type === 'multiple_choice' ? 2
+        : 2;
+      awardXpWithHourlyCap({
         source: currentExercise.type,
         basePoints,
+        capPerHour: 5,
         metadata: {
           lesson_id: 'practice_mode',
           exercise_type: currentExercise.type

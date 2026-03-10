@@ -21,11 +21,11 @@ const getEnv = (key: string) => {
   return undefined;
 };
 
-const BASE_URL = getEnv('VITE_OPENAI_BASE_URL') || getEnv('OPENAI_BASE_URL') || 'https://api.openai.com/v1';
+const BASE_URL = getEnv('VITE_OPENAI_BASE_URL') || getEnv('OPENAI_BASE_URL') || 'http://localhost:11434/v1';
 const LLM_API_URL = `${BASE_URL.replace(/\/+$/, '')}/chat/completions`;
 
-const API_KEY = getEnv('VITE_OPENAI_API_KEY') || getEnv('OPENAI_API_KEY');
-const MODEL_NAME = getEnv('VITE_OPENAI_MODEL') || getEnv('OPENAI_MODEL') || 'gpt-3.5-turbo';
+const API_KEY = getEnv('VITE_OPENAI_API_KEY') || getEnv('OPENAI_API_KEY') || 'ollama';
+const MODEL_NAME = getEnv('VITE_OPENAI_MODEL') || getEnv('OPENAI_MODEL') || 'llama3.1';
 
 export async function generateSentencesBatch(
   count: number,
@@ -260,4 +260,131 @@ export async function getOrGenerateSentence(
   }
 
   return null;
+}
+
+export interface StoredExercise {
+  id: string;
+  concept: string;
+  level: Level;
+  prompt: string;
+  options: string[];
+  answer: string;
+  explanation?: string;
+  type?: string;
+}
+
+export async function getExercisesFromDB(
+  concept: string,
+  level: Level,
+  limit: number = 10,
+  type?: string
+): Promise<StoredExercise[]> {
+  let query = supabase
+    .from('opendeutsch_exercises_database')
+    .select('*')
+    .eq('concept', concept)
+    .eq('level', level);
+
+  if (type) {
+    query = query.eq('metadata->>type', type);
+  }
+
+  const { data, error } = await query.limit(limit);
+
+  if (error) {
+    console.error('Error fetching exercises from DB:', error);
+    return [];
+  }
+
+  return data.map((row: any) => ({
+    id: row.id,
+    concept: row.concept,
+    level: row.level as Level,
+    prompt: row.prompt,
+    options: typeof row.options === 'string' ? JSON.parse(row.options) : row.options,
+    answer: row.answer,
+    explanation: row.explanation,
+    type: row.metadata?.type || 'multiple_choice'
+  }));
+}
+
+export interface GeneratedExercise {
+  prompt: string;
+  options: string[];
+  answer: string;
+  explanation?: string;
+}
+
+export async function generateConceptExercises(
+  concept: string,
+  level: Level,
+  count: number = 10
+): Promise<GeneratedExercise[]> {
+  console.log('Generating exercises for concept:', concept);
+  
+  if (!API_KEY) {
+    console.warn('No API Key for LLM. Using Ollama default.');
+    // Default to ollama if not set
+  }
+
+  const systemPrompt = `You are a German language teacher.
+  Generate ${count} multiple-choice exercises for the concept "${concept}" at level ${level}.
+  Return ONLY a valid JSON array. No markdown, no explanations outside JSON.
+  
+  CRITICAL INSTRUCTION:
+  Ensure distractors (incorrect options) are definitively incorrect in the given context.
+  Do not use options that could also be grammatically or semantically correct.
+  - For "Fill in the blank" with generic context (e.g. "Ich wohne in ___"), do NOT use multiple valid cities/countries. Use clearly wrong options (e.g. verbs, objects, or clearly wrong words).
+  - Ideally, use "Translation" style questions where the prompt includes the English meaning, which allows for same-category distractors.
+  - If English translation is NOT provided in the prompt, you MUST mix in different categories/types for distractors to avoid ambiguity.
+  
+  Format:
+  [
+    {
+      "prompt": "Question in German (include English translation if helpful for clarity)...",
+      "options": ["A", "B", "C", "D"],
+      "answer": "Correct Option",
+      "explanation": "Brief explanation in English"
+    }
+  ]`;
+
+  try {
+    const response = await fetch(`${BASE_URL}/chat/completions`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${API_KEY}`
+      },
+      body: JSON.stringify({
+        model: MODEL_NAME,
+        messages: [
+          { role: 'system', content: 'You are a helpful assistant that outputs only valid JSON.' },
+          { role: 'user', content: systemPrompt }
+        ],
+        temperature: 0.7,
+        stream: false
+      })
+    });
+
+    if (!response.ok) {
+      console.error(`LLM API Error: ${response.statusText}`);
+      return [];
+    }
+
+    const data = await response.json();
+    const content = data.choices[0].message.content;
+    let jsonStr = content.replace(/```json\n?|\n?```/g, '').trim();
+    const firstBracket = jsonStr.indexOf('[');
+    const lastBracket = jsonStr.lastIndexOf(']');
+    
+    if (firstBracket !== -1 && lastBracket !== -1) {
+      jsonStr = jsonStr.substring(firstBracket, lastBracket + 1);
+      const exercises = JSON.parse(jsonStr) as GeneratedExercise[];
+      return exercises;
+    }
+    return [];
+  } catch (err) {
+    console.error('Failed to generate exercises:', err);
+    return [];
+  }
 }

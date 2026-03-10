@@ -154,11 +154,12 @@ export const api = {
   },
   
   // Content Generation Wrapper
-  async generateBlockContent(block: Block, level: Level['id']) {
+  async generateBlockContent(block: Block, level: Level['id'], lessonConcept?: string) {
       const validLevels = ['A0', 'A1', 'A2', 'B1'] as const;
       const normalizedLevel = validLevels.includes(level as (typeof validLevels)[number])
         ? (level as (typeof validLevels)[number])
         : 'A1';
-      return generateBlock(block.concept, normalizedLevel, block.type as ExerciseType);
+      const concept = lessonConcept || block.concept;
+      return generateBlock(concept, normalizedLevel, block.type as ExerciseType);
   }
 };
